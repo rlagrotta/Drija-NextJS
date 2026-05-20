@@ -1,0 +1,158 @@
+[
+  {
+    "id": "sup-refrigeradores",
+    "slug": "refrigeradores",
+    "name": "Refrigeradores",
+    "articles": [
+      {
+        "id": "rf-temp-ideal",
+        "slug": "cual-es-la-temperatura-ideal",
+        "question": "¿Cuál es la temperatura ideal?",
+        "answer": "Mantén el refrigerador entre 3°C y 5°C y el congelador a -18°C. Usa un termómetro interno para verificar tras ajustes.",
+        "translations": {
+          "en": {
+            "question": "What is the ideal temperature?",
+            "answer": "Keep the refrigerator between 3°C and 5°C and the freezer at -18°C. Use an internal thermometer to verify after making adjustments."
+          }
+        }
+      },
+      {
+        "id": "rf-no-enfria",
+        "slug": "por-que-no-enfria",
+        "question": "¿Por qué no enfría si está recién comprado?",
+        "answer": "Tras la instalación, espera de 4 a 6 horas antes de cargar alimentos. Verifica que la puerta cierre herméticamente y que el equipo tenga espacio de ventilación posterior.",
+        "translations": {
+          "en": {
+            "question": "Why doesn't it cool if it was just purchased?",
+            "answer": "After installation, wait 4 to 6 hours before loading food. Verify that the door seals tightly and that the unit has adequate rear ventilation clearance."
+          }
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Refrigerators"
+      }
+    }
+  },
+  {
+    "id": "sup-hornos",
+    "slug": "hornos",
+    "name": "Hornos",
+    "articles": [
+      {
+        "id": "ho-no-enciende",
+        "slug": "por-que-no-enciende",
+        "question": "¿Por qué no enciende?",
+        "answer": "Confirma que el disyuntor esté activo y que el reloj digital no esté en modo bloqueo infantil. En modelos a gas, revisa suministro y válvula.",
+        "translations": {
+          "en": {
+            "question": "Why won't it turn on?",
+            "answer": "Confirm that the circuit breaker is active and that the digital clock is not in child lock mode. For gas models, check the supply and valve."
+          }
+        }
+      },
+      {
+        "id": "ho-limpieza",
+        "slug": "como-limpiar-sin-danar",
+        "question": "¿Cómo limpiar sin dañar la cavidad?",
+        "answer": "Utiliza paño húmedo con jabón neutro. Evita abrasivos en acabados Inox y sigue el ciclo pirolítico solo en modelos compatibles.",
+        "translations": {
+          "en": {
+            "question": "How do I clean it without damaging the cavity?",
+            "answer": "Use a damp cloth with mild soap. Avoid abrasives on stainless steel finishes and run the pyrolytic cycle only on compatible models."
+          }
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Ovens"
+      }
+    }
+  },
+  {
+    "id": "sup-estufas",
+    "slug": "estufas",
+    "name": "Estufas",
+    "articles": [
+      {
+        "id": "es-flama-amarilla",
+        "slug": "por-que-flama-amarilla",
+        "question": "¿Por qué la flama es amarilla?",
+        "answer": "Una flama amarilla suele indicar obstrucción en el quemador o inyección incorrecta de aire. Limpia las ranuras y contacta servicio técnico si persiste.",
+        "translations": {
+          "en": {
+            "question": "Why is the flame yellow?",
+            "answer": "A yellow flame usually indicates a clogged burner or incorrect air injection. Clean the slots and contact technical service if the issue persists."
+          }
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Ranges"
+      }
+    }
+  },
+  {
+    "id": "sup-garantia",
+    "slug": "garantia-y-servicio-tecnico",
+    "name": "Garantía y servicio técnico",
+    "articles": [
+      {
+        "id": "ga-duracion",
+        "slug": "cuanto-dura-la-garantia",
+        "question": "¿Cuánto tiempo dura la garantía?",
+        "answer": "La mayoría de productos DRIJA incluyen 12 meses de garantía contra defectos de fabricación. Consulta la ficha del producto para coberturas específicas.",
+        "translations": {
+          "en": {
+            "question": "How long does the warranty last?",
+            "answer": "Most DRIJA products include a 12-month warranty against manufacturing defects. Check the product sheet for specific coverage details."
+          }
+        }
+      },
+      {
+        "id": "ga-activar",
+        "slug": "como-activar-garantia",
+        "question": "¿Cómo activar la garantía y qué cubre?",
+        "answer": "Conserva factura y registro de instalación. La garantía cubre fallas de fábrica; no incluye daños por mal uso o instalación no autorizada.",
+        "translations": {
+          "en": {
+            "question": "How do I activate the warranty and what does it cover?",
+            "answer": "Keep your invoice and installation record. The warranty covers factory defects; it does not include damage from misuse or unauthorized installation."
+          }
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Warranty and Technical Service"
+      }
+    }
+  },
+  {
+    "id": "sup-air-fryers",
+    "slug": "air-fryers",
+    "name": "Air Fryers",
+    "articles": [
+      {
+        "id": "af-error",
+        "slug": "que-hacer-si-presenta-error",
+        "question": "¿Qué hacer si presenta error?",
+        "answer": "Desconecta el equipo 5 minutos y reinicia. Si el código persiste, anota el número de error y contacta soporte con el modelo y fecha de compra.",
+        "translations": {
+          "en": {
+            "question": "What should I do if it displays an error?",
+            "answer": "Unplug the unit for 5 minutes and restart it. If the error code persists, note the error number and contact support with the model and purchase date."
+          }
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Air Fryers"
+      }
+    }
+  }
+]

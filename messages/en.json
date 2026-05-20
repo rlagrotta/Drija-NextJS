@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "siteDescription": "Quality appliances for your home. Refrigerators, ovens, stoves and more."
+  },
+  "locale": {
+    "switchTo": "Español",
+    "current": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "blog": "Blog",
+    "whereToBuy": "Where to buy",
+    "support": "Support",
+    "contact": "Contact us"
+  },
+  "home": {
+    "categories": "Categories",
+    "categoriesTitle": "Browse by product line",
+    "viewAll": "View all →",
+    "newArrivals": "New arrivals",
+    "featuredTitle": "Featured products",
+    "worldDrija": "DRIJA World",
+    "blogTitle": "From the blog",
+    "viewBlog": "View blog →",
+    "contactUs": "Contact us",
+    "heroTagline": "DRIJA International",
+    "heroTitle": "Appliances that transform your home",
+    "heroDescription": "Discover refrigerators, ovens, stoves and more with modern design, reliable technology and regional support.",
+    "heroCtaProducts": "View products",
+    "heroCtaWhereToBuy": "Where to buy",
+    "heroAside": "Innovation, design and performance for the kitchen of the future."
+  },
+  "products": {
+    "pageTitle": "Categories",
+    "pageDescription": "Find the ideal appliance for every space in your home.",
+    "viewCatalog": "View catalog",
+    "productsCount": "products",
+    "comingSoon": "We will add products in this category soon.",
+    "newBadge": "New",
+    "viewDetail": "View details →",
+    "sku": "SKU",
+    "specs": "Specifications",
+    "whereToBuy": "Where to buy",
+    "inquire": "Inquire",
+    "breadcrumbProducts": "Products"
+  },
+  "blog": {
+    "pageTitle": "DRIJA World",
+    "pageDescription": "Inspiration, recipes and news about appliances.",
+    "backToBlog": "← Back to blog"
+  },
+  "retailers": {
+    "pageTitle": "Where to buy",
+    "pageDescription": "Find us at leading stores in your country.",
+    "visitWebsite": "Visit website",
+    "technicalService": "Technical service in"
+  },
+  "support": {
+    "pageTitle": "How can we help you?",
+    "pageDescription": "Find answers by product category.",
+    "manuals": "Manuals",
+    "technicalService": "Technical service",
+    "catalogs": "Catalogs",
+    "warranties": "Warranties",
+    "needHelp": "Need help?",
+    "faq": "FAQ"
+  },
+  "contact": {
+    "pageTitle": "Contact us",
+    "pageDescription": "Write to us for inquiries, support and business opportunities.",
+    "title": "Contact us",
+    "name": "Name",
+    "email": "Email",
+    "country": "Country",
+    "countryPlaceholder": "Select a country",
+    "phone": "Phone number",
+    "message": "Message",
+    "terms": "I accept the",
+    "termsLink": "terms and conditions",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you! Your message was sent successfully.",
+    "error": "We could not send your message. Please try again.",
+    "needHelp": "Need help?",
+    "faq": "FAQ",
+    "technicalService": "Technical service",
+    "catalogs": "Catalogs"
+  },
+  "legal": {
+    "pageTitle": "Legal notices",
+    "pageDescription": "Terms, conditions and legal notices for DRIJA International.",
+    "intro": "This site is operated by DRIJA International. Use of the site implies acceptance of our privacy policies and terms of service.",
+    "privacy": "For inquiries about personal data submitted through the contact form, email us at contacto@drijainternational.com."
+  },
+  "footer": {
+    "tagline": "Appliances designed to elevate your home experience across Central America, the Caribbean and beyond.",
+    "explore": "Explore",
+    "needHelp": "Need help?",
+    "faq": "FAQ",
+    "technicalService": "Technical service",
+    "rights": "All rights reserved.",
+    "legal": "Legal notices"
+  },
+  "common": {
+    "openMenu": "Open menu",
+    "homeLabel": "DRIJA home",
+    "notFoundTitle": "404",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backHome": "Back to home"
+  }
+}

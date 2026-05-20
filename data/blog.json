@@ -1,0 +1,88 @@
+[
+  {
+    "id": "post-pizza-casera",
+    "slug": "pizza-casera-perfecta-horno-drija",
+    "title": "Pizza casera perfecta en tu horno DRIJA",
+    "excerpt": "Nada se compara con el aroma de una pizza recién horneada en casa. La textura crujiente de la base, el queso derretido y los toppings al punto.",
+    "content": "Preparar pizza en casa es una experiencia que combina creatividad y técnica. Con un horno DRIJA con tecnología Inverter, logras una base uniformemente dorada y un interior esponjoso.\n\nConsejos clave:\n- Precalienta el horno a 220°C durante al menos 15 minutos.\n- Usa piedra para pizza o bandeja perforada.\n- Hornea entre 12 y 15 minutos según el grosor de la masa.\n\nExperimenta con masas de fermentación lenta y ingredientes locales para elevar tu receta favorita.",
+    "category": "recetas-y-experiencias",
+    "categoryLabel": "Recetas y Experiencias",
+    "publishedAt": "2025-11-12",
+    "author": "Equipo DRIJA",
+    "image": { "src": "/images/blog/pizza-casera.jpg", "alt": "Pizza casera en horno DRIJA" },
+    "featured": true,
+    "translations": {
+      "en": {
+        "title": "Perfect Homemade Pizza in Your DRIJA Oven",
+        "excerpt": "Nothing compares to the aroma of freshly baked pizza at home. The crispy crust, melted cheese, and perfectly cooked toppings.",
+        "content": "Making pizza at home is an experience that combines creativity and technique. With a DRIJA oven featuring Inverter technology, you achieve a uniformly golden crust and a fluffy interior.\n\nKey tips:\n- Preheat the oven to 220°C for at least 15 minutes.\n- Use a pizza stone or perforated tray.\n- Bake for 12 to 15 minutes depending on dough thickness.\n\nExperiment with slow-fermentation doughs and local ingredients to elevate your favorite recipe.",
+        "categoryLabel": "Recipes and Experiences",
+        "image": { "src": "/images/blog/pizza-casera.jpg", "alt": "Homemade pizza in a DRIJA oven" }
+      }
+    }
+  },
+  {
+    "id": "post-cocinas-negras",
+    "slug": "cocinas-modernas-acero-negro",
+    "title": "Cocinas modernas: el encanto del acero negro",
+    "excerpt": "En el mundo del diseño de interiores, el negro mate se ha consolidado como uno de los tonos favoritos para electrodomésticos premium.",
+    "content": "El acero negro aporta elegancia y contraste en cocinas abiertas. Combínalo con encimeras claras, iluminación cálida y herrajes en tonos grafito para un look contemporáneo.\n\nLos electrodomésticos DRIJA en acabado negro integran paneles minimalistas que reducen el ruido visual y destacan la arquitectura del espacio.",
+    "category": "tendencias-y-estilo-de-vida",
+    "categoryLabel": "Tendencias y Estilo de Vida",
+    "publishedAt": "2025-10-28",
+    "author": "Equipo DRIJA",
+    "image": { "src": "/images/blog/cocina-negra.jpg", "alt": "Cocina moderna con acero negro" },
+    "featured": true,
+    "translations": {
+      "en": {
+        "title": "Modern Kitchens: The Appeal of Black Stainless Steel",
+        "excerpt": "In the world of interior design, matte black has become one of the most popular finishes for premium appliances.",
+        "content": "Black stainless steel adds elegance and contrast in open-concept kitchens. Pair it with light countertops, warm lighting, and graphite-toned hardware for a contemporary look.\n\nDRIJA appliances in black finish feature minimalist panels that reduce visual clutter and highlight the architecture of the space.",
+        "categoryLabel": "Trends and Lifestyle",
+        "image": { "src": "/images/blog/cocina-negra.jpg", "alt": "Modern kitchen with black stainless steel" }
+      }
+    }
+  },
+  {
+    "id": "post-inverter",
+    "slug": "revolucion-cocina-tecnologia-inverter",
+    "title": "La revolución de la cocina con tecnología Inverter",
+    "excerpt": "La cocina moderna ya no se limita a ser un espacio donde se preparan alimentos. Hoy es el corazón del hogar conectado.",
+    "content": "La tecnología Inverter regula la potencia de forma continua en lugar de ciclos on/off. En hornos y microondas DRIJA, esto significa temperatura estable, menor consumo y texturas más uniformes.\n\nBeneficios principales:\n- Cocción precisa en carnes y repostería.\n- Menor variación de temperatura en puertas abiertas brevemente.\n- Mayor vida útil de componentes electrónicos.",
+    "category": "tecnologia-y-funcionalidades",
+    "categoryLabel": "Tecnología y Funcionalidades",
+    "publishedAt": "2025-09-15",
+    "author": "Equipo DRIJA",
+    "image": { "src": "/images/blog/tecnologia-inverter.jpg", "alt": "Tecnología Inverter en cocina" },
+    "translations": {
+      "en": {
+        "title": "The Kitchen Revolution with Inverter Technology",
+        "excerpt": "The modern kitchen is no longer just a space for preparing food. Today it is the heart of the connected home.",
+        "content": "Inverter technology regulates power continuously instead of using on/off cycles. In DRIJA ovens and microwaves, this means stable temperature, lower energy consumption, and more uniform textures.\n\nKey benefits:\n- Precise cooking for meats and baking.\n- Less temperature variation when the door is briefly opened.\n- Longer lifespan for electronic components.",
+        "categoryLabel": "Technology and Features",
+        "image": { "src": "/images/blog/tecnologia-inverter.jpg", "alt": "Inverter technology in the kitchen" }
+      }
+    }
+  },
+  {
+    "id": "post-organizar-nevera",
+    "slug": "como-organizar-tu-refrigerador",
+    "title": "Cómo organizar tu refrigerador para reducir desperdicio",
+    "excerpt": "Una buena organización prolonga la frescura de los alimentos y facilita la planeación de comidas semanales.",
+    "content": "Asigna zonas por temperatura: lácteos en estantes centrales, carnes en el cajón inferior y verduras en cajones con control de humedad.\n\nEtiqueta contenedores transparentes y rota productos con fecha visible para minimizar desperdicio.",
+    "category": "tendencias-y-estilo-de-vida",
+    "categoryLabel": "Tendencias y Estilo de Vida",
+    "publishedAt": "2025-08-02",
+    "author": "Equipo DRIJA",
+    "image": { "src": "/images/blog/organizar-nevera.jpg", "alt": "Refrigerador organizado" },
+    "translations": {
+      "en": {
+        "title": "How to Organize Your Refrigerator to Reduce Food Waste",
+        "excerpt": "Good organization extends food freshness and makes weekly meal planning easier.",
+        "content": "Assign zones by temperature: dairy on middle shelves, meats in the bottom drawer, and vegetables in humidity-controlled crispers.\n\nLabel transparent containers and rotate products with visible dates to minimize waste.",
+        "categoryLabel": "Trends and Lifestyle",
+        "image": { "src": "/images/blog/organizar-nevera.jpg", "alt": "Organized refrigerator" }
+      }
+    }
+  }
+]

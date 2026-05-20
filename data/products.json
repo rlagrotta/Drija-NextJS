@@ -1,0 +1,311 @@
+[
+  {
+    "id": "prod-rf-450",
+    "slug": "refrigerador-french-door-450l",
+    "name": "Refrigerador French Door 450L",
+    "shortDescription": "Capacidad amplia, dispensador de agua y control digital de temperatura.",
+    "description": "Refrigerador French Door con acabado en acero inoxidable, sistema No Frost y compartimentos modulares para máxima organización. Ideal para familias que buscan eficiencia energética y diseño contemporáneo.",
+    "categorySlug": "refrigeradores",
+    "sku": "RF-450-FD",
+    "isNew": true,
+    "featured": true,
+    "images": [
+      { "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador French Door 450L DRIJA" }
+    ],
+    "specs": [
+      { "label": "Capacidad", "value": "450 L" },
+      { "label": "Tecnología", "value": "No Frost" },
+      { "label": "Dispensador", "value": "Agua y hielo" }
+    ],
+    "translations": {
+      "en": {
+        "name": "French Door Refrigerator 450L",
+        "shortDescription": "Spacious capacity, water dispenser, and digital temperature control.",
+        "description": "French Door refrigerator with stainless steel finish, No Frost system, and modular compartments for maximum organization. Ideal for families seeking energy efficiency and contemporary design.",
+        "images": [
+          { "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA French Door Refrigerator 450L" }
+        ],
+        "specs": [
+          { "label": "Capacity", "value": "450 L" },
+          { "label": "Technology", "value": "No Frost" },
+          { "label": "Dispenser", "value": "Water and ice" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-rf-320",
+    "slug": "refrigerador-top-mount-320l",
+    "name": "Refrigerador Top Mount 320L",
+    "shortDescription": "Diseño clásico con excelente relación espacio-consumo.",
+    "description": "Refrigerador Top Mount compacto con bandejas ajustables, iluminación LED y control mecánico confiable. Perfecto para espacios medianos.",
+    "categorySlug": "refrigeradores",
+    "sku": "RF-320-TM",
+    "featured": true,
+    "images": [
+      { "src": "/images/products/refrigerador-320.jpg", "alt": "Refrigerador Top Mount 320L DRIJA" }
+    ],
+    "specs": [
+      { "label": "Capacidad", "value": "320 L" },
+      { "label": "Estantes", "value": "Ajustables en vidrio" }
+    ],
+    "translations": {
+      "en": {
+        "name": "Top Mount Refrigerator 320L",
+        "shortDescription": "Classic design with an excellent space-to-consumption ratio.",
+        "description": "Compact Top Mount refrigerator with adjustable shelves, LED lighting, and reliable mechanical control. Perfect for medium-sized spaces.",
+        "images": [
+          { "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA Top Mount Refrigerator 320L" }
+        ],
+        "specs": [
+          { "label": "Capacity", "value": "320 L" },
+          { "label": "Shelves", "value": "Adjustable glass" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-ext-90",
+    "slug": "extractor-pared-90cm",
+    "name": "Extractor de Pared 90 cm",
+    "shortDescription": "Alta succión con filtros lavables y luz LED integrada.",
+    "description": "Campana extractora de pared de 90 cm con tres velocidades, panel táctil y filtros de aluminio reutilizables. Reduce humo y olores con operación silenciosa.",
+    "categorySlug": "extractores",
+    "sku": "EXT-90-W",
+    "isNew": true,
+    "featured": true,
+    "images": [
+      { "src": "/images/products/extractor-90.jpg", "alt": "Extractor de pared 90 cm DRIJA" }
+    ],
+    "specs": [
+      { "label": "Ancho", "value": "90 cm" },
+      { "label": "Velocidades", "value": "3" }
+    ],
+    "translations": {
+      "en": {
+        "name": "Wall-Mounted Range Hood 90 cm",
+        "shortDescription": "High suction with washable filters and integrated LED light.",
+        "description": "90 cm wall-mounted range hood with three speeds, touch panel, and reusable aluminum filters. Reduces smoke and odors with quiet operation.",
+        "images": [
+          { "src": "/images/products/extractor-90.jpg", "alt": "DRIJA Wall-Mounted Range Hood 90 cm" }
+        ],
+        "specs": [
+          { "label": "Width", "value": "90 cm" },
+          { "label": "Speeds", "value": "3" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-horno-60",
+    "slug": "horno-electrico-60cm-inverter",
+    "name": "Horno Eléctrico 60 cm Inverter",
+    "shortDescription": "Cocción uniforme con tecnología Inverter y limpieza pirolítica.",
+    "description": "Horno empotrable de 60 cm con tecnología Inverter para precisión térmica, múltiples funciones de cocción y puerta de triple vidrio. Incluye bandejas antiadherentes.",
+    "categorySlug": "hornos",
+    "sku": "HO-60-INV",
+    "isNew": true,
+    "featured": true,
+    "images": [
+      { "src": "/images/products/horno-60.jpg", "alt": "Horno eléctrico 60 cm Inverter DRIJA" }
+    ],
+    "specs": [
+      { "label": "Capacidad", "value": "72 L" },
+      { "label": "Tecnología", "value": "Inverter" }
+    ],
+    "translations": {
+      "en": {
+        "name": "60 cm Inverter Electric Oven",
+        "shortDescription": "Even cooking with Inverter technology and pyrolytic self-cleaning.",
+        "description": "60 cm built-in oven with Inverter technology for thermal precision, multiple cooking functions, and triple-glazed door. Includes non-stick baking trays.",
+        "images": [
+          { "src": "/images/products/horno-60.jpg", "alt": "DRIJA 60 cm Inverter Electric Oven" }
+        ],
+        "specs": [
+          { "label": "Capacity", "value": "72 L" },
+          { "label": "Technology", "value": "Inverter" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vinera-28",
+    "slug": "vinera-28-botellas",
+    "name": "Vinera 28 Botellas",
+    "shortDescription": "Control de temperatura dual zone para vinos tintos y blancos.",
+    "description": "Vinera independiente con capacidad para 28 botellas, puerta de vidrio templado y estantes de madera. Mantiene humedad y temperatura estables.",
+    "categorySlug": "vineras",
+    "sku": "VN-28-DZ",
+    "images": [
+      { "src": "/images/products/vinera-28.jpg", "alt": "Vinera 28 botellas DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "28-Bottle Wine Cooler",
+        "shortDescription": "Dual-zone temperature control for red and white wines.",
+        "description": "Freestanding wine cooler with capacity for 28 bottles, tempered glass door, and wooden shelves. Maintains stable humidity and temperature.",
+        "images": [
+          { "src": "/images/products/vinera-28.jpg", "alt": "DRIJA 28-Bottle Wine Cooler" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufa-5q",
+    "slug": "estufa-5-quemadores-acero",
+    "name": "Estufa 5 Quemadores Acero",
+    "shortDescription": "Quemadores sellados y horno con convección.",
+    "description": "Estufa a gas de 76 cm con cinco quemadores de alta eficiencia, parrillas en hierro fundido y horno con ventilador de convección.",
+    "categorySlug": "estufas",
+    "sku": "ES-5Q-76",
+    "featured": true,
+    "images": [
+      { "src": "/images/products/estufa-5q.jpg", "alt": "Estufa 5 quemadores DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "5-Burner Stainless Steel Range",
+        "shortDescription": "Sealed burners and convection oven.",
+        "description": "76 cm gas range with five high-efficiency burners, cast iron grates, and oven with convection fan.",
+        "images": [
+          { "src": "/images/products/estufa-5q.jpg", "alt": "DRIJA 5-Burner Range" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-cal-50",
+    "slug": "calentador-tanque-50l",
+    "name": "Calentador de Tanque 50L",
+    "shortDescription": "Recuperación rápida con recubrimiento anticorrosivo.",
+    "description": "Calentador de agua de almacenamiento de 50 litros con ánodo de magnesio y válvula de seguridad. Compatible con instalaciones residenciales estándar.",
+    "categorySlug": "calentadores-de-agua",
+    "sku": "CA-50-TK",
+    "images": [
+      { "src": "/images/products/calentador-50.jpg", "alt": "Calentador de tanque 50L DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "50L Tank Water Heater",
+        "shortDescription": "Fast recovery with anti-corrosion coating.",
+        "description": "50-liter storage water heater with magnesium anode and safety valve. Compatible with standard residential installations.",
+        "images": [
+          { "src": "/images/products/calentador-50.jpg", "alt": "DRIJA 50L Tank Water Heater" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-micro-25",
+    "slug": "microondas-25l-inverter",
+    "name": "Microondas 25L Inverter",
+    "shortDescription": "Descongelado inteligente y panel digital.",
+    "description": "Microondas de 25 litros con tecnología Inverter, grill combinado y menús automáticos para cocción uniforme.",
+    "categorySlug": "microondas",
+    "sku": "MI-25-INV",
+    "images": [
+      { "src": "/images/products/microondas-25.jpg", "alt": "Microondas 25L Inverter DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "25L Inverter Microwave",
+        "shortDescription": "Smart defrost and digital panel.",
+        "description": "25-liter microwave with Inverter technology, combination grill, and automatic menus for even cooking.",
+        "images": [
+          { "src": "/images/products/microondas-25.jpg", "alt": "DRIJA 25L Inverter Microwave" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-lav-18",
+    "slug": "lavadora-carga-frontal-18kg",
+    "name": "Lavadora Carga Frontal 18 kg",
+    "shortDescription": "Motor inverter direct drive y ciclos eco.",
+    "description": "Lavadora de carga frontal de 18 kg con tambor de acero inoxidable, múltiples programas y tecnología de bajo consumo de agua.",
+    "categorySlug": "lavadoras",
+    "sku": "LV-18-CF",
+    "isNew": true,
+    "featured": true,
+    "images": [
+      { "src": "/images/products/lavadora-18.jpg", "alt": "Lavadora carga frontal 18 kg DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "18 kg Front-Load Washer",
+        "shortDescription": "Direct drive inverter motor and eco cycles.",
+        "description": "18 kg front-load washer with stainless steel drum, multiple programs, and low water consumption technology.",
+        "images": [
+          { "src": "/images/products/lavadora-18.jpg", "alt": "DRIJA 18 kg Front-Load Washer" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-air-4l",
+    "slug": "air-fryer-4-litros",
+    "name": "Air Fryer 4 Litros",
+    "shortDescription": "Cocción crujiente con hasta 80% menos aceite.",
+    "description": "Freidora de aire de 4 litros con control digital, 8 programas preestablecidos y canasta antiadherente apta para lavavajillas.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "sku": "AF-4L-DG",
+    "isNew": true,
+    "images": [
+      { "src": "/images/products/air-fryer-4l.jpg", "alt": "Air Fryer 4 litros DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "4-Liter Air Fryer",
+        "shortDescription": "Crispy cooking with up to 80% less oil.",
+        "description": "4-liter air fryer with digital control, 8 preset programs, and dishwasher-safe non-stick basket.",
+        "images": [
+          { "src": "/images/products/air-fryer-4l.jpg", "alt": "DRIJA 4-Liter Air Fryer" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-disp-3v",
+    "slug": "dispensador-agua-3-vias",
+    "name": "Dispensador de Agua 3 Vías",
+    "shortDescription": "Agua fría, caliente y ambiente con gabinete inferior.",
+    "description": "Dispensador de mesa con tres temperaturas, sistema de filtración compatible y diseño compacto para oficina u hogar.",
+    "categorySlug": "dispensadores-de-agua",
+    "sku": "DA-3V-01",
+    "images": [
+      { "src": "/images/products/dispensador-3v.jpg", "alt": "Dispensador de agua 3 vías DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "3-Temperature Water Dispenser",
+        "shortDescription": "Cold, hot, and room-temperature water with lower cabinet.",
+        "description": "Countertop dispenser with three temperature settings, compatible filtration system, and compact design for office or home.",
+        "images": [
+          { "src": "/images/products/dispensador-3v.jpg", "alt": "DRIJA 3-Temperature Water Dispenser" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-hielo-15",
+    "slug": "fabricador-hielo-15kg",
+    "name": "Fabricador de Hielo 15 kg/día",
+    "shortDescription": "Producción continua de cubos transparentes.",
+    "description": "Fabricador de hielo independiente con producción de hasta 15 kg diarios, depósito extraíble y alerta de llenado.",
+    "categorySlug": "fabricador-de-hielo",
+    "sku": "FH-15-KG",
+    "images": [
+      { "src": "/images/products/fabricador-hielo.jpg", "alt": "Fabricador de hielo DRIJA" }
+    ],
+    "translations": {
+      "en": {
+        "name": "Ice Maker 15 kg/day",
+        "shortDescription": "Continuous production of clear ice cubes.",
+        "description": "Freestanding ice maker with production of up to 15 kg per day, removable bin, and full-bin alert.",
+        "images": [
+          { "src": "/images/products/fabricador-hielo.jpg", "alt": "DRIJA Ice Maker" }
+        ]
+      }
+    }
+  }
+]

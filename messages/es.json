@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "siteDescription": "Electrodomésticos de calidad para tu hogar. Refrigeradores, hornos, estufas y más."
+  },
+  "locale": {
+    "switchTo": "English",
+    "current": "Español"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "blog": "Blog",
+    "whereToBuy": "Dónde comprar",
+    "support": "Soporte",
+    "contact": "Contáctenos"
+  },
+  "home": {
+    "categories": "Categorías",
+    "categoriesTitle": "Explora por línea de producto",
+    "viewAll": "Ver todas →",
+    "newArrivals": "Lo nuevo",
+    "featuredTitle": "Productos destacados",
+    "worldDrija": "Mundo DRIJA",
+    "blogTitle": "Del blog",
+    "viewBlog": "Ver blog →",
+    "contactUs": "Contáctanos",
+    "heroTagline": "DRIJA International",
+    "heroTitle": "Electrodomésticos que transforman tu hogar",
+    "heroDescription": "Descubre refrigeradores, hornos, estufas y más con diseño moderno, tecnología confiable y soporte en toda la región.",
+    "heroCtaProducts": "Ver productos",
+    "heroCtaWhereToBuy": "Dónde comprar",
+    "heroAside": "Innovación, diseño y rendimiento para la cocina del futuro."
+  },
+  "products": {
+    "pageTitle": "Categorías",
+    "pageDescription": "Encuentra el electrodoméstico ideal para cada espacio de tu hogar.",
+    "viewCatalog": "Ver catálogo",
+    "productsCount": "productos",
+    "comingSoon": "Próximamente agregaremos productos en esta categoría.",
+    "newBadge": "Nuevo",
+    "viewDetail": "Ver detalle →",
+    "sku": "SKU",
+    "specs": "Especificaciones",
+    "whereToBuy": "Dónde comprar",
+    "inquire": "Consultar",
+    "breadcrumbProducts": "Productos"
+  },
+  "blog": {
+    "pageTitle": "Mundo DRIJA",
+    "pageDescription": "Inspiración, recetas y novedades sobre electrodomésticos.",
+    "backToBlog": "← Volver al blog"
+  },
+  "retailers": {
+    "pageTitle": "Dónde comprar",
+    "pageDescription": "Encuéntranos en las principales tiendas de tu país.",
+    "visitWebsite": "Ir al sitio web",
+    "technicalService": "Servicio técnico en"
+  },
+  "support": {
+    "pageTitle": "¿Cómo podemos ayudarte?",
+    "pageDescription": "Encuentra respuestas por categoría de producto.",
+    "manuals": "Manuales",
+    "technicalService": "Servicio técnico",
+    "catalogs": "Catálogos",
+    "warranties": "Garantías",
+    "needHelp": "¿Necesita ayuda?",
+    "faq": "Preguntas frecuentes"
+  },
+  "contact": {
+    "pageTitle": "Contáctanos",
+    "pageDescription": "Escríbenos para consultas, soporte y oportunidades comerciales.",
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "E-mail",
+    "country": "País",
+    "countryPlaceholder": "Seleccione un país",
+    "phone": "Número de teléfono",
+    "message": "Mensaje",
+    "terms": "Acepto",
+    "termsLink": "términos y condiciones",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Tu mensaje fue enviado correctamente.",
+    "error": "No pudimos enviar tu mensaje. Intenta de nuevo.",
+    "needHelp": "¿Necesita ayuda?",
+    "faq": "Preguntas frecuentes",
+    "technicalService": "Servicio técnico",
+    "catalogs": "Catálogos"
+  },
+  "legal": {
+    "pageTitle": "Avisos legales",
+    "pageDescription": "Términos, condiciones y avisos legales de DRIJA International.",
+    "intro": "Este sitio es operado por DRIJA International. El uso del sitio implica la aceptación de nuestras políticas de privacidad y términos de servicio.",
+    "privacy": "Para consultas sobre tratamiento de datos personales enviados a través del formulario de contacto, escríbenos a contacto@drijainternational.com."
+  },
+  "footer": {
+    "tagline": "Electrodomésticos diseñados para elevar la experiencia en tu hogar en Centroamérica, el Caribe y más.",
+    "explore": "Explorar",
+    "needHelp": "¿Necesita ayuda?",
+    "faq": "Preguntas frecuentes",
+    "technicalService": "Servicio técnico",
+    "rights": "Todos los derechos reservados.",
+    "legal": "Avisos legales"
+  },
+  "common": {
+    "openMenu": "Abrir menú",
+    "homeLabel": "DRIJA inicio",
+    "notFoundTitle": "404",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backHome": "Volver al inicio"
+  }
+}

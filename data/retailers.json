@@ -1,0 +1,81 @@
+[
+  {
+    "country": "Panamá",
+    "countryCode": "PA",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "pa-novey", "name": "Novey", "url": "https://www.novey.com.pa" },
+      { "id": "pa-cochez", "name": "Cochez", "url": "https://www.cochez.com.pa" },
+      { "id": "pa-multimax", "name": "Multimax", "url": "https://www.multimax.net" },
+      { "id": "pa-raenco", "name": "Raenco", "url": "https://www.raenco.com" }
+    ]
+  },
+  {
+    "country": "República Dominicana",
+    "countryCode": "DO",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "do-plaza-lama", "name": "Plaza Lama", "url": "https://www.plazalama.com.do" },
+      { "id": "do-corripio", "name": "Corripio", "url": "https://www.tiendascorripio.com.do" },
+      { "id": "do-jumbo", "name": "Jumbo", "url": "https://www.jumbo.com.do" }
+    ]
+  },
+  {
+    "country": "Venezuela",
+    "countryCode": "VE",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "ve-daka", "name": "Daka", "url": "https://www.daka.com.ve" },
+      { "id": "ve-farmatodo", "name": "Farmatodo Hogar", "url": "https://www.farmatodo.com.ve" }
+    ]
+  },
+  {
+    "country": "Costa Rica",
+    "countryCode": "CR",
+    "technicalServiceUrl": "https://wa.link/qqyeyx",
+    "retailers": [
+      { "id": "cr-monge", "name": "Grupo Monge", "url": "https://www.grupomonge.com" },
+      { "id": "cr-inteca", "name": "Inteca", "url": "https://www.inteca.com" }
+    ]
+  },
+  {
+    "country": "El Salvador",
+    "countryCode": "SV",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "sv-prado", "name": "Almacenes Prado", "url": "https://www.almacenesprado.com" }
+    ]
+  },
+  {
+    "country": "Guatemala",
+    "countryCode": "GT",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "gt-max", "name": "MAX", "url": "https://www.max.com.gt" }
+    ]
+  },
+  {
+    "country": "Honduras",
+    "countryCode": "HN",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "hn-diunsa", "name": "Diunsa", "url": "https://www.diunsa.hn" }
+    ]
+  },
+  {
+    "country": "Nicaragua",
+    "countryCode": "NI",
+    "technicalServiceUrl": "https://wa.link/b191ah",
+    "retailers": [
+      { "id": "ni-la-colonia", "name": "La Colonia", "url": "https://www.lacolonia.com.ni" }
+    ]
+  },
+  {
+    "country": "Aruba",
+    "countryCode": "AW",
+    "technicalServiceUrl": "https://wa.link/nvs51b",
+    "retailers": [
+      { "id": "aw-kooyman", "name": "Kooyman", "url": "https://www.kooymanbv.com" }
+    ]
+  }
+]

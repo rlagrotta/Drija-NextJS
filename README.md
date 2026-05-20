@@ -1,37 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DRIJA International — Next.js
 
-## Getting Started
+Sitio corporativo de DRIJA reconstruido con Next.js App Router, Tailwind CSS y arquitectura preparada para CMS (Sanity) e internacionalización.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS v4
+- Resend (formulario de contacto)
+- Datos mock bilingües en JSON (`/data`) — español en raíz, inglés en `translations.en`
+
+## Estructura
+
+```
+app/                 # Rutas y API routes
+components/          # UI reutilizable
+data/                # Mock JSON (reemplazable por Sanity)
+lib/cms/             # Adaptador de contenido
+lib/i18n/            # Config i18n (es/en)
+messages/            # Diccionarios
+types/               # Tipos TypeScript
+styles/              # CSS vanilla complementario
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desarrollo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cp .env.example .env.local
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Sin `RESEND_API_KEY`, el endpoint `/api/contact` responde OK en modo desarrollo (log en consola).
 
-## Learn More
+## API interna
 
-To learn more about Next.js, take a look at the following resources:
+| Endpoint | Descripción |
+|----------|-------------|
+| `GET /api/products` | Lista productos (`?category=&featured=&country=&locale=en`) |
+| `GET /api/products/[slug]` | Detalle producto |
+| `GET /api/categories` | Categorías |
+| `GET /api/categories/[slug]` | Categoría + productos |
+| `GET /api/blog` | Posts (`?featured=true`) |
+| `GET /api/blog/[slug]` | Artículo |
+| `GET /api/retailers` | Tiendas por país |
+| `GET /api/support` | FAQ por categoría |
+| `POST /api/contact` | Formulario contacto |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Páginas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/` — Home
+- `/productos` — Categorías
+- `/categories/[slug]` — Productos por categoría
+- `/products/[slug]` — Detalle producto
+- `/blog`, `/blog/[slug]`
+- `/donde-comprar`, `/soporte`, `/contacto`
 
-## Deploy on Vercel
+## Contenido bilingüe (JSON)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cada ítem en `data/*.json` usa español por defecto y traducciones en:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Drija-NextJS
+```json
+"translations": {
+  "en": {
+    "name": "English name",
+    "description": "..."
+  }
+}
+```
+
+El adaptador CMS aplica el locale automáticamente (`getProducts({ locale: 'en' })`).
+
+## Hero slider (imágenes por idioma)
+
+Configura 3 slides en `data/hero-slides.json`. Cada slide tiene rutas separadas para español e inglés:
+
+```
+public/images/hero/es/slide-1.jpg … slide-3.jpg
+public/images/hero/en/slide-1.jpg … slide-3.jpg
+```
+
+Recomendado: imágenes **panorámicas** (aprox. 16:9 o más ancho), mínimo **1920×560px** para cubrir pantalla completa.
+
+## Próximos pasos (CMS)
+
+1. Implementar `sanity-adapter.ts` con el mismo esquema de localización.
+2. Filtrar productos por `countryCode` según geolocalización o selector.

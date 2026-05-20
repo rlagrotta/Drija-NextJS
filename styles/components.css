@@ -1,0 +1,35 @@
+/* Drija brand — vanilla overrides when Tailwind utilities are not enough */
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(130, 184, 65, 0.12) 0%,
+    rgba(23, 23, 23, 0.04) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/* Altura del hero: la imagen rellena este bloque (ancho 100%) */
+.hero-banner {
+  min-height: clamp(280px, 42vw, 560px);
+}
+
+.prose-drija h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-drija p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #404040;
+}
+
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible,
+.contact-form select:focus-visible {
+  outline: 2px solid var(--drija-green);
+  outline-offset: 2px;
+}

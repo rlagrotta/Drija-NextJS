@@ -1,0 +1,43 @@
+{
+  "slides": [
+    {
+      "id": "slide-1",
+      "images": {
+        "es": {
+          "src": "/images/hero/es/slide-1.jpg",
+          "alt": "DRIJA — Colección de electrodomésticos"
+        },
+        "en": {
+          "src": "/images/hero/en/slide-1.jpg",
+          "alt": "DRIJA — Appliance collection"
+        }
+      }
+    },
+    {
+      "id": "slide-2",
+      "images": {
+        "es": {
+          "src": "/images/hero/es/slide-2.jpg",
+          "alt": "DRIJA — Cocina moderna"
+        },
+        "en": {
+          "src": "/images/hero/en/slide-2.jpg",
+          "alt": "DRIJA — Modern kitchen"
+        }
+      }
+    },
+    {
+      "id": "slide-3",
+      "images": {
+        "es": {
+          "src": "/images/hero/es/slide-3.jpg",
+          "alt": "DRIJA — Innovación para el hogar"
+        },
+        "en": {
+          "src": "/images/hero/en/slide-3.jpg",
+          "alt": "DRIJA — Innovation for your home"
+        }
+      }
+    }
+  ]
+}
