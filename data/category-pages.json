@@ -1,58 +1,944 @@
 {
-  "refrigeradores": {
-    "categorySlug": "refrigeradores",
+  "extractores": {
+    "categorySlug": "extractores",
     "heroImage": {
-      "src": "/images/categories/refrigeradores-hero.jpg",
-      "alt": "Refrigeradores DRIJA en cocina moderna"
+      "src": "/images/categories/extractores.jpg",
+      "alt": "DRIJA extractores"
     },
     "catalog": {
       "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/refrigeradores.pdf",
-        "image": {
-        "src": "/images/categories/refrigeradores-hero.jpg",
-        "alt": "Catálogo de refrigeradores DRIJA"
+      "downloadUrl": "/catalogo/extractores.pdf",
+      "image": {
+        "src": "/images/categories/extractores.jpg",
+        "alt": "Catálogo extractores DRIJA"
       }
     },
     "subcategories": [
       {
-        "id": "sub-rf-empotrables",
+        "id": "sub-extractores-canopio",
+        "slug": "canopio",
+        "name": "Canopio",
+        "icon": {
+          "src": "/images/categories/extractores.jpg",
+          "alt": "Canopio"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Canopy",
+            "icon": {
+              "src": "/images/categories/extractores.jpg",
+              "alt": "Canopy"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-extractores-compactas",
+        "slug": "compactas",
+        "name": "Compactas",
+        "icon": {
+          "src": "/images/categories/extractores.jpg",
+          "alt": "Compactas"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Compact",
+            "icon": {
+              "src": "/images/categories/extractores.jpg",
+              "alt": "Compact"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-extractores-isla",
+        "slug": "isla",
+        "name": "Isla",
+        "icon": {
+          "src": "/images/categories/extractores.jpg",
+          "alt": "Isla"
+        },
+        "order": 3,
+        "translations": {
+          "en": {
+            "name": "Island",
+            "icon": {
+              "src": "/images/categories/extractores.jpg",
+              "alt": "Island"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-extractores-pared",
+        "slug": "pared",
+        "name": "Pared",
+        "icon": {
+          "src": "/images/categories/extractores.jpg",
+          "alt": "Pared"
+        },
+        "order": 4,
+        "translations": {
+          "en": {
+            "name": "Wall-mounted",
+            "icon": {
+              "src": "/images/categories/extractores.jpg",
+              "alt": "Wall-mounted"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "hornos": {
+    "categorySlug": "hornos",
+    "heroImage": {
+      "src": "/images/categories/hornos.jpg",
+      "alt": "DRIJA hornos"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/hornos.pdf",
+      "image": {
+        "src": "/images/categories/hornos.jpg",
+        "alt": "Catálogo hornos DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-hornos-torre-horno-microondas",
+        "slug": "torre-horno-microondas",
+        "name": "Torre de horno microondas",
+        "icon": {
+          "src": "/images/categories/hornos.jpg",
+          "alt": "Torre de horno microondas"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Oven-microwave tower",
+            "icon": {
+              "src": "/images/categories/hornos.jpg",
+              "alt": "Oven-microwave tower"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-hornos-electricos",
+        "slug": "electricos",
+        "name": "Eléctricos",
+        "icon": {
+          "src": "/images/categories/hornos.jpg",
+          "alt": "Eléctricos"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Electric",
+            "icon": {
+              "src": "/images/categories/hornos.jpg",
+              "alt": "Electric"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-hornos-gas",
+        "slug": "gas",
+        "name": "Gas",
+        "icon": {
+          "src": "/images/categories/hornos.jpg",
+          "alt": "Gas"
+        },
+        "order": 3,
+        "translations": {
+          "en": {
+            "name": "Gas",
+            "icon": {
+              "src": "/images/categories/hornos.jpg",
+              "alt": "Gas"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "refrigeradores": {
+    "categorySlug": "refrigeradores",
+    "heroImage": {
+      "src": "/images/categories/refrigeradores-hero.jpg",
+      "alt": "DRIJA refrigeradores"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/refrigeradores.pdf",
+      "image": {
+        "src": "/images/categories/refrigeradores-hero.jpg",
+        "alt": "Catálogo refrigeradores DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-refrigeradores-empotrables",
         "slug": "empotrables",
         "name": "Empotrables",
-        "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "Empotrables" },
+        "icon": {
+          "src": "/images/categories/refrigeradores.jpg",
+          "alt": "Empotrables"
+        },
         "order": 1,
-        "translations": { "en": { "name": "Built-in", "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "Built-in" } } }
+        "translations": {
+          "en": {
+            "name": "Built-in",
+            "icon": {
+              "src": "/images/categories/refrigeradores.jpg",
+              "alt": "Built-in"
+            }
+          }
+        }
       },
       {
-        "id": "sub-rf-ejecutivas",
+        "id": "sub-refrigeradores-ejecutivas",
         "slug": "ejecutivas",
         "name": "Ejecutivas",
-        "icon": { "src": "/images/products/refrigerador-320.jpg", "alt": "Ejecutivas" },
+        "icon": {
+          "src": "/images/categories/refrigeradores.jpg",
+          "alt": "Ejecutivas"
+        },
         "order": 2,
-        "translations": { "en": { "name": "Executive", "icon": { "src": "/images/products/refrigerador-320.jpg", "alt": "Executive" } } }
+        "translations": {
+          "en": {
+            "name": "Executive",
+            "icon": {
+              "src": "/images/categories/refrigeradores.jpg",
+              "alt": "Executive"
+            }
+          }
+        }
       },
       {
-        "id": "sub-rf-french-door",
+        "id": "sub-refrigeradores-french-door",
         "slug": "french-door",
         "name": "French Door",
-        "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "French Door" },
+        "icon": {
+          "src": "/images/categories/refrigeradores.jpg",
+          "alt": "French Door"
+        },
         "order": 3,
-        "translations": { "en": { "name": "French Door", "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "French Door" } } }
+        "translations": {
+          "en": {
+            "name": "French Door",
+            "icon": {
+              "src": "/images/categories/refrigeradores.jpg",
+              "alt": "French Door"
+            }
+          }
+        }
       },
       {
-        "id": "sub-rf-side-by-side",
+        "id": "sub-refrigeradores-side-by-side",
         "slug": "side-by-side",
         "name": "Side by Side",
-        "icon": { "src": "/images/products/refrigerador-320.jpg", "alt": "Side by Side" },
+        "icon": {
+          "src": "/images/categories/refrigeradores.jpg",
+          "alt": "Side by Side"
+        },
         "order": 4,
-        "translations": { "en": { "name": "Side by Side", "icon": { "src": "/images/products/refrigerador-320.jpg", "alt": "Side by Side" } } }
+        "translations": {
+          "en": {
+            "name": "Side by Side",
+            "icon": {
+              "src": "/images/categories/refrigeradores.jpg",
+              "alt": "Side by Side"
+            }
+          }
+        }
       },
       {
-        "id": "sub-rf-twin",
+        "id": "sub-refrigeradores-twin",
         "slug": "twin",
         "name": "Twin",
-        "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "Twin" },
+        "icon": {
+          "src": "/images/categories/refrigeradores.jpg",
+          "alt": "Twin"
+        },
         "order": 5,
-        "translations": { "en": { "name": "Twin", "icon": { "src": "/images/products/refrigerador-450.jpg", "alt": "Twin" } } }
+        "translations": {
+          "en": {
+            "name": "Twin",
+            "icon": {
+              "src": "/images/categories/refrigeradores.jpg",
+              "alt": "Twin"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "fabricador-de-hielo": {
+    "categorySlug": "fabricador-de-hielo",
+    "heroImage": {
+      "src": "/images/categories/fabricador-de-hielo.jpg",
+      "alt": "DRIJA fabricador-de-hielo"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/fabricador-de-hielo.pdf",
+      "image": {
+        "src": "/images/categories/fabricador-de-hielo.jpg",
+        "alt": "Catálogo fabricador-de-hielo DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-fabricador-de-hielo-empotrables",
+        "slug": "empotrables",
+        "name": "Empotrables",
+        "icon": {
+          "src": "/images/categories/fabricador-de-hielo.jpg",
+          "alt": "Empotrables"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Built-in",
+            "icon": {
+              "src": "/images/categories/fabricador-de-hielo.jpg",
+              "alt": "Built-in"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-fabricador-de-hielo-no-empotrables",
+        "slug": "no-empotrables",
+        "name": "No empotrables",
+        "icon": {
+          "src": "/images/categories/fabricador-de-hielo.jpg",
+          "alt": "No empotrables"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Freestanding",
+            "icon": {
+              "src": "/images/categories/fabricador-de-hielo.jpg",
+              "alt": "Freestanding"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "microondas": {
+    "categorySlug": "microondas",
+    "heroImage": {
+      "src": "/images/categories/microondas.jpg",
+      "alt": "DRIJA microondas"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/microondas.pdf",
+      "image": {
+        "src": "/images/categories/microondas.jpg",
+        "alt": "Catálogo microondas DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-microondas-microondas-empotrables",
+        "slug": "microondas-empotrables",
+        "name": "Microondas empotrables",
+        "icon": {
+          "src": "/images/categories/microondas.jpg",
+          "alt": "Microondas empotrables"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Built-in microwaves",
+            "icon": {
+              "src": "/images/categories/microondas.jpg",
+              "alt": "Built-in microwaves"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-microondas-microondas-extractor",
+        "slug": "microondas-extractor",
+        "name": "Microondas extractor",
+        "icon": {
+          "src": "/images/categories/microondas.jpg",
+          "alt": "Microondas extractor"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Microwave hood",
+            "icon": {
+              "src": "/images/categories/microondas.jpg",
+              "alt": "Microwave hood"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "dispensadores-de-agua": {
+    "categorySlug": "dispensadores-de-agua",
+    "heroImage": {
+      "src": "/images/categories/dispensadores-de-agua.jpg",
+      "alt": "DRIJA dispensadores-de-agua"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/dispensadores-de-agua.pdf",
+      "image": {
+        "src": "/images/categories/dispensadores-de-agua.jpg",
+        "alt": "Catálogo dispensadores-de-agua DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-dispensadores-de-agua-acqua",
+        "slug": "acqua",
+        "name": "Acqua",
+        "icon": {
+          "src": "/images/categories/dispensadores-de-agua.jpg",
+          "alt": "Acqua"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Acqua",
+            "icon": {
+              "src": "/images/categories/dispensadores-de-agua.jpg",
+              "alt": "Acqua"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-dispensadores-de-agua-lusso",
+        "slug": "lusso",
+        "name": "Lusso",
+        "icon": {
+          "src": "/images/categories/dispensadores-de-agua.jpg",
+          "alt": "Lusso"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Lusso",
+            "icon": {
+              "src": "/images/categories/dispensadores-de-agua.jpg",
+              "alt": "Lusso"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "lavadoras": {
+    "categorySlug": "lavadoras",
+    "heroImage": {
+      "src": "/images/categories/lavadoras.jpg",
+      "alt": "DRIJA lavadoras"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/lavadoras.pdf",
+      "image": {
+        "src": "/images/categories/lavadoras.jpg",
+        "alt": "Catálogo lavadoras DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-lavadoras-lava-seca",
+        "slug": "lava-seca",
+        "name": "Lava-Seca",
+        "icon": {
+          "src": "/images/categories/lavadoras.jpg",
+          "alt": "Lava-Seca"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Washer-dryer",
+            "icon": {
+              "src": "/images/categories/lavadoras.jpg",
+              "alt": "Washer-dryer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "centros-de-bebidas": {
+    "categorySlug": "centros-de-bebidas",
+    "heroImage": {
+      "src": "/images/categories/centros-de-bebidas.jpg",
+      "alt": "DRIJA centros-de-bebidas"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/centros-de-bebidas.pdf",
+      "image": {
+        "src": "/images/categories/centros-de-bebidas.jpg",
+        "alt": "Catálogo centros-de-bebidas DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-centros-de-bebidas-empotrables",
+        "slug": "empotrables",
+        "name": "Empotrables",
+        "icon": {
+          "src": "/images/categories/centros-de-bebidas.jpg",
+          "alt": "Empotrables"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Built-in",
+            "icon": {
+              "src": "/images/categories/centros-de-bebidas.jpg",
+              "alt": "Built-in"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-centros-de-bebidas-no-empotrables",
+        "slug": "no-empotrables",
+        "name": "No empotrables",
+        "icon": {
+          "src": "/images/categories/centros-de-bebidas.jpg",
+          "alt": "No empotrables"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Freestanding",
+            "icon": {
+              "src": "/images/categories/centros-de-bebidas.jpg",
+              "alt": "Freestanding"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "pequenos-electrodomesticos": {
+    "categorySlug": "pequenos-electrodomesticos",
+    "heroImage": {
+      "src": "/images/categories/pequenos-electrodomesticos.jpg",
+      "alt": "DRIJA pequenos-electrodomesticos"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/pequenos-electrodomesticos.pdf",
+      "image": {
+        "src": "/images/categories/pequenos-electrodomesticos.jpg",
+        "alt": "Catálogo pequenos-electrodomesticos DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-pequenos-electrodomesticos-cafetera",
+        "slug": "cafetera",
+        "name": "Cafetera",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Cafetera"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Coffee maker",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Coffee maker"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-pequenos-electrodomesticos-horno-electrico",
+        "slug": "horno-electrico",
+        "name": "Horno eléctrico",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Horno eléctrico"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Electric oven",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Electric oven"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-pequenos-electrodomesticos-juegos-ollas-sartenes",
+        "slug": "juegos-ollas-sartenes",
+        "name": "Juegos de ollas y sartenes",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Juegos de ollas y sartenes"
+        },
+        "order": 3,
+        "translations": {
+          "en": {
+            "name": "Cookware sets",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Cookware sets"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-pequenos-electrodomesticos-estufas-portatiles",
+        "slug": "estufas-portatiles",
+        "name": "Estufas portátiles",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Estufas portátiles"
+        },
+        "order": 4,
+        "translations": {
+          "en": {
+            "name": "Portable stoves",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Portable stoves"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-pequenos-electrodomesticos-freidoras-de-aire",
+        "slug": "freidoras-de-aire",
+        "name": "Freidoras de aire",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Freidoras de aire"
+        },
+        "order": 5,
+        "translations": {
+          "en": {
+            "name": "Air fryers",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Air fryers"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-pequenos-electrodomesticos-licuadoras",
+        "slug": "licuadoras",
+        "name": "Licuadoras",
+        "icon": {
+          "src": "/images/categories/pequenos-electrodomesticos.jpg",
+          "alt": "Licuadoras"
+        },
+        "order": 6,
+        "translations": {
+          "en": {
+            "name": "Blenders",
+            "icon": {
+              "src": "/images/categories/pequenos-electrodomesticos.jpg",
+              "alt": "Blenders"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "calentadores-de-agua": {
+    "categorySlug": "calentadores-de-agua",
+    "heroImage": {
+      "src": "/images/categories/calentadores-de-agua.jpg",
+      "alt": "DRIJA calentadores-de-agua"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/calentadores-de-agua.pdf",
+      "image": {
+        "src": "/images/categories/calentadores-de-agua.jpg",
+        "alt": "Catálogo calentadores-de-agua DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-calentadores-de-agua-gas",
+        "slug": "gas",
+        "name": "Gas",
+        "icon": {
+          "src": "/images/categories/calentadores-de-agua.jpg",
+          "alt": "Gas"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Gas",
+            "icon": {
+              "src": "/images/categories/calentadores-de-agua.jpg",
+              "alt": "Gas"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "fregaderos": {
+    "categorySlug": "fregaderos",
+    "heroImage": {
+      "src": "/images/categories/fregaderos.jpg",
+      "alt": "DRIJA fregaderos"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/fregaderos.pdf",
+      "image": {
+        "src": "/images/categories/fregaderos.jpg",
+        "alt": "Catálogo fregaderos DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-fregaderos-fregaderos",
+        "slug": "fregaderos",
+        "name": "Fregaderos",
+        "icon": {
+          "src": "/images/categories/fregaderos.jpg",
+          "alt": "Fregaderos"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Sinks",
+            "icon": {
+              "src": "/images/categories/fregaderos.jpg",
+              "alt": "Sinks"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-fregaderos-grifos",
+        "slug": "grifos",
+        "name": "Grifos",
+        "icon": {
+          "src": "/images/categories/fregaderos.jpg",
+          "alt": "Grifos"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Faucets",
+            "icon": {
+              "src": "/images/categories/fregaderos.jpg",
+              "alt": "Faucets"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-fregaderos-trituradores",
+        "slug": "trituradores",
+        "name": "Trituradores",
+        "icon": {
+          "src": "/images/categories/fregaderos.jpg",
+          "alt": "Trituradores"
+        },
+        "order": 3,
+        "translations": {
+          "en": {
+            "name": "Disposals",
+            "icon": {
+              "src": "/images/categories/fregaderos.jpg",
+              "alt": "Disposals"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "estufas": {
+    "categorySlug": "estufas",
+    "heroImage": {
+      "src": "/images/categories/estufas.jpg",
+      "alt": "DRIJA estufas"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/estufas.pdf",
+      "image": {
+        "src": "/images/categories/estufas.jpg",
+        "alt": "Catálogo estufas DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-estufas-piso",
+        "slug": "piso",
+        "name": "Piso",
+        "icon": {
+          "src": "/images/categories/estufas.jpg",
+          "alt": "Piso"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Freestanding",
+            "icon": {
+              "src": "/images/categories/estufas.jpg",
+              "alt": "Freestanding"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-estufas-tope-dual",
+        "slug": "tope-dual",
+        "name": "Tope dual",
+        "icon": {
+          "src": "/images/categories/estufas.jpg",
+          "alt": "Tope dual"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Dual cooktop",
+            "icon": {
+              "src": "/images/categories/estufas.jpg",
+              "alt": "Dual cooktop"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-estufas-tope-electrico",
+        "slug": "tope-electrico",
+        "name": "Tope eléctrico",
+        "icon": {
+          "src": "/images/categories/estufas.jpg",
+          "alt": "Tope eléctrico"
+        },
+        "order": 3,
+        "translations": {
+          "en": {
+            "name": "Electric cooktop",
+            "icon": {
+              "src": "/images/categories/estufas.jpg",
+              "alt": "Electric cooktop"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-estufas-tope-induccion",
+        "slug": "tope-induccion",
+        "name": "Tope inducción",
+        "icon": {
+          "src": "/images/categories/estufas.jpg",
+          "alt": "Tope inducción"
+        },
+        "order": 4,
+        "translations": {
+          "en": {
+            "name": "Induction cooktop",
+            "icon": {
+              "src": "/images/categories/estufas.jpg",
+              "alt": "Induction cooktop"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-estufas-tope-gas",
+        "slug": "tope-gas",
+        "name": "Tope gas",
+        "icon": {
+          "src": "/images/categories/estufas.jpg",
+          "alt": "Tope gas"
+        },
+        "order": 5,
+        "translations": {
+          "en": {
+            "name": "Gas cooktop",
+            "icon": {
+              "src": "/images/categories/estufas.jpg",
+              "alt": "Gas cooktop"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "vineras": {
+    "categorySlug": "vineras",
+    "heroImage": {
+      "src": "/images/categories/vineras.jpg",
+      "alt": "DRIJA vineras"
+    },
+    "catalog": {
+      "onlineUrl": "/productos",
+      "downloadUrl": "/catalogo/vineras.pdf",
+      "image": {
+        "src": "/images/categories/vineras.jpg",
+        "alt": "Catálogo vineras DRIJA"
+      }
+    },
+    "subcategories": [
+      {
+        "id": "sub-vineras-empotrables",
+        "slug": "empotrables",
+        "name": "Empotrables",
+        "icon": {
+          "src": "/images/categories/vineras.jpg",
+          "alt": "Empotrables"
+        },
+        "order": 1,
+        "translations": {
+          "en": {
+            "name": "Built-in",
+            "icon": {
+              "src": "/images/categories/vineras.jpg",
+              "alt": "Built-in"
+            }
+          }
+        }
+      },
+      {
+        "id": "sub-vineras-no-empotrables",
+        "slug": "no-empotrables",
+        "name": "No empotrables",
+        "icon": {
+          "src": "/images/categories/vineras.jpg",
+          "alt": "No empotrables"
+        },
+        "order": 2,
+        "translations": {
+          "en": {
+            "name": "Freestanding",
+            "icon": {
+              "src": "/images/categories/vineras.jpg",
+              "alt": "Freestanding"
+            }
+          }
+        }
       }
     ]
   }

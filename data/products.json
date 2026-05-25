@@ -1,465 +1,4615 @@
 [
   {
-    "id": "prod-rf-450",
-    "slug": "refrigerador-french-door-450l",
-    "name": "Refrigerador French Door 450L",
-    "shortDescription": "Capacidad amplia, dispensador de agua y control digital de temperatura.",
-    "description": "Refrigerador French Door con acabado en acero inoxidable, sistema No Frost y compartimentos modulares para máxima organización. Ideal para familias que buscan eficiencia energética y diseño contemporáneo.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "french-door",
-    "sku": "RF-450-FD",
-    "isNew": true,
-    "featured": true,
-    "images": [
-      { "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador French Door 450L DRIJA" }
-    ],
-    "specs": [
-      { "label": "Capacidad", "value": "450 L" },
-      { "label": "Tecnología", "value": "No Frost" },
-      { "label": "Dispensador", "value": "Agua y hielo" }
-    ],
-    "translations": {
-      "en": {
-        "name": "French Door Refrigerator 450L",
-        "shortDescription": "Spacious capacity, water dispenser, and digital temperature control.",
-        "description": "French Door refrigerator with stainless steel finish, No Frost system, and modular compartments for maximum organization. Ideal for families seeking energy efficiency and contemporary design.",
-        "images": [
-          { "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA French Door Refrigerator 450L" }
-        ],
-        "specs": [
-          { "label": "Capacity", "value": "450 L" },
-          { "label": "Technology", "value": "No Frost" },
-          { "label": "Dispenser", "value": "Water and ice" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-320",
-    "slug": "refrigerador-top-mount-320l",
-    "name": "Refrigerador Top Mount 320L",
-    "shortDescription": "Diseño clásico con excelente relación espacio-consumo.",
-    "description": "Refrigerador Top Mount compacto con bandejas ajustables, iluminación LED y control mecánico confiable. Perfecto para espacios medianos.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "ejecutivas",
-    "sku": "RF-320-TM",
-    "featured": true,
-    "images": [
-      { "src": "/images/products/refrigerador-320.jpg", "alt": "Refrigerador Top Mount 320L DRIJA" }
-    ],
-    "specs": [
-      { "label": "Capacidad", "value": "320 L" },
-      { "label": "Estantes", "value": "Ajustables en vidrio" }
-    ],
-    "translations": {
-      "en": {
-        "name": "Top Mount Refrigerator 320L",
-        "shortDescription": "Classic design with an excellent space-to-consumption ratio.",
-        "description": "Compact Top Mount refrigerator with adjustable shelves, LED lighting, and reliable mechanical control. Perfect for medium-sized spaces.",
-        "images": [
-          { "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA Top Mount Refrigerator 320L" }
-        ],
-        "specs": [
-          { "label": "Capacity", "value": "320 L" },
-          { "label": "Shelves", "value": "Adjustable glass" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-emp-60",
-    "slug": "refrigerador-empotrable-60cm",
-    "name": "Refrigerador Empotrable 60 cm",
-    "shortDescription": "Integración perfecta con mobiliario de cocina.",
-    "description": "Refrigerador empotrable de 60 cm con puertas planas y ventilación frontal. Ideal para cocinas integradas de alto diseño.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "empotrables",
-    "sku": "RF-EMP-60",
-    "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador empotrable DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Built-in Refrigerator 60 cm",
-        "shortDescription": "Seamless integration with kitchen cabinetry.",
-        "description": "60 cm built-in refrigerator with flush doors and front ventilation. Ideal for high-design integrated kitchens.",
-        "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA built-in refrigerator" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-emp-90",
-    "slug": "refrigerador-empotrable-90cm",
-    "name": "Refrigerador Empotrable 90 cm",
-    "shortDescription": "Mayor capacidad con acabado panelable.",
-    "description": "Modelo empotrable de 90 cm compatible con paneles personalizados y sistema No Frost.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "empotrables",
-    "sku": "RF-EMP-90",
-    "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "Refrigerador empotrable 90 cm DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Built-in Refrigerator 90 cm",
-        "shortDescription": "Greater capacity with panel-ready finish.",
-        "description": "90 cm built-in model compatible with custom panels and No Frost system.",
-        "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA 90 cm built-in refrigerator" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-ej-400",
-    "slug": "refrigerador-ejecutivo-400l",
-    "name": "Refrigerador Ejecutivo 400L",
-    "shortDescription": "Diseño premium para oficinas y espacios compactos.",
-    "description": "Refrigerador ejecutivo con acabado negro, control digital y compartimentos modulares.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "ejecutivas",
-    "sku": "RF-EJ-400",
-    "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "Refrigerador ejecutivo DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Executive Refrigerator 400L",
-        "shortDescription": "Premium design for offices and compact spaces.",
-        "description": "Executive refrigerator with black finish, digital control, and modular compartments.",
-        "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA executive refrigerator" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-fd-520",
-    "slug": "refrigerador-french-door-520l",
-    "name": "Refrigerador French Door 520L",
-    "shortDescription": "Máxima capacidad con dispensador premium.",
-    "description": "French Door de gran formato con cajones modulables y tecnología Inverter.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "french-door",
-    "sku": "RF-520-FD",
-    "featured": true,
-    "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador French Door 520L DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "French Door Refrigerator 520L",
-        "shortDescription": "Maximum capacity with premium dispenser.",
-        "description": "Large-format French Door with modular drawers and Inverter technology.",
-        "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA French Door 520L" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-sbs-550",
-    "slug": "refrigerador-side-by-side-550l",
-    "name": "Refrigerador Side by Side 550L",
-    "shortDescription": "Puertas paralelas con dispensador de agua e hielo.",
-    "description": "Side by Side con pantalla táctil, zona convertible y sistema antibacterias.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "side-by-side",
-    "sku": "RF-550-SBS",
-    "isNew": true,
-    "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador Side by Side DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Side by Side Refrigerator 550L",
-        "shortDescription": "Parallel doors with water and ice dispenser.",
-        "description": "Side by Side with touch display, convertible zone, and antibacterial system.",
-        "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA Side by Side refrigerator" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-sbs-480",
-    "slug": "refrigerador-side-by-side-480l",
-    "name": "Refrigerador Side by Side 480L",
-    "shortDescription": "Organización vertical para familias activas.",
-    "description": "Modelo Side by Side con estantes ajustables y control independiente de temperatura.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "side-by-side",
-    "sku": "RF-480-SBS",
-    "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "Side by Side 480L DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Side by Side Refrigerator 480L",
-        "shortDescription": "Vertical organization for active families.",
-        "description": "Side by Side model with adjustable shelves and independent temperature control.",
-        "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA Side by Side 480L" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-twin-280",
-    "slug": "refrigerador-twin-280l",
-    "name": "Refrigerador Twin 280L",
-    "shortDescription": "Dos puertas superiores y congelador inferior.",
-    "description": "Refrigerador Twin compacto con excelente eficiencia energética.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "twin",
-    "sku": "RF-280-TW",
-    "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "Refrigerador Twin DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Twin Refrigerator 280L",
-        "shortDescription": "Two top doors and bottom freezer.",
-        "description": "Compact Twin refrigerator with excellent energy efficiency.",
-        "images": [{ "src": "/images/products/refrigerador-320.jpg", "alt": "DRIJA Twin refrigerator" }]
-      }
-    }
-  },
-  {
-    "id": "prod-rf-twin-350",
-    "slug": "refrigerador-twin-350l",
-    "name": "Refrigerador Twin 350L",
-    "shortDescription": "Formato Twin con mayor capacidad de congelación.",
-    "description": "Ideal para hogares que priorizan acceso rápido a refrigerados y congelados.",
-    "categorySlug": "refrigeradores",
-    "subcategorySlug": "twin",
-    "sku": "RF-350-TW",
-    "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "Refrigerador Twin 350L DRIJA" }],
-    "translations": {
-      "en": {
-        "name": "Twin Refrigerator 350L",
-        "shortDescription": "Twin format with greater freezer capacity.",
-        "description": "Ideal for homes that prioritize quick access to refrigerated and frozen items.",
-        "images": [{ "src": "/images/products/refrigerador-450.jpg", "alt": "DRIJA Twin 350L" }]
-      }
-    }
-  },
-  {
-    "id": "prod-ext-90",
-    "slug": "extractor-pared-90cm",
-    "name": "Extractor de Pared 90 cm",
-    "shortDescription": "Alta succión con filtros lavables y luz LED integrada.",
-    "description": "Campana extractora de pared de 90 cm con tres velocidades, panel táctil y filtros de aluminio reutilizables. Reduce humo y olores con operación silenciosa.",
+    "id": "prod-extractores-sottile-90-b",
+    "slug": "extractores-sottile-90-b",
+    "name": "Sottile 90-B",
+    "shortDescription": "Sottile 90-B — línea DRIJA.",
+    "description": "Sottile 90-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
     "categorySlug": "extractores",
-    "sku": "EXT-90-W",
-    "isNew": true,
-    "featured": true,
+    "subcategorySlug": "canopio",
+    "sku": "SOTTILE-90-B",
     "images": [
-      { "src": "/images/products/extractor-90.jpg", "alt": "Extractor de pared 90 cm DRIJA" }
-    ],
-    "specs": [
-      { "label": "Ancho", "value": "90 cm" },
-      { "label": "Velocidades", "value": "3" }
+      {
+        "src": "/images/products/extractores/sottile-90-b.jpg",
+        "alt": "Sottile 90-B DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "Wall-Mounted Range Hood 90 cm",
-        "shortDescription": "High suction with washable filters and integrated LED light.",
-        "description": "90 cm wall-mounted range hood with three speeds, touch panel, and reusable aluminum filters. Reduces smoke and odors with quiet operation.",
+        "name": "Sottile 90-B",
+        "shortDescription": "Sottile 90-B — DRIJA line.",
+        "description": "Sottile 90-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/extractor-90.jpg", "alt": "DRIJA Wall-Mounted Range Hood 90 cm" }
-        ],
-        "specs": [
-          { "label": "Width", "value": "90 cm" },
-          { "label": "Speeds", "value": "3" }
+          {
+            "src": "/images/products/extractores/sottile-90-b.jpg",
+            "alt": "DRIJA Sottile 90-B"
+          }
+        ]
+      }
+    },
+    "featured": true
+  },
+  {
+    "id": "prod-extractores-sottile-60-b",
+    "slug": "extractores-sottile-60-b",
+    "name": "Sottile 60-B",
+    "shortDescription": "Sottile 60-B — línea DRIJA.",
+    "description": "Sottile 60-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "canopio",
+    "sku": "SOTTILE-60-B",
+    "images": [
+      {
+        "src": "/images/products/extractores/sottile-60-b.jpg",
+        "alt": "Sottile 60-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sottile 60-B",
+        "shortDescription": "Sottile 60-B — DRIJA line.",
+        "description": "Sottile 60-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/sottile-60-b.jpg",
+            "alt": "DRIJA Sottile 60-B"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-horno-60",
-    "slug": "horno-electrico-60cm-inverter",
-    "name": "Horno Eléctrico 60 cm Inverter",
-    "shortDescription": "Cocción uniforme con tecnología Inverter y limpieza pirolítica.",
-    "description": "Horno empotrable de 60 cm con tecnología Inverter para precisión térmica, múltiples funciones de cocción y puerta de triple vidrio. Incluye bandejas antiadherentes.",
+    "id": "prod-extractores-invisibile-76-i",
+    "slug": "extractores-invisibile-76-i",
+    "name": "Invisibile 76-I",
+    "shortDescription": "Invisibile 76-I — línea DRIJA.",
+    "description": "Invisibile 76-I forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "canopio",
+    "sku": "INVISIBILE-76-I",
+    "images": [
+      {
+        "src": "/images/products/extractores/invisibile-76-i.jpg",
+        "alt": "Invisibile 76-I DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Invisibile 76-I",
+        "shortDescription": "Invisibile 76-I — DRIJA line.",
+        "description": "Invisibile 76-I is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/invisibile-76-i.jpg",
+            "alt": "DRIJA Invisibile 76-I"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-retractil-touch-60",
+    "slug": "extractores-retractil-touch-60",
+    "name": "Retráctil Touch 60",
+    "shortDescription": "Retráctil Touch 60 — línea DRIJA.",
+    "description": "Retráctil Touch 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "RETRÁCTIL-TOUCH-60",
+    "images": [
+      {
+        "src": "/images/products/extractores/retractil-touch-60.jpg",
+        "alt": "Retráctil Touch 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Retráctil Touch 60",
+        "shortDescription": "Retráctil Touch 60 — DRIJA line.",
+        "description": "Retráctil Touch 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/retractil-touch-60.jpg",
+            "alt": "DRIJA Retráctil Touch 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-compatto-90-black",
+    "slug": "extractores-compatto-90-black",
+    "name": "Compatto 90 Black",
+    "shortDescription": "Compatto 90 Black — línea DRIJA.",
+    "description": "Compatto 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "COMPATTO-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/compatto-90-black.jpg",
+        "alt": "Compatto 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Compatto 90 Black",
+        "shortDescription": "Compatto 90 Black — DRIJA line.",
+        "description": "Compatto 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/compatto-90-black.jpg",
+            "alt": "DRIJA Compatto 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-retractil-touch-90",
+    "slug": "extractores-retractil-touch-90",
+    "name": "Retractil Touch 90",
+    "shortDescription": "Retractil Touch 90 — línea DRIJA.",
+    "description": "Retractil Touch 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "RETRACTIL-TOUCH-90",
+    "images": [
+      {
+        "src": "/images/products/extractores/retractil-touch-90.jpg",
+        "alt": "Retractil Touch 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Retractil Touch 90",
+        "shortDescription": "Retractil Touch 90 — DRIJA line.",
+        "description": "Retractil Touch 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/retractil-touch-90.jpg",
+            "alt": "DRIJA Retractil Touch 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-retractil-touch-76",
+    "slug": "extractores-retractil-touch-76",
+    "name": "Retráctil Touch 76",
+    "shortDescription": "Retráctil Touch 76 — línea DRIJA.",
+    "description": "Retráctil Touch 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "RETRÁCTIL-TOUCH-76",
+    "images": [
+      {
+        "src": "/images/products/extractores/retractil-touch-76.jpg",
+        "alt": "Retráctil Touch 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Retráctil Touch 76",
+        "shortDescription": "Retráctil Touch 76 — DRIJA line.",
+        "description": "Retráctil Touch 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/retractil-touch-76.jpg",
+            "alt": "DRIJA Retráctil Touch 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-slim-touch-90-acero",
+    "slug": "extractores-slim-touch-90-acero",
+    "name": "Slim Touch 90 Acero",
+    "shortDescription": "Slim Touch 90 Acero — línea DRIJA.",
+    "description": "Slim Touch 90 Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "SLIM-TOUCH-90-ACERO",
+    "images": [
+      {
+        "src": "/images/products/extractores/slim-touch-90-acero.jpg",
+        "alt": "Slim Touch 90 Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Slim Touch 90 Acero",
+        "shortDescription": "Slim Touch 90 Acero — DRIJA line.",
+        "description": "Slim Touch 90 Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/slim-touch-90-acero.jpg",
+            "alt": "DRIJA Slim Touch 90 Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-slim-touch-76-acero",
+    "slug": "extractores-slim-touch-76-acero",
+    "name": "Slim Touch 76 Acero",
+    "shortDescription": "Slim Touch 76 Acero — línea DRIJA.",
+    "description": "Slim Touch 76 Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "SLIM-TOUCH-76-ACERO",
+    "images": [
+      {
+        "src": "/images/products/extractores/slim-touch-76-acero.jpg",
+        "alt": "Slim Touch 76 Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Slim Touch 76 Acero",
+        "shortDescription": "Slim Touch 76 Acero — DRIJA line.",
+        "description": "Slim Touch 76 Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/slim-touch-76-acero.jpg",
+            "alt": "DRIJA Slim Touch 76 Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-slim-touch-90-black",
+    "slug": "extractores-slim-touch-90-black",
+    "name": "Slim Touch 90 Black",
+    "shortDescription": "Slim Touch 90 Black — línea DRIJA.",
+    "description": "Slim Touch 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "SLIM-TOUCH-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/slim-touch-90-black.jpg",
+        "alt": "Slim Touch 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Slim Touch 90 Black",
+        "shortDescription": "Slim Touch 90 Black — DRIJA line.",
+        "description": "Slim Touch 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/slim-touch-90-black.jpg",
+            "alt": "DRIJA Slim Touch 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-slim-touch-76-black",
+    "slug": "extractores-slim-touch-76-black",
+    "name": "Slim Touch 76 Black",
+    "shortDescription": "Slim Touch 76 Black — línea DRIJA.",
+    "description": "Slim Touch 76 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "SLIM-TOUCH-76-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/slim-touch-76-black.jpg",
+        "alt": "Slim Touch 76 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Slim Touch 76 Black",
+        "shortDescription": "Slim Touch 76 Black — DRIJA line.",
+        "description": "Slim Touch 76 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/slim-touch-76-black.jpg",
+            "alt": "DRIJA Slim Touch 76 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-slim-touch-60-black",
+    "slug": "extractores-slim-touch-60-black",
+    "name": "Slim Touch 60 Black",
+    "shortDescription": "Slim Touch 60 Black — línea DRIJA.",
+    "description": "Slim Touch 60 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "SLIM-TOUCH-60-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/slim-touch-60-black.jpg",
+        "alt": "Slim Touch 60 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Slim Touch 60 Black",
+        "shortDescription": "Slim Touch 60 Black — DRIJA line.",
+        "description": "Slim Touch 60 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/slim-touch-60-black.jpg",
+            "alt": "DRIJA Slim Touch 60 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-compatto-90-acero",
+    "slug": "extractores-compatto-90-acero",
+    "name": "Compatto 90 Acero",
+    "shortDescription": "Compatto 90 Acero — línea DRIJA.",
+    "description": "Compatto 90 Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "COMPATTO-90-ACERO",
+    "images": [
+      {
+        "src": "/images/products/extractores/compatto-90-acero.jpg",
+        "alt": "Compatto 90 Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Compatto 90 Acero",
+        "shortDescription": "Compatto 90 Acero — DRIJA line.",
+        "description": "Compatto 90 Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/compatto-90-acero.jpg",
+            "alt": "DRIJA Compatto 90 Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-compatto-76-black",
+    "slug": "extractores-compatto-76-black",
+    "name": "Compatto 76 Black",
+    "shortDescription": "Compatto 76 Black — línea DRIJA.",
+    "description": "Compatto 76 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "COMPATTO-76-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/compatto-76-black.jpg",
+        "alt": "Compatto 76 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Compatto 76 Black",
+        "shortDescription": "Compatto 76 Black — DRIJA line.",
+        "description": "Compatto 76 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/compatto-76-black.jpg",
+            "alt": "DRIJA Compatto 76 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-compatto-60-black",
+    "slug": "extractores-compatto-60-black",
+    "name": "Compatto 60 Black",
+    "shortDescription": "Compatto 60 Black — línea DRIJA.",
+    "description": "Compatto 60 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "compactas",
+    "sku": "COMPATTO-60-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/compatto-60-black.jpg",
+        "alt": "Compatto 60 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Compatto 60 Black",
+        "shortDescription": "Compatto 60 Black — DRIJA line.",
+        "description": "Compatto 60 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/compatto-60-black.jpg",
+            "alt": "DRIJA Compatto 60 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-trapecio-90-black",
+    "slug": "extractores-trapecio-90-black",
+    "name": "Trapecio 90 Black",
+    "shortDescription": "Trapecio 90 Black — línea DRIJA.",
+    "description": "Trapecio 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "TRAPECIO-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/trapecio-90-black.jpg",
+        "alt": "Trapecio 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Trapecio 90 Black",
+        "shortDescription": "Trapecio 90 Black — DRIJA line.",
+        "description": "Trapecio 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/trapecio-90-black.jpg",
+            "alt": "DRIJA Trapecio 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-triangulo-90",
+    "slug": "extractores-triangulo-90",
+    "name": "Triangulo 90",
+    "shortDescription": "Triangulo 90 — línea DRIJA.",
+    "description": "Triangulo 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "TRIANGULO-90",
+    "images": [
+      {
+        "src": "/images/products/extractores/triangulo-90.jpg",
+        "alt": "Triangulo 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Triangulo 90",
+        "shortDescription": "Triangulo 90 — DRIJA line.",
+        "description": "Triangulo 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/triangulo-90.jpg",
+            "alt": "DRIJA Triangulo 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-triangulo-76",
+    "slug": "extractores-triangulo-76",
+    "name": "Triangulo 76",
+    "shortDescription": "Triangulo 76 — línea DRIJA.",
+    "description": "Triangulo 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "TRIANGULO-76",
+    "images": [
+      {
+        "src": "/images/products/extractores/triangulo-76.jpg",
+        "alt": "Triangulo 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Triangulo 76",
+        "shortDescription": "Triangulo 76 — DRIJA line.",
+        "description": "Triangulo 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/triangulo-76.jpg",
+            "alt": "DRIJA Triangulo 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-piramide-90-black",
+    "slug": "extractores-piramide-90-black",
+    "name": "Piramide 90 Black",
+    "shortDescription": "Piramide 90 Black — línea DRIJA.",
+    "description": "Piramide 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "PIRAMIDE-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/piramide-90-black.jpg",
+        "alt": "Piramide 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Piramide 90 Black",
+        "shortDescription": "Piramide 90 Black — DRIJA line.",
+        "description": "Piramide 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/piramide-90-black.jpg",
+            "alt": "DRIJA Piramide 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-quadrato-90-black-acero",
+    "slug": "extractores-quadrato-90-black-acero",
+    "name": "Quadrato 90 Black | Acero",
+    "shortDescription": "Quadrato 90 Black | Acero — línea DRIJA.",
+    "description": "Quadrato 90 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "QUADRATO-90-BLACK-|-ACER",
+    "images": [
+      {
+        "src": "/images/products/extractores/quadrato-90-black-acero.jpg",
+        "alt": "Quadrato 90 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Quadrato 90 Black | Acero",
+        "shortDescription": "Quadrato 90 Black | Acero — DRIJA line.",
+        "description": "Quadrato 90 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/quadrato-90-black-acero.jpg",
+            "alt": "DRIJA Quadrato 90 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-quadrato-isla-76-black",
+    "slug": "extractores-quadrato-isla-76-black",
+    "name": "Quadrato Isla 76 Black",
+    "shortDescription": "Quadrato Isla 76 Black — línea DRIJA.",
+    "description": "Quadrato Isla 76 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "isla",
+    "sku": "QUADRATO-ISLA-76-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/quadrato-isla-76-black.jpg",
+        "alt": "Quadrato Isla 76 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Quadrato Isla 76 Black",
+        "shortDescription": "Quadrato Isla 76 Black — DRIJA line.",
+        "description": "Quadrato Isla 76 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/quadrato-isla-76-black.jpg",
+            "alt": "DRIJA Quadrato Isla 76 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-trapezio-90-black",
+    "slug": "extractores-trapezio-90-black",
+    "name": "Trapezio 90 Black",
+    "shortDescription": "Trapezio 90 Black — línea DRIJA.",
+    "description": "Trapezio 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "TRAPEZIO-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/trapezio-90-black.jpg",
+        "alt": "Trapezio 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Trapezio 90 Black",
+        "shortDescription": "Trapezio 90 Black — DRIJA line.",
+        "description": "Trapezio 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/trapezio-90-black.jpg",
+            "alt": "DRIJA Trapezio 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-triangulo-60",
+    "slug": "extractores-triangulo-60",
+    "name": "Triangulo 60",
+    "shortDescription": "Triangulo 60 — línea DRIJA.",
+    "description": "Triangulo 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "TRIANGULO-60",
+    "images": [
+      {
+        "src": "/images/products/extractores/triangulo-60.jpg",
+        "alt": "Triangulo 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Triangulo 60",
+        "shortDescription": "Triangulo 60 — DRIJA line.",
+        "description": "Triangulo 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/triangulo-60.jpg",
+            "alt": "DRIJA Triangulo 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-quadrato-76-black-acero",
+    "slug": "extractores-quadrato-76-black-acero",
+    "name": "Quadrato 76 | Black Acero",
+    "shortDescription": "Quadrato 76 | Black Acero — línea DRIJA.",
+    "description": "Quadrato 76 | Black Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "QUADRATO-76-|-BLACK-ACER",
+    "images": [
+      {
+        "src": "/images/products/extractores/quadrato-76-black-acero.jpg",
+        "alt": "Quadrato 76 | Black Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Quadrato 76 | Black Acero",
+        "shortDescription": "Quadrato 76 | Black Acero — DRIJA line.",
+        "description": "Quadrato 76 | Black Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/quadrato-76-black-acero.jpg",
+            "alt": "DRIJA Quadrato 76 | Black Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-reactangulo-90-black",
+    "slug": "extractores-reactangulo-90-black",
+    "name": "Reactangulo 90 Black",
+    "shortDescription": "Reactangulo 90 Black — línea DRIJA.",
+    "description": "Reactangulo 90 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "REACTANGULO-90-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/reactangulo-90-black.jpg",
+        "alt": "Reactangulo 90 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Reactangulo 90 Black",
+        "shortDescription": "Reactangulo 90 Black — DRIJA line.",
+        "description": "Reactangulo 90 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/reactangulo-90-black.jpg",
+            "alt": "DRIJA Reactangulo 90 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-resctangulo-76-black",
+    "slug": "extractores-resctangulo-76-black",
+    "name": "Resctangulo 76 Black",
+    "shortDescription": "Resctangulo 76 Black — línea DRIJA.",
+    "description": "Resctangulo 76 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "RESCTANGULO-76-BLACK",
+    "images": [
+      {
+        "src": "/images/products/extractores/resctangulo-76-black.jpg",
+        "alt": "Resctangulo 76 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Resctangulo 76 Black",
+        "shortDescription": "Resctangulo 76 Black — DRIJA line.",
+        "description": "Resctangulo 76 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/resctangulo-76-black.jpg",
+            "alt": "DRIJA Resctangulo 76 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-prisma-touch-90-black-acero",
+    "slug": "extractores-prisma-touch-90-black-acero",
+    "name": "Prisma Touch 90 Black | Acero",
+    "shortDescription": "Prisma Touch 90 Black | Acero — línea DRIJA.",
+    "description": "Prisma Touch 90 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "PRISMA-TOUCH-90-BLACK-|-",
+    "images": [
+      {
+        "src": "/images/products/extractores/prisma-touch-90-black-acero.jpg",
+        "alt": "Prisma Touch 90 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Prisma Touch 90 Black | Acero",
+        "shortDescription": "Prisma Touch 90 Black | Acero — DRIJA line.",
+        "description": "Prisma Touch 90 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/prisma-touch-90-black-acero.jpg",
+            "alt": "DRIJA Prisma Touch 90 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-prisma-touch-76-black-acero",
+    "slug": "extractores-prisma-touch-76-black-acero",
+    "name": "Prisma Touch 76 Black | Acero",
+    "shortDescription": "Prisma Touch 76 Black | Acero — línea DRIJA.",
+    "description": "Prisma Touch 76 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "PRISMA-TOUCH-76-BLACK-|-",
+    "images": [
+      {
+        "src": "/images/products/extractores/prisma-touch-76-black-acero.jpg",
+        "alt": "Prisma Touch 76 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Prisma Touch 76 Black | Acero",
+        "shortDescription": "Prisma Touch 76 Black | Acero — DRIJA line.",
+        "description": "Prisma Touch 76 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/prisma-touch-76-black-acero.jpg",
+            "alt": "DRIJA Prisma Touch 76 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-prisma-touch-60-black-acero",
+    "slug": "extractores-prisma-touch-60-black-acero",
+    "name": "Prisma Touch 60 Black | Acero",
+    "shortDescription": "Prisma Touch 60 Black | Acero — línea DRIJA.",
+    "description": "Prisma Touch 60 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "PRISMA-TOUCH-60-BLACK-|-",
+    "images": [
+      {
+        "src": "/images/products/extractores/prisma-touch-60-black-acero.jpg",
+        "alt": "Prisma Touch 60 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Prisma Touch 60 Black | Acero",
+        "shortDescription": "Prisma Touch 60 Black | Acero — DRIJA line.",
+        "description": "Prisma Touch 60 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/prisma-touch-60-black-acero.jpg",
+            "alt": "DRIJA Prisma Touch 60 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-galaxy-90-black-acero",
+    "slug": "extractores-galaxy-90-black-acero",
+    "name": "Galaxy 90 Black | Acero",
+    "shortDescription": "Galaxy 90 Black | Acero — línea DRIJA.",
+    "description": "Galaxy 90 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "GALAXY-90-BLACK-|-ACERO",
+    "images": [
+      {
+        "src": "/images/products/extractores/galaxy-90-black-acero.jpg",
+        "alt": "Galaxy 90 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Galaxy 90 Black | Acero",
+        "shortDescription": "Galaxy 90 Black | Acero — DRIJA line.",
+        "description": "Galaxy 90 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/galaxy-90-black-acero.jpg",
+            "alt": "DRIJA Galaxy 90 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-extractores-galaxy-76-black-acero",
+    "slug": "extractores-galaxy-76-black-acero",
+    "name": "Galaxy 76 Black | Acero",
+    "shortDescription": "Galaxy 76 Black | Acero — línea DRIJA.",
+    "description": "Galaxy 76 Black | Acero forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "extractores",
+    "subcategorySlug": "pared",
+    "sku": "GALAXY-76-BLACK-|-ACERO",
+    "images": [
+      {
+        "src": "/images/products/extractores/galaxy-76-black-acero.jpg",
+        "alt": "Galaxy 76 Black | Acero DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Galaxy 76 Black | Acero",
+        "shortDescription": "Galaxy 76 Black | Acero — DRIJA line.",
+        "description": "Galaxy 76 Black | Acero is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/extractores/galaxy-76-black-acero.jpg",
+            "alt": "DRIJA Galaxy 76 Black | Acero"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-hornos-atlantic-76-b",
+    "slug": "hornos-atlantic-76-b",
+    "name": "Atlantic 76-B",
+    "shortDescription": "Atlantic 76-B — línea DRIJA.",
+    "description": "Atlantic 76-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
     "categorySlug": "hornos",
-    "sku": "HO-60-INV",
-    "isNew": true,
-    "featured": true,
+    "subcategorySlug": "torre-horno-microondas",
+    "sku": "ATLANTIC-76-B",
     "images": [
-      { "src": "/images/products/horno-60.jpg", "alt": "Horno eléctrico 60 cm Inverter DRIJA" }
-    ],
-    "specs": [
-      { "label": "Capacidad", "value": "72 L" },
-      { "label": "Tecnología", "value": "Inverter" }
+      {
+        "src": "/images/products/hornos/atlantic-76-b.jpg",
+        "alt": "Atlantic 76-B DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "60 cm Inverter Electric Oven",
-        "shortDescription": "Even cooking with Inverter technology and pyrolytic self-cleaning.",
-        "description": "60 cm built-in oven with Inverter technology for thermal precision, multiple cooking functions, and triple-glazed door. Includes non-stick baking trays.",
+        "name": "Atlantic 76-B",
+        "shortDescription": "Atlantic 76-B — DRIJA line.",
+        "description": "Atlantic 76-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/horno-60.jpg", "alt": "DRIJA 60 cm Inverter Electric Oven" }
-        ],
-        "specs": [
-          { "label": "Capacity", "value": "72 L" },
-          { "label": "Technology", "value": "Inverter" }
+          {
+            "src": "/images/products/hornos/atlantic-76-b.jpg",
+            "alt": "DRIJA Atlantic 76-B"
+          }
+        ]
+      }
+    },
+    "featured": true
+  },
+  {
+    "id": "prod-hornos-america-90-air-a",
+    "slug": "hornos-america-90-air-a",
+    "name": "América 90 Air-A",
+    "shortDescription": "América 90 Air-A — línea DRIJA.",
+    "description": "América 90 Air-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "AMÉRICA-90-AIR-A",
+    "images": [
+      {
+        "src": "/images/products/hornos/america-90-air-a.jpg",
+        "alt": "América 90 Air-A DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "América 90 Air-A",
+        "shortDescription": "América 90 Air-A — DRIJA line.",
+        "description": "América 90 Air-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/hornos/america-90-air-a.jpg",
+            "alt": "DRIJA América 90 Air-A"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-vinera-28",
-    "slug": "vinera-28-botellas",
-    "name": "Vinera 28 Botellas",
-    "shortDescription": "Control de temperatura dual zone para vinos tintos y blancos.",
-    "description": "Vinera independiente con capacidad para 28 botellas, puerta de vidrio templado y estantes de madera. Mantiene humedad y temperatura estables.",
-    "categorySlug": "vineras",
-    "sku": "VN-28-DZ",
+    "id": "prod-hornos-pacific-76-air-a",
+    "slug": "hornos-pacific-76-air-a",
+    "name": "Pacific 76 Air-A",
+    "shortDescription": "Pacific 76 Air-A — línea DRIJA.",
+    "description": "Pacific 76 Air-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "PACIFIC-76-AIR-A",
     "images": [
-      { "src": "/images/products/vinera-28.jpg", "alt": "Vinera 28 botellas DRIJA" }
+      {
+        "src": "/images/products/hornos/pacific-76-air-a.jpg",
+        "alt": "Pacific 76 Air-A DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "28-Bottle Wine Cooler",
-        "shortDescription": "Dual-zone temperature control for red and white wines.",
-        "description": "Freestanding wine cooler with capacity for 28 bottles, tempered glass door, and wooden shelves. Maintains stable humidity and temperature.",
+        "name": "Pacific 76 Air-A",
+        "shortDescription": "Pacific 76 Air-A — DRIJA line.",
+        "description": "Pacific 76 Air-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/vinera-28.jpg", "alt": "DRIJA 28-Bottle Wine Cooler" }
+          {
+            "src": "/images/products/hornos/pacific-76-air-a.jpg",
+            "alt": "DRIJA Pacific 76 Air-A"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-estufa-5q",
-    "slug": "estufa-5-quemadores-acero",
-    "name": "Estufa 5 Quemadores Acero",
-    "shortDescription": "Quemadores sellados y horno con convección.",
-    "description": "Estufa a gas de 76 cm con cinco quemadores de alta eficiencia, parrillas en hierro fundido y horno con ventilador de convección.",
-    "categorySlug": "estufas",
-    "sku": "ES-5Q-76",
-    "featured": true,
+    "id": "prod-hornos-caribe-76-air-a",
+    "slug": "hornos-caribe-76-air-a",
+    "name": "Caribe 76 Air-A",
+    "shortDescription": "Caribe 76 Air-A — línea DRIJA.",
+    "description": "Caribe 76 Air-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "CARIBE-76-AIR-A",
     "images": [
-      { "src": "/images/products/estufa-5q.jpg", "alt": "Estufa 5 quemadores DRIJA" }
+      {
+        "src": "/images/products/hornos/caribe-76-air-a.jpg",
+        "alt": "Caribe 76 Air-A DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "5-Burner Stainless Steel Range",
-        "shortDescription": "Sealed burners and convection oven.",
-        "description": "76 cm gas range with five high-efficiency burners, cast iron grates, and oven with convection fan.",
+        "name": "Caribe 76 Air-A",
+        "shortDescription": "Caribe 76 Air-A — DRIJA line.",
+        "description": "Caribe 76 Air-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/estufa-5q.jpg", "alt": "DRIJA 5-Burner Range" }
+          {
+            "src": "/images/products/hornos/caribe-76-air-a.jpg",
+            "alt": "DRIJA Caribe 76 Air-A"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-cal-50",
-    "slug": "calentador-tanque-50l",
-    "name": "Calentador de Tanque 50L",
-    "shortDescription": "Recuperación rápida con recubrimiento anticorrosivo.",
-    "description": "Calentador de agua de almacenamiento de 50 litros con ánodo de magnesio y válvula de seguridad. Compatible con instalaciones residenciales estándar.",
-    "categorySlug": "calentadores-de-agua",
-    "sku": "CA-50-TK",
+    "id": "prod-hornos-america-90-air",
+    "slug": "hornos-america-90-air",
+    "name": "America 90 Air",
+    "shortDescription": "America 90 Air — línea DRIJA.",
+    "description": "America 90 Air forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "AMERICA-90-AIR",
     "images": [
-      { "src": "/images/products/calentador-50.jpg", "alt": "Calentador de tanque 50L DRIJA" }
+      {
+        "src": "/images/products/hornos/america-90-air.jpg",
+        "alt": "America 90 Air DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "50L Tank Water Heater",
-        "shortDescription": "Fast recovery with anti-corrosion coating.",
-        "description": "50-liter storage water heater with magnesium anode and safety valve. Compatible with standard residential installations.",
+        "name": "America 90 Air",
+        "shortDescription": "America 90 Air — DRIJA line.",
+        "description": "America 90 Air is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/calentador-50.jpg", "alt": "DRIJA 50L Tank Water Heater" }
+          {
+            "src": "/images/products/hornos/america-90-air.jpg",
+            "alt": "DRIJA America 90 Air"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-micro-25",
-    "slug": "microondas-25l-inverter",
-    "name": "Microondas 25L Inverter",
-    "shortDescription": "Descongelado inteligente y panel digital.",
-    "description": "Microondas de 25 litros con tecnología Inverter, grill combinado y menús automáticos para cocción uniforme.",
-    "categorySlug": "microondas",
-    "sku": "MI-25-INV",
+    "id": "prod-hornos-indico-60-air",
+    "slug": "hornos-indico-60-air",
+    "name": "Indico 60 Air",
+    "shortDescription": "Indico 60 Air — línea DRIJA.",
+    "description": "Indico 60 Air forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "INDICO-60-AIR",
     "images": [
-      { "src": "/images/products/microondas-25.jpg", "alt": "Microondas 25L Inverter DRIJA" }
+      {
+        "src": "/images/products/hornos/indico-60-air.jpg",
+        "alt": "Indico 60 Air DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "25L Inverter Microwave",
-        "shortDescription": "Smart defrost and digital panel.",
-        "description": "25-liter microwave with Inverter technology, combination grill, and automatic menus for even cooking.",
+        "name": "Indico 60 Air",
+        "shortDescription": "Indico 60 Air — DRIJA line.",
+        "description": "Indico 60 Air is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/microondas-25.jpg", "alt": "DRIJA 25L Inverter Microwave" }
+          {
+            "src": "/images/products/hornos/indico-60-air.jpg",
+            "alt": "DRIJA Indico 60 Air"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-lav-18",
-    "slug": "lavadora-carga-frontal-18kg",
-    "name": "Lavadora Carga Frontal 18 kg",
-    "shortDescription": "Motor inverter direct drive y ciclos eco.",
-    "description": "Lavadora de carga frontal de 18 kg con tambor de acero inoxidable, múltiples programas y tecnología de bajo consumo de agua.",
-    "categorySlug": "lavadoras",
-    "sku": "LV-18-CF",
-    "isNew": true,
-    "featured": true,
+    "id": "prod-hornos-pacifico-76-air",
+    "slug": "hornos-pacifico-76-air",
+    "name": "Pacífico 76 Air",
+    "shortDescription": "Pacífico 76 Air — línea DRIJA.",
+    "description": "Pacífico 76 Air forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "PACÍFICO-76-AIR",
     "images": [
-      { "src": "/images/products/lavadora-18.jpg", "alt": "Lavadora carga frontal 18 kg DRIJA" }
+      {
+        "src": "/images/products/hornos/pacifico-76-air.jpg",
+        "alt": "Pacífico 76 Air DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "18 kg Front-Load Washer",
-        "shortDescription": "Direct drive inverter motor and eco cycles.",
-        "description": "18 kg front-load washer with stainless steel drum, multiple programs, and low water consumption technology.",
+        "name": "Pacífico 76 Air",
+        "shortDescription": "Pacífico 76 Air — DRIJA line.",
+        "description": "Pacífico 76 Air is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/lavadora-18.jpg", "alt": "DRIJA 18 kg Front-Load Washer" }
+          {
+            "src": "/images/products/hornos/pacifico-76-air.jpg",
+            "alt": "DRIJA Pacífico 76 Air"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-air-4l",
-    "slug": "air-fryer-4-litros",
-    "name": "Air Fryer 4 Litros",
-    "shortDescription": "Cocción crujiente con hasta 80% menos aceite.",
-    "description": "Freidora de aire de 4 litros con control digital, 8 programas preestablecidos y canasta antiadherente apta para lavavajillas.",
-    "categorySlug": "pequenos-electrodomesticos",
-    "sku": "AF-4L-DG",
-    "isNew": true,
+    "id": "prod-hornos-caribe-76-air",
+    "slug": "hornos-caribe-76-air",
+    "name": "Caribe 76 Air",
+    "shortDescription": "Caribe 76 Air — línea DRIJA.",
+    "description": "Caribe 76 Air forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "CARIBE-76-AIR",
     "images": [
-      { "src": "/images/products/air-fryer-4l.jpg", "alt": "Air Fryer 4 litros DRIJA" }
+      {
+        "src": "/images/products/hornos/caribe-76-air.jpg",
+        "alt": "Caribe 76 Air DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "4-Liter Air Fryer",
-        "shortDescription": "Crispy cooking with up to 80% less oil.",
-        "description": "4-liter air fryer with digital control, 8 preset programs, and dishwasher-safe non-stick basket.",
+        "name": "Caribe 76 Air",
+        "shortDescription": "Caribe 76 Air — DRIJA line.",
+        "description": "Caribe 76 Air is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/air-fryer-4l.jpg", "alt": "DRIJA 4-Liter Air Fryer" }
+          {
+            "src": "/images/products/hornos/caribe-76-air.jpg",
+            "alt": "DRIJA Caribe 76 Air"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-disp-3v",
-    "slug": "dispensador-agua-3-vias",
-    "name": "Dispensador de Agua 3 Vías",
-    "shortDescription": "Agua fría, caliente y ambiente con gabinete inferior.",
-    "description": "Dispensador de mesa con tres temperaturas, sistema de filtración compatible y diseño compacto para oficina u hogar.",
-    "categorySlug": "dispensadores-de-agua",
-    "sku": "DA-3V-01",
+    "id": "prod-hornos-latino-60-black",
+    "slug": "hornos-latino-60-black",
+    "name": "Latino 60 Black",
+    "shortDescription": "Latino 60 Black — línea DRIJA.",
+    "description": "Latino 60 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "electricos",
+    "sku": "LATINO-60-BLACK",
     "images": [
-      { "src": "/images/products/dispensador-3v.jpg", "alt": "Dispensador de agua 3 vías DRIJA" }
+      {
+        "src": "/images/products/hornos/latino-60-black.jpg",
+        "alt": "Latino 60 Black DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "3-Temperature Water Dispenser",
-        "shortDescription": "Cold, hot, and room-temperature water with lower cabinet.",
-        "description": "Countertop dispenser with three temperature settings, compatible filtration system, and compact design for office or home.",
+        "name": "Latino 60 Black",
+        "shortDescription": "Latino 60 Black — DRIJA line.",
+        "description": "Latino 60 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/dispensador-3v.jpg", "alt": "DRIJA 3-Temperature Water Dispenser" }
+          {
+            "src": "/images/products/hornos/latino-60-black.jpg",
+            "alt": "DRIJA Latino 60 Black"
+          }
         ]
       }
     }
   },
   {
-    "id": "prod-hielo-15",
-    "slug": "fabricador-hielo-15kg",
-    "name": "Fabricador de Hielo 15 kg/día",
-    "shortDescription": "Producción continua de cubos transparentes.",
-    "description": "Fabricador de hielo independiente con producción de hasta 15 kg diarios, depósito extraíble y alerta de llenado.",
+    "id": "prod-hornos-roma-76-gas-grill",
+    "slug": "hornos-roma-76-gas-grill",
+    "name": "Roma 76 Gas Grill",
+    "shortDescription": "Roma 76 Gas Grill — línea DRIJA.",
+    "description": "Roma 76 Gas Grill forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "gas",
+    "sku": "ROMA-76-GAS-GRILL",
+    "images": [
+      {
+        "src": "/images/products/hornos/roma-76-gas-grill.jpg",
+        "alt": "Roma 76 Gas Grill DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Roma 76 Gas Grill",
+        "shortDescription": "Roma 76 Gas Grill — DRIJA line.",
+        "description": "Roma 76 Gas Grill is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/hornos/roma-76-gas-grill.jpg",
+            "alt": "DRIJA Roma 76 Gas Grill"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-hornos-europa-60-gas-grill-air",
+    "slug": "hornos-europa-60-gas-grill-air",
+    "name": "Europa 60 Gas Grill Air",
+    "shortDescription": "Europa 60 Gas Grill Air — línea DRIJA.",
+    "description": "Europa 60 Gas Grill Air forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "gas",
+    "sku": "EUROPA-60-GAS-GRILL-AIR",
+    "images": [
+      {
+        "src": "/images/products/hornos/europa-60-gas-grill-air.jpg",
+        "alt": "Europa 60 Gas Grill Air DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Europa 60 Gas Grill Air",
+        "shortDescription": "Europa 60 Gas Grill Air — DRIJA line.",
+        "description": "Europa 60 Gas Grill Air is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/hornos/europa-60-gas-grill-air.jpg",
+            "alt": "DRIJA Europa 60 Gas Grill Air"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-hornos-norteamerica-90",
+    "slug": "hornos-norteamerica-90",
+    "name": "Norteamerica 90",
+    "shortDescription": "Norteamerica 90 — línea DRIJA.",
+    "description": "Norteamerica 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "gas",
+    "sku": "NORTEAMERICA-90",
+    "images": [
+      {
+        "src": "/images/products/hornos/norteamerica-90.jpg",
+        "alt": "Norteamerica 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Norteamerica 90",
+        "shortDescription": "Norteamerica 90 — DRIJA line.",
+        "description": "Norteamerica 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/hornos/norteamerica-90.jpg",
+            "alt": "DRIJA Norteamerica 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-hornos-europa-60-gas-grill",
+    "slug": "hornos-europa-60-gas-grill",
+    "name": "Europa 60 Gas Grill",
+    "shortDescription": "Europa 60 Gas Grill — línea DRIJA.",
+    "description": "Europa 60 Gas Grill forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "hornos",
+    "subcategorySlug": "gas",
+    "sku": "EUROPA-60-GAS-GRILL",
+    "images": [
+      {
+        "src": "/images/products/hornos/europa-60-gas-grill.jpg",
+        "alt": "Europa 60 Gas Grill DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Europa 60 Gas Grill",
+        "shortDescription": "Europa 60 Gas Grill — DRIJA line.",
+        "description": "Europa 60 Gas Grill is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/hornos/europa-60-gas-grill.jpg",
+            "alt": "DRIJA Europa 60 Gas Grill"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-glass-b-18fd4p",
+    "slug": "refrigeradores-glass-b-18fd4p",
+    "name": "Glass-B 18FD4P",
+    "shortDescription": "Glass-B 18FD4P — línea DRIJA.",
+    "description": "Glass-B 18FD4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "empotrables",
+    "sku": "GLASS-B-18FD4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/glass-b-18fd4p.jpg",
+        "alt": "Glass-B 18FD4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Glass-B 18FD4P",
+        "shortDescription": "Glass-B 18FD4P — DRIJA line.",
+        "description": "Glass-B 18FD4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/glass-b-18fd4p.jpg",
+            "alt": "DRIJA Glass-B 18FD4P"
+          }
+        ]
+      }
+    },
+    "featured": true
+  },
+  {
+    "id": "prod-refrigeradores-glass-b-18cd4p",
+    "slug": "refrigeradores-glass-b-18cd4p",
+    "name": "Glass-B 18CD4P",
+    "shortDescription": "Glass-B 18CD4P — línea DRIJA.",
+    "description": "Glass-B 18CD4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "empotrables",
+    "sku": "GLASS-B-18CD4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/glass-b-18cd4p.jpg",
+        "alt": "Glass-B 18CD4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Glass-B 18CD4P",
+        "shortDescription": "Glass-B 18CD4P — DRIJA line.",
+        "description": "Glass-B 18CD4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/glass-b-18cd4p.jpg",
+            "alt": "DRIJA Glass-B 18CD4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-dark-i-18fd4p",
+    "slug": "refrigeradores-dark-i-18fd4p",
+    "name": "Dark-I 18FD4P",
+    "shortDescription": "Dark-I 18FD4P — línea DRIJA.",
+    "description": "Dark-I 18FD4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "empotrables",
+    "sku": "DARK-I-18FD4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/dark-i-18fd4p.jpg",
+        "alt": "Dark-I 18FD4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Dark-I 18FD4P",
+        "shortDescription": "Dark-I 18FD4P — DRIJA line.",
+        "description": "Dark-I 18FD4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/dark-i-18fd4p.jpg",
+            "alt": "DRIJA Dark-I 18FD4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-dark-i-18cd4p",
+    "slug": "refrigeradores-dark-i-18cd4p",
+    "name": "Dark-I 18CD4P",
+    "shortDescription": "Dark-I 18CD4P — línea DRIJA.",
+    "description": "Dark-I 18CD4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "empotrables",
+    "sku": "DARK-I-18CD4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/dark-i-18cd4p.jpg",
+        "alt": "Dark-I 18CD4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Dark-I 18CD4P",
+        "shortDescription": "Dark-I 18CD4P — DRIJA line.",
+        "description": "Dark-I 18CD4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/dark-i-18cd4p.jpg",
+            "alt": "DRIJA Dark-I 18CD4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-mirror-3",
+    "slug": "refrigeradores-mirror-3",
+    "name": "Mirror 3",
+    "shortDescription": "Mirror 3 — línea DRIJA.",
+    "description": "Mirror 3 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "ejecutivas",
+    "sku": "MIRROR-3",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/mirror-3.jpg",
+        "alt": "Mirror 3 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mirror 3",
+        "shortDescription": "Mirror 3 — DRIJA line.",
+        "description": "Mirror 3 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/mirror-3.jpg",
+            "alt": "DRIJA Mirror 3"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-3",
+    "slug": "refrigeradores-black-3",
+    "name": "Black 3",
+    "shortDescription": "Black 3 — línea DRIJA.",
+    "description": "Black 3 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "ejecutivas",
+    "sku": "BLACK-3",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-3.jpg",
+        "alt": "Black 3 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 3",
+        "shortDescription": "Black 3 — DRIJA line.",
+        "description": "Black 3 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-3.jpg",
+            "alt": "DRIJA Black 3"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-mirror-18d4p",
+    "slug": "refrigeradores-mirror-18d4p",
+    "name": "Mirror 18D4P",
+    "shortDescription": "Mirror 18D4P — línea DRIJA.",
+    "description": "Mirror 18D4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "MIRROR-18D4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/mirror-18d4p.jpg",
+        "alt": "Mirror 18D4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mirror 18D4P",
+        "shortDescription": "Mirror 18D4P — DRIJA line.",
+        "description": "Mirror 18D4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/mirror-18d4p.jpg",
+            "alt": "DRIJA Mirror 18D4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox-18d4p",
+    "slug": "refrigeradores-inox-18d4p",
+    "name": "Inox 18D4P",
+    "shortDescription": "Inox 18D4P — línea DRIJA.",
+    "description": "Inox 18D4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "INOX-18D4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox-18d4p.jpg",
+        "alt": "Inox 18D4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox 18D4P",
+        "shortDescription": "Inox 18D4P — DRIJA line.",
+        "description": "Inox 18D4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox-18d4p.jpg",
+            "alt": "DRIJA Inox 18D4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox-20d3p",
+    "slug": "refrigeradores-inox-20d3p",
+    "name": "Inox 20D3P",
+    "shortDescription": "Inox 20D3P — línea DRIJA.",
+    "description": "Inox 20D3P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "INOX-20D3P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox-20d3p.jpg",
+        "alt": "Inox 20D3P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox 20D3P",
+        "shortDescription": "Inox 20D3P — DRIJA line.",
+        "description": "Inox 20D3P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox-20d3p.jpg",
+            "alt": "DRIJA Inox 20D3P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-19d4p",
+    "slug": "refrigeradores-black-19d4p",
+    "name": "Black 19D4P",
+    "shortDescription": "Black 19D4P — línea DRIJA.",
+    "description": "Black 19D4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "BLACK-19D4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-19d4p.jpg",
+        "alt": "Black 19D4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 19D4P",
+        "shortDescription": "Black 19D4P — DRIJA line.",
+        "description": "Black 19D4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-19d4p.jpg",
+            "alt": "DRIJA Black 19D4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-18d4p",
+    "slug": "refrigeradores-black-18d4p",
+    "name": "Black 18D4P",
+    "shortDescription": "Black 18D4P — línea DRIJA.",
+    "description": "Black 18D4P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "BLACK-18D4P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-18d4p.jpg",
+        "alt": "Black 18D4P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 18D4P",
+        "shortDescription": "Black 18D4P — DRIJA line.",
+        "description": "Black 18D4P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-18d4p.jpg",
+            "alt": "DRIJA Black 18D4P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox-18d3p",
+    "slug": "refrigeradores-inox-18d3p",
+    "name": "Inox 18D3P",
+    "shortDescription": "Inox 18D3P — línea DRIJA.",
+    "description": "Inox 18D3P forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "french-door",
+    "sku": "INOX-18D3P",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox-18d3p.jpg",
+        "alt": "Inox 18D3P DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox 18D3P",
+        "shortDescription": "Inox 18D3P — DRIJA line.",
+        "description": "Inox 18D3P is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox-18d3p.jpg",
+            "alt": "DRIJA Inox 18D3P"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-mirror-18",
+    "slug": "refrigeradores-mirror-18",
+    "name": "Mirror 18",
+    "shortDescription": "Mirror 18 — línea DRIJA.",
+    "description": "Mirror 18 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "MIRROR-18",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/mirror-18.jpg",
+        "alt": "Mirror 18 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mirror 18",
+        "shortDescription": "Mirror 18 — DRIJA line.",
+        "description": "Mirror 18 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/mirror-18.jpg",
+            "alt": "DRIJA Mirror 18"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-white-23",
+    "slug": "refrigeradores-white-23",
+    "name": "White 23",
+    "shortDescription": "White 23 — línea DRIJA.",
+    "description": "White 23 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "WHITE-23",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/white-23.jpg",
+        "alt": "White 23 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "White 23",
+        "shortDescription": "White 23 — DRIJA line.",
+        "description": "White 23 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/white-23.jpg",
+            "alt": "DRIJA White 23"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-23",
+    "slug": "refrigeradores-black-23",
+    "name": "Black 23",
+    "shortDescription": "Black 23 — línea DRIJA.",
+    "description": "Black 23 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "BLACK-23",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-23.jpg",
+        "alt": "Black 23 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 23",
+        "shortDescription": "Black 23 — DRIJA line.",
+        "description": "Black 23 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-23.jpg",
+            "alt": "DRIJA Black 23"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox-23",
+    "slug": "refrigeradores-inox-23",
+    "name": "Inox 23",
+    "shortDescription": "Inox 23 — línea DRIJA.",
+    "description": "Inox 23 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "INOX-23",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox-23.jpg",
+        "alt": "Inox 23 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox 23",
+        "shortDescription": "Inox 23 — DRIJA line.",
+        "description": "Inox 23 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox-23.jpg",
+            "alt": "DRIJA Inox 23"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-mirror-20-cfah",
+    "slug": "refrigeradores-mirror-20-cfah",
+    "name": "Mirror 20 CFAH",
+    "shortDescription": "Mirror 20 CFAH — línea DRIJA.",
+    "description": "Mirror 20 CFAH forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "MIRROR-20-CFAH",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/mirror-20-cfah.jpg",
+        "alt": "Mirror 20 CFAH DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mirror 20 CFAH",
+        "shortDescription": "Mirror 20 CFAH — DRIJA line.",
+        "description": "Mirror 20 CFAH is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/mirror-20-cfah.jpg",
+            "alt": "DRIJA Mirror 20 CFAH"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-20cfah",
+    "slug": "refrigeradores-black-20cfah",
+    "name": "Black 20CFAH",
+    "shortDescription": "Black 20CFAH — línea DRIJA.",
+    "description": "Black 20CFAH forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "BLACK-20CFAH",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-20cfah.jpg",
+        "alt": "Black 20CFAH DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 20CFAH",
+        "shortDescription": "Black 20CFAH — DRIJA line.",
+        "description": "Black 20CFAH is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-20cfah.jpg",
+            "alt": "DRIJA Black 20CFAH"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black-18",
+    "slug": "refrigeradores-black-18",
+    "name": "Black 18",
+    "shortDescription": "Black 18 — línea DRIJA.",
+    "description": "Black 18 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "BLACK-18",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black-18.jpg",
+        "alt": "Black 18 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black 18",
+        "shortDescription": "Black 18 — DRIJA line.",
+        "description": "Black 18 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black-18.jpg",
+            "alt": "DRIJA Black 18"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox-18",
+    "slug": "refrigeradores-inox-18",
+    "name": "Inox 18",
+    "shortDescription": "Inox 18 — línea DRIJA.",
+    "description": "Inox 18 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "INOX-18",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox-18.jpg",
+        "alt": "Inox 18 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox 18",
+        "shortDescription": "Inox 18 — DRIJA line.",
+        "description": "Inox 18 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox-18.jpg",
+            "alt": "DRIJA Inox 18"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-mirror",
+    "slug": "refrigeradores-mirror",
+    "name": "Mirror",
+    "shortDescription": "Mirror — línea DRIJA.",
+    "description": "Mirror forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "MIRROR",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/mirror.jpg",
+        "alt": "Mirror DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mirror",
+        "shortDescription": "Mirror — DRIJA line.",
+        "description": "Mirror is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/mirror.jpg",
+            "alt": "DRIJA Mirror"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-inox",
+    "slug": "refrigeradores-inox",
+    "name": "Inox",
+    "shortDescription": "Inox — línea DRIJA.",
+    "description": "Inox forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "INOX",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/inox.jpg",
+        "alt": "Inox DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Inox",
+        "shortDescription": "Inox — DRIJA line.",
+        "description": "Inox is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/inox.jpg",
+            "alt": "DRIJA Inox"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-black",
+    "slug": "refrigeradores-black",
+    "name": "Black",
+    "shortDescription": "Black — línea DRIJA.",
+    "description": "Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "BLACK",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/black.jpg",
+        "alt": "Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Black",
+        "shortDescription": "Black — DRIJA line.",
+        "description": "Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/black.jpg",
+            "alt": "DRIJA Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-silver",
+    "slug": "refrigeradores-silver",
+    "name": "Silver",
+    "shortDescription": "Silver — línea DRIJA.",
+    "description": "Silver forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "side-by-side",
+    "sku": "SILVER",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/silver.jpg",
+        "alt": "Silver DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Silver",
+        "shortDescription": "Silver — DRIJA line.",
+        "description": "Silver is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/silver.jpg",
+            "alt": "DRIJA Silver"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-twin-36d4piph",
+    "slug": "refrigeradores-twin-36d4piph",
+    "name": "Twin-36D4PIPH",
+    "shortDescription": "Twin-36D4PIPH — línea DRIJA.",
+    "description": "Twin-36D4PIPH forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "twin",
+    "sku": "TWIN-36D4PIPH",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/twin-36d4piph.jpg",
+        "alt": "Twin-36D4PIPH DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Twin-36D4PIPH",
+        "shortDescription": "Twin-36D4PIPH — DRIJA line.",
+        "description": "Twin-36D4PIPH is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/twin-36d4piph.jpg",
+            "alt": "DRIJA Twin-36D4PIPH"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-refrigeradores-twin-36d4pd",
+    "slug": "refrigeradores-twin-36d4pd",
+    "name": "Twin-36D4PD",
+    "shortDescription": "Twin-36D4PD — línea DRIJA.",
+    "description": "Twin-36D4PD forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "refrigeradores",
+    "subcategorySlug": "twin",
+    "sku": "TWIN-36D4PD",
+    "images": [
+      {
+        "src": "/images/products/refrigeradores/twin-36d4pd.jpg",
+        "alt": "Twin-36D4PD DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Twin-36D4PD",
+        "shortDescription": "Twin-36D4PD — DRIJA line.",
+        "description": "Twin-36D4PD is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/refrigeradores/twin-36d4pd.jpg",
+            "alt": "DRIJA Twin-36D4PD"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fabricador-de-hielo-fh45-black",
+    "slug": "fabricador-de-hielo-fh45-black",
+    "name": "FH45 Black",
+    "shortDescription": "FH45 Black — línea DRIJA.",
+    "description": "FH45 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
     "categorySlug": "fabricador-de-hielo",
-    "sku": "FH-15-KG",
+    "subcategorySlug": "empotrables",
+    "sku": "FH45-BLACK",
     "images": [
-      { "src": "/images/products/fabricador-hielo.jpg", "alt": "Fabricador de hielo DRIJA" }
+      {
+        "src": "/images/products/fabricador-de-hielo/fh45-black.jpg",
+        "alt": "FH45 Black DRIJA"
+      }
     ],
     "translations": {
       "en": {
-        "name": "Ice Maker 15 kg/day",
-        "shortDescription": "Continuous production of clear ice cubes.",
-        "description": "Freestanding ice maker with production of up to 15 kg per day, removable bin, and full-bin alert.",
+        "name": "FH45 Black",
+        "shortDescription": "FH45 Black — DRIJA line.",
+        "description": "FH45 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
         "images": [
-          { "src": "/images/products/fabricador-hielo.jpg", "alt": "DRIJA Ice Maker" }
+          {
+            "src": "/images/products/fabricador-de-hielo/fh45-black.jpg",
+            "alt": "DRIJA FH45 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fabricador-de-hielo-fh-36-black",
+    "slug": "fabricador-de-hielo-fh-36-black",
+    "name": "FH 36 Black",
+    "shortDescription": "FH 36 Black — línea DRIJA.",
+    "description": "FH 36 Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fabricador-de-hielo",
+    "subcategorySlug": "empotrables",
+    "sku": "FH-36-BLACK",
+    "images": [
+      {
+        "src": "/images/products/fabricador-de-hielo/fh-36-black.jpg",
+        "alt": "FH 36 Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "FH 36 Black",
+        "shortDescription": "FH 36 Black — DRIJA line.",
+        "description": "FH 36 Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fabricador-de-hielo/fh-36-black.jpg",
+            "alt": "DRIJA FH 36 Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fabricador-de-hielo-fh18-inox",
+    "slug": "fabricador-de-hielo-fh18-inox",
+    "name": "FH18 Inox",
+    "shortDescription": "FH18 Inox — línea DRIJA.",
+    "description": "FH18 Inox forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fabricador-de-hielo",
+    "subcategorySlug": "no-empotrables",
+    "sku": "FH18-INOX",
+    "images": [
+      {
+        "src": "/images/products/fabricador-de-hielo/fh18-inox.jpg",
+        "alt": "FH18 Inox DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "FH18 Inox",
+        "shortDescription": "FH18 Inox — DRIJA line.",
+        "description": "FH18 Inox is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fabricador-de-hielo/fh18-inox.jpg",
+            "alt": "DRIJA FH18 Inox"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fabricador-de-hielo-fh12-inox-black",
+    "slug": "fabricador-de-hielo-fh12-inox-black",
+    "name": "FH12-Inox | Black",
+    "shortDescription": "FH12-Inox | Black — línea DRIJA.",
+    "description": "FH12-Inox | Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fabricador-de-hielo",
+    "subcategorySlug": "no-empotrables",
+    "sku": "FH12-INOX-|-BLACK",
+    "images": [
+      {
+        "src": "/images/products/fabricador-de-hielo/fh12-inox-black.jpg",
+        "alt": "FH12-Inox | Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "FH12-Inox | Black",
+        "shortDescription": "FH12-Inox | Black — DRIJA line.",
+        "description": "FH12-Inox | Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fabricador-de-hielo/fh12-inox-black.jpg",
+            "alt": "DRIJA FH12-Inox | Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-veneto-62l-black-i",
+    "slug": "microondas-veneto-62l-black-i",
+    "name": "Veneto 62L Black -I",
+    "shortDescription": "Veneto 62L Black -I — línea DRIJA.",
+    "description": "Veneto 62L Black -I forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "VENETO-62L-BLACK--I",
+    "images": [
+      {
+        "src": "/images/products/microondas/veneto-62l-black-i.jpg",
+        "alt": "Veneto 62L Black -I DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Veneto 62L Black -I",
+        "shortDescription": "Veneto 62L Black -I — DRIJA line.",
+        "description": "Veneto 62L Black -I is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/veneto-62l-black-i.jpg",
+            "alt": "DRIJA Veneto 62L Black -I"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-veneto-62l-black",
+    "slug": "microondas-veneto-62l-black",
+    "name": "Veneto 62L Black",
+    "shortDescription": "Veneto 62L Black — línea DRIJA.",
+    "description": "Veneto 62L Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "VENETO-62L-BLACK",
+    "images": [
+      {
+        "src": "/images/products/microondas/veneto-62l-black.jpg",
+        "alt": "Veneto 62L Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Veneto 62L Black",
+        "shortDescription": "Veneto 62L Black — DRIJA line.",
+        "description": "Veneto 62L Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/veneto-62l-black.jpg",
+            "alt": "DRIJA Veneto 62L Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-palermo-62l",
+    "slug": "microondas-palermo-62l",
+    "name": "Palermo 62L",
+    "shortDescription": "Palermo 62L — línea DRIJA.",
+    "description": "Palermo 62L forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "PALERMO-62L",
+    "images": [
+      {
+        "src": "/images/products/microondas/palermo-62l.jpg",
+        "alt": "Palermo 62L DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Palermo 62L",
+        "shortDescription": "Palermo 62L — DRIJA line.",
+        "description": "Palermo 62L is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/palermo-62l.jpg",
+            "alt": "DRIJA Palermo 62L"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-napoli-25l-black",
+    "slug": "microondas-napoli-25l-black",
+    "name": "Napoli 25L Black",
+    "shortDescription": "Napoli 25L Black — línea DRIJA.",
+    "description": "Napoli 25L Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "NAPOLI-25L-BLACK",
+    "images": [
+      {
+        "src": "/images/products/microondas/napoli-25l-black.jpg",
+        "alt": "Napoli 25L Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Napoli 25L Black",
+        "shortDescription": "Napoli 25L Black — DRIJA line.",
+        "description": "Napoli 25L Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/napoli-25l-black.jpg",
+            "alt": "DRIJA Napoli 25L Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-sorrento-25l-black",
+    "slug": "microondas-sorrento-25l-black",
+    "name": "Sorrento 25L Black",
+    "shortDescription": "Sorrento 25L Black — línea DRIJA.",
+    "description": "Sorrento 25L Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "SORRENTO-25L-BLACK",
+    "images": [
+      {
+        "src": "/images/products/microondas/sorrento-25l-black.jpg",
+        "alt": "Sorrento 25L Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sorrento 25L Black",
+        "shortDescription": "Sorrento 25L Black — DRIJA line.",
+        "description": "Sorrento 25L Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/sorrento-25l-black.jpg",
+            "alt": "DRIJA Sorrento 25L Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-florencia-25l-black",
+    "slug": "microondas-florencia-25l-black",
+    "name": "Florencia 25L Black",
+    "shortDescription": "Florencia 25L Black — línea DRIJA.",
+    "description": "Florencia 25L Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-empotrables",
+    "sku": "FLORENCIA-25L-BLACK",
+    "images": [
+      {
+        "src": "/images/products/microondas/florencia-25l-black.jpg",
+        "alt": "Florencia 25L Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Florencia 25L Black",
+        "shortDescription": "Florencia 25L Black — DRIJA line.",
+        "description": "Florencia 25L Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/florencia-25l-black.jpg",
+            "alt": "DRIJA Florencia 25L Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-microondas-varenna-42l-i",
+    "slug": "microondas-varenna-42l-i",
+    "name": "Varenna 42L-I",
+    "shortDescription": "Varenna 42L-I — línea DRIJA.",
+    "description": "Varenna 42L-I forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "microondas",
+    "subcategorySlug": "microondas-extractor",
+    "sku": "VARENNA-42L-I",
+    "images": [
+      {
+        "src": "/images/products/microondas/varenna-42l-i.jpg",
+        "alt": "Varenna 42L-I DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Varenna 42L-I",
+        "shortDescription": "Varenna 42L-I — DRIJA line.",
+        "description": "Varenna 42L-I is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/microondas/varenna-42l-i.jpg",
+            "alt": "DRIJA Varenna 42L-I"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-dispensadores-de-agua-acqua",
+    "slug": "dispensadores-de-agua-acqua",
+    "name": "Acqua",
+    "shortDescription": "Acqua — línea DRIJA.",
+    "description": "Acqua forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "dispensadores-de-agua",
+    "subcategorySlug": "acqua",
+    "sku": "ACQUA",
+    "images": [
+      {
+        "src": "/images/products/dispensadores-de-agua/acqua.jpg",
+        "alt": "Acqua DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Acqua",
+        "shortDescription": "Acqua — DRIJA line.",
+        "description": "Acqua is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/dispensadores-de-agua/acqua.jpg",
+            "alt": "DRIJA Acqua"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-dispensadores-de-agua-lusso",
+    "slug": "dispensadores-de-agua-lusso",
+    "name": "Lusso",
+    "shortDescription": "Lusso — línea DRIJA.",
+    "description": "Lusso forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "dispensadores-de-agua",
+    "subcategorySlug": "lusso",
+    "sku": "LUSSO",
+    "images": [
+      {
+        "src": "/images/products/dispensadores-de-agua/lusso.jpg",
+        "alt": "Lusso DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Lusso",
+        "shortDescription": "Lusso — DRIJA line.",
+        "description": "Lusso is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/dispensadores-de-agua/lusso.jpg",
+            "alt": "DRIJA Lusso"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-lavadoras-lavasciuga-1609",
+    "slug": "lavadoras-lavasciuga-1609",
+    "name": "LavaSciuga 1609",
+    "shortDescription": "LavaSciuga 1609 — línea DRIJA.",
+    "description": "LavaSciuga 1609 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "lavadoras",
+    "subcategorySlug": "lava-seca",
+    "sku": "LAVASCIUGA-1609",
+    "images": [
+      {
+        "src": "/images/products/lavadoras/lavasciuga-1609.jpg",
+        "alt": "LavaSciuga 1609 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "LavaSciuga 1609",
+        "shortDescription": "LavaSciuga 1609 — DRIJA line.",
+        "description": "LavaSciuga 1609 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/lavadoras/lavasciuga-1609.jpg",
+            "alt": "DRIJA LavaSciuga 1609"
+          }
+        ]
+      }
+    },
+    "featured": true
+  },
+  {
+    "id": "prod-lavadoras-lavatrice-1305",
+    "slug": "lavadoras-lavatrice-1305",
+    "name": "Lavatrice 1305",
+    "shortDescription": "Lavatrice 1305 — línea DRIJA.",
+    "description": "Lavatrice 1305 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "lavadoras",
+    "subcategorySlug": "lava-seca",
+    "sku": "LAVATRICE-1305",
+    "images": [
+      {
+        "src": "/images/products/lavadoras/lavatrice-1305.jpg",
+        "alt": "Lavatrice 1305 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Lavatrice 1305",
+        "shortDescription": "Lavatrice 1305 — DRIJA line.",
+        "description": "Lavatrice 1305 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/lavadoras/lavatrice-1305.jpg",
+            "alt": "DRIJA Lavatrice 1305"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-centros-de-bebidas-livenza-178-b",
+    "slug": "centros-de-bebidas-livenza-178-b",
+    "name": "Livenza 178-B",
+    "shortDescription": "Livenza 178-B — línea DRIJA.",
+    "description": "Livenza 178-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "centros-de-bebidas",
+    "subcategorySlug": "empotrables",
+    "sku": "LIVENZA-178-B",
+    "images": [
+      {
+        "src": "/images/products/centros-de-bebidas/livenza-178-b.jpg",
+        "alt": "Livenza 178-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Livenza 178-B",
+        "shortDescription": "Livenza 178-B — DRIJA line.",
+        "description": "Livenza 178-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/centros-de-bebidas/livenza-178-b.jpg",
+            "alt": "DRIJA Livenza 178-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-centros-de-bebidas-piave-70-b",
+    "slug": "centros-de-bebidas-piave-70-b",
+    "name": "Piave 70-B",
+    "shortDescription": "Piave 70-B — línea DRIJA.",
+    "description": "Piave 70-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "centros-de-bebidas",
+    "subcategorySlug": "no-empotrables",
+    "sku": "PIAVE-70-B",
+    "images": [
+      {
+        "src": "/images/products/centros-de-bebidas/piave-70-b.jpg",
+        "alt": "Piave 70-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Piave 70-B",
+        "shortDescription": "Piave 70-B — DRIJA line.",
+        "description": "Piave 70-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/centros-de-bebidas/piave-70-b.jpg",
+            "alt": "DRIJA Piave 70-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-mocca-8t-b",
+    "slug": "pequenos-electrodomesticos-mocca-8t-b",
+    "name": "Mocca 8T-B",
+    "shortDescription": "Mocca 8T-B — línea DRIJA.",
+    "description": "Mocca 8T-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "cafetera",
+    "sku": "MOCCA-8T-B",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/mocca-8t-b.jpg",
+        "alt": "Mocca 8T-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Mocca 8T-B",
+        "shortDescription": "Mocca 8T-B — DRIJA line.",
+        "description": "Mocca 8T-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/mocca-8t-b.jpg",
+            "alt": "DRIJA Mocca 8T-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-afogatto-12t-b",
+    "slug": "pequenos-electrodomesticos-afogatto-12t-b",
+    "name": "Afogatto 12T-B",
+    "shortDescription": "Afogatto 12T-B — línea DRIJA.",
+    "description": "Afogatto 12T-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "cafetera",
+    "sku": "AFOGATTO-12T-B",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/afogatto-12t-b.jpg",
+        "alt": "Afogatto 12T-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Afogatto 12T-B",
+        "shortDescription": "Afogatto 12T-B — DRIJA line.",
+        "description": "Afogatto 12T-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/afogatto-12t-b.jpg",
+            "alt": "DRIJA Afogatto 12T-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-bruschetta-25-l-b",
+    "slug": "pequenos-electrodomesticos-bruschetta-25-l-b",
+    "name": "Bruschetta 25-L-B",
+    "shortDescription": "Bruschetta 25-L-B — línea DRIJA.",
+    "description": "Bruschetta 25-L-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "horno-electrico",
+    "sku": "BRUSCHETTA-25-L-B",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/bruschetta-25-l-b.jpg",
+        "alt": "Bruschetta 25-L-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bruschetta 25-L-B",
+        "shortDescription": "Bruschetta 25-L-B — DRIJA line.",
+        "description": "Bruschetta 25-L-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/bruschetta-25-l-b.jpg",
+            "alt": "DRIJA Bruschetta 25-L-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-bucatini-19-b",
+    "slug": "pequenos-electrodomesticos-bucatini-19-b",
+    "name": "Bucatini 19-B",
+    "shortDescription": "Bucatini 19-B — línea DRIJA.",
+    "description": "Bucatini 19-B forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "juegos-ollas-sartenes",
+    "sku": "BUCATINI-19-B",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/bucatini-19-b.jpg",
+        "alt": "Bucatini 19-B DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bucatini 19-B",
+        "shortDescription": "Bucatini 19-B — DRIJA line.",
+        "description": "Bucatini 19-B is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/bucatini-19-b.jpg",
+            "alt": "DRIJA Bucatini 19-B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-munich-28",
+    "slug": "pequenos-electrodomesticos-munich-28",
+    "name": "Múnich 28",
+    "shortDescription": "Múnich 28 — línea DRIJA.",
+    "description": "Múnich 28 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "estufas-portatiles",
+    "sku": "MÚNICH-28",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/munich-28.jpg",
+        "alt": "Múnich 28 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Múnich 28",
+        "shortDescription": "Múnich 28 — DRIJA line.",
+        "description": "Múnich 28 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/munich-28.jpg",
+            "alt": "DRIJA Múnich 28"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-calzone",
+    "slug": "pequenos-electrodomesticos-calzone",
+    "name": "Calzone",
+    "shortDescription": "Calzone — línea DRIJA.",
+    "description": "Calzone forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "freidoras-de-aire",
+    "sku": "CALZONE",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/calzone.jpg",
+        "alt": "Calzone DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Calzone",
+        "shortDescription": "Calzone — DRIJA line.",
+        "description": "Calzone is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/calzone.jpg",
+            "alt": "DRIJA Calzone"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-cartoccio",
+    "slug": "pequenos-electrodomesticos-cartoccio",
+    "name": "Cartoccio",
+    "shortDescription": "Cartoccio — línea DRIJA.",
+    "description": "Cartoccio forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "freidoras-de-aire",
+    "sku": "CARTOCCIO",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/cartoccio.jpg",
+        "alt": "Cartoccio DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Cartoccio",
+        "shortDescription": "Cartoccio — DRIJA line.",
+        "description": "Cartoccio is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/cartoccio.jpg",
+            "alt": "DRIJA Cartoccio"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-pequenos-electrodomesticos-miscelatore",
+    "slug": "pequenos-electrodomesticos-miscelatore",
+    "name": "Miscelatore",
+    "shortDescription": "Miscelatore — línea DRIJA.",
+    "description": "Miscelatore forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "pequenos-electrodomesticos",
+    "subcategorySlug": "licuadoras",
+    "sku": "MISCELATORE",
+    "images": [
+      {
+        "src": "/images/products/pequenos-electrodomesticos/miscelatore.jpg",
+        "alt": "Miscelatore DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Miscelatore",
+        "shortDescription": "Miscelatore — DRIJA line.",
+        "description": "Miscelatore is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/pequenos-electrodomesticos/miscelatore.jpg",
+            "alt": "DRIJA Miscelatore"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-calentadores-de-agua-clt10l-black",
+    "slug": "calentadores-de-agua-clt10l-black",
+    "name": "CLT10L Black",
+    "shortDescription": "CLT10L Black — línea DRIJA.",
+    "description": "CLT10L Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "calentadores-de-agua",
+    "subcategorySlug": "gas",
+    "sku": "CLT10L-BLACK",
+    "images": [
+      {
+        "src": "/images/products/calentadores-de-agua/clt10l-black.jpg",
+        "alt": "CLT10L Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "CLT10L Black",
+        "shortDescription": "CLT10L Black — DRIJA line.",
+        "description": "CLT10L Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/calentadores-de-agua/clt10l-black.jpg",
+            "alt": "DRIJA CLT10L Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-calentadores-de-agua-clt13l",
+    "slug": "calentadores-de-agua-clt13l",
+    "name": "CLT13L",
+    "shortDescription": "CLT13L — línea DRIJA.",
+    "description": "CLT13L forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "calentadores-de-agua",
+    "subcategorySlug": "gas",
+    "sku": "CLT13L",
+    "images": [
+      {
+        "src": "/images/products/calentadores-de-agua/clt13l.jpg",
+        "alt": "CLT13L DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "CLT13L",
+        "shortDescription": "CLT13L — DRIJA line.",
+        "description": "CLT13L is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/calentadores-de-agua/clt13l.jpg",
+            "alt": "DRIJA CLT13L"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-calentadores-de-agua-clt17l",
+    "slug": "calentadores-de-agua-clt17l",
+    "name": "CLT17L",
+    "shortDescription": "CLT17L — línea DRIJA.",
+    "description": "CLT17L forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "calentadores-de-agua",
+    "subcategorySlug": "gas",
+    "sku": "CLT17L",
+    "images": [
+      {
+        "src": "/images/products/calentadores-de-agua/clt17l.jpg",
+        "alt": "CLT17L DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "CLT17L",
+        "shortDescription": "CLT17L — DRIJA line.",
+        "description": "CLT17L is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/calentadores-de-agua/clt17l.jpg",
+            "alt": "DRIJA CLT17L"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-calentadores-de-agua-clt21l",
+    "slug": "calentadores-de-agua-clt21l",
+    "name": "CLT21L",
+    "shortDescription": "CLT21L — línea DRIJA.",
+    "description": "CLT21L forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "calentadores-de-agua",
+    "subcategorySlug": "gas",
+    "sku": "CLT21L",
+    "images": [
+      {
+        "src": "/images/products/calentadores-de-agua/clt21l.jpg",
+        "alt": "CLT21L DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "CLT21L",
+        "shortDescription": "CLT21L — DRIJA line.",
+        "description": "CLT21L is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/calentadores-de-agua/clt21l.jpg",
+            "alt": "DRIJA CLT21L"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-murano-61",
+    "slug": "fregaderos-murano-61",
+    "name": "Murano 61",
+    "shortDescription": "Murano 61 — línea DRIJA.",
+    "description": "Murano 61 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "MURANO-61",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/murano-61.jpg",
+        "alt": "Murano 61 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Murano 61",
+        "shortDescription": "Murano 61 — DRIJA line.",
+        "description": "Murano 61 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/murano-61.jpg",
+            "alt": "DRIJA Murano 61"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-murano-76",
+    "slug": "fregaderos-murano-76",
+    "name": "Murano 76",
+    "shortDescription": "Murano 76 — línea DRIJA.",
+    "description": "Murano 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "MURANO-76",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/murano-76.jpg",
+        "alt": "Murano 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Murano 76",
+        "shortDescription": "Murano 76 — DRIJA line.",
+        "description": "Murano 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/murano-76.jpg",
+            "alt": "DRIJA Murano 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-murano-84",
+    "slug": "fregaderos-murano-84",
+    "name": "Murano 84",
+    "shortDescription": "Murano 84 — línea DRIJA.",
+    "description": "Murano 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "MURANO-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/murano-84.jpg",
+        "alt": "Murano 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Murano 84",
+        "shortDescription": "Murano 84 — DRIJA line.",
+        "description": "Murano 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/murano-84.jpg",
+            "alt": "DRIJA Murano 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-cirella-68",
+    "slug": "fregaderos-cirella-68",
+    "name": "Cirella 68",
+    "shortDescription": "Cirella 68 — línea DRIJA.",
+    "description": "Cirella 68 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "CIRELLA-68",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/cirella-68.jpg",
+        "alt": "Cirella 68 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Cirella 68",
+        "shortDescription": "Cirella 68 — DRIJA line.",
+        "description": "Cirella 68 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/cirella-68.jpg",
+            "alt": "DRIJA Cirella 68"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-amalfi-76",
+    "slug": "fregaderos-amalfi-76",
+    "name": "Amalfi 76",
+    "shortDescription": "Amalfi 76 — línea DRIJA.",
+    "description": "Amalfi 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "AMALFI-76",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/amalfi-76.jpg",
+        "alt": "Amalfi 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Amalfi 76",
+        "shortDescription": "Amalfi 76 — DRIJA line.",
+        "description": "Amalfi 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/amalfi-76.jpg",
+            "alt": "DRIJA Amalfi 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-amalfi-84",
+    "slug": "fregaderos-amalfi-84",
+    "name": "Amalfi 84",
+    "shortDescription": "Amalfi 84 — línea DRIJA.",
+    "description": "Amalfi 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "AMALFI-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/amalfi-84.jpg",
+        "alt": "Amalfi 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Amalfi 84",
+        "shortDescription": "Amalfi 84 — DRIJA line.",
+        "description": "Amalfi 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/amalfi-84.jpg",
+            "alt": "DRIJA Amalfi 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-bolonia-61",
+    "slug": "fregaderos-bolonia-61",
+    "name": "Bolonia 61",
+    "shortDescription": "Bolonia 61 — línea DRIJA.",
+    "description": "Bolonia 61 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "BOLONIA-61",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/bolonia-61.jpg",
+        "alt": "Bolonia 61 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bolonia 61",
+        "shortDescription": "Bolonia 61 — DRIJA line.",
+        "description": "Bolonia 61 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/bolonia-61.jpg",
+            "alt": "DRIJA Bolonia 61"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-bolonia-76",
+    "slug": "fregaderos-bolonia-76",
+    "name": "Bolonia 76",
+    "shortDescription": "Bolonia 76 — línea DRIJA.",
+    "description": "Bolonia 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "BOLONIA-76",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/bolonia-76.jpg",
+        "alt": "Bolonia 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bolonia 76",
+        "shortDescription": "Bolonia 76 — DRIJA line.",
+        "description": "Bolonia 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/bolonia-76.jpg",
+            "alt": "DRIJA Bolonia 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-bolonia-84",
+    "slug": "fregaderos-bolonia-84",
+    "name": "Bolonia 84",
+    "shortDescription": "Bolonia 84 — línea DRIJA.",
+    "description": "Bolonia 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "BOLONIA-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/bolonia-84.jpg",
+        "alt": "Bolonia 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bolonia 84",
+        "shortDescription": "Bolonia 84 — DRIJA line.",
+        "description": "Bolonia 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/bolonia-84.jpg",
+            "alt": "DRIJA Bolonia 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-capri-76",
+    "slug": "fregaderos-capri-76",
+    "name": "Capri 76",
+    "shortDescription": "Capri 76 — línea DRIJA.",
+    "description": "Capri 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "CAPRI-76",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/capri-76.jpg",
+        "alt": "Capri 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Capri 76",
+        "shortDescription": "Capri 76 — DRIJA line.",
+        "description": "Capri 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/capri-76.jpg",
+            "alt": "DRIJA Capri 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-capri-84",
+    "slug": "fregaderos-capri-84",
+    "name": "Capri 84",
+    "shortDescription": "Capri 84 — línea DRIJA.",
+    "description": "Capri 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "CAPRI-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/capri-84.jpg",
+        "alt": "Capri 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Capri 84",
+        "shortDescription": "Capri 84 — DRIJA line.",
+        "description": "Capri 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/capri-84.jpg",
+            "alt": "DRIJA Capri 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-lucca-84",
+    "slug": "fregaderos-lucca-84",
+    "name": "Lucca 84",
+    "shortDescription": "Lucca 84 — línea DRIJA.",
+    "description": "Lucca 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "LUCCA-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/lucca-84.jpg",
+        "alt": "Lucca 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Lucca 84",
+        "shortDescription": "Lucca 84 — DRIJA line.",
+        "description": "Lucca 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/lucca-84.jpg",
+            "alt": "DRIJA Lucca 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-siena-75",
+    "slug": "fregaderos-siena-75",
+    "name": "Siena 75",
+    "shortDescription": "Siena 75 — línea DRIJA.",
+    "description": "Siena 75 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "SIENA-75",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/siena-75.jpg",
+        "alt": "Siena 75 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Siena 75",
+        "shortDescription": "Siena 75 — DRIJA line.",
+        "description": "Siena 75 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/siena-75.jpg",
+            "alt": "DRIJA Siena 75"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-siena-84",
+    "slug": "fregaderos-siena-84",
+    "name": "Siena 84",
+    "shortDescription": "Siena 84 — línea DRIJA.",
+    "description": "Siena 84 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "fregaderos",
+    "sku": "SIENA-84",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/siena-84.jpg",
+        "alt": "Siena 84 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Siena 84",
+        "shortDescription": "Siena 84 — DRIJA line.",
+        "description": "Siena 84 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/siena-84.jpg",
+            "alt": "DRIJA Siena 84"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-pisa-black",
+    "slug": "fregaderos-pisa-black",
+    "name": "Pisa Black",
+    "shortDescription": "Pisa Black — línea DRIJA.",
+    "description": "Pisa Black forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "grifos",
+    "sku": "PISA-BLACK",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/pisa-black.jpg",
+        "alt": "Pisa Black DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Pisa Black",
+        "shortDescription": "Pisa Black — DRIJA line.",
+        "description": "Pisa Black is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/pisa-black.jpg",
+            "alt": "DRIJA Pisa Black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-pisa-gold",
+    "slug": "fregaderos-pisa-gold",
+    "name": "Pisa Gold",
+    "shortDescription": "Pisa Gold — línea DRIJA.",
+    "description": "Pisa Gold forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "grifos",
+    "sku": "PISA-GOLD",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/pisa-gold.jpg",
+        "alt": "Pisa Gold DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Pisa Gold",
+        "shortDescription": "Pisa Gold — DRIJA line.",
+        "description": "Pisa Gold is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/pisa-gold.jpg",
+            "alt": "DRIJA Pisa Gold"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-fregaderos-frantoio-hp",
+    "slug": "fregaderos-frantoio-hp",
+    "name": "Frantoio ½ HP",
+    "shortDescription": "Frantoio ½ HP — línea DRIJA.",
+    "description": "Frantoio ½ HP forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "fregaderos",
+    "subcategorySlug": "trituradores",
+    "sku": "FRANTOIO-½-HP",
+    "images": [
+      {
+        "src": "/images/products/fregaderos/frantoio-hp.jpg",
+        "alt": "Frantoio ½ HP DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Frantoio ½ HP",
+        "shortDescription": "Frantoio ½ HP — DRIJA line.",
+        "description": "Frantoio ½ HP is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/fregaderos/frantoio-hp.jpg",
+            "alt": "DRIJA Frantoio ½ HP"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-venecia-90",
+    "slug": "estufas-venecia-90",
+    "name": "Venecia 90",
+    "shortDescription": "Venecia 90 — línea DRIJA.",
+    "description": "Venecia 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "piso",
+    "sku": "VENECIA-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/venecia-90.jpg",
+        "alt": "Venecia 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Venecia 90",
+        "shortDescription": "Venecia 90 — DRIJA line.",
+        "description": "Venecia 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/venecia-90.jpg",
+            "alt": "DRIJA Venecia 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-venecia-76",
+    "slug": "estufas-venecia-76",
+    "name": "Venecia 76",
+    "shortDescription": "Venecia 76 — línea DRIJA.",
+    "description": "Venecia 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "piso",
+    "sku": "VENECIA-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/venecia-76.jpg",
+        "alt": "Venecia 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Venecia 76",
+        "shortDescription": "Venecia 76 — DRIJA line.",
+        "description": "Venecia 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/venecia-76.jpg",
+            "alt": "DRIJA Venecia 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-sicilia-76",
+    "slug": "estufas-sicilia-76",
+    "name": "Sicilia 76",
+    "shortDescription": "Sicilia 76 — línea DRIJA.",
+    "description": "Sicilia 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-dual",
+    "sku": "SICILIA-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/sicilia-76.jpg",
+        "alt": "Sicilia 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sicilia 76",
+        "shortDescription": "Sicilia 76 — DRIJA line.",
+        "description": "Sicilia 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/sicilia-76.jpg",
+            "alt": "DRIJA Sicilia 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-sicilia-touch-90",
+    "slug": "estufas-sicilia-touch-90",
+    "name": "Sicilia Touch 90",
+    "shortDescription": "Sicilia Touch 90 — línea DRIJA.",
+    "description": "Sicilia Touch 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-dual",
+    "sku": "SICILIA-TOUCH-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/sicilia-touch-90.jpg",
+        "alt": "Sicilia Touch 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sicilia Touch 90",
+        "shortDescription": "Sicilia Touch 90 — DRIJA line.",
+        "description": "Sicilia Touch 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/sicilia-touch-90.jpg",
+            "alt": "DRIJA Sicilia Touch 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-sicilia-touch-60",
+    "slug": "estufas-sicilia-touch-60",
+    "name": "Sicilia Touch 60",
+    "shortDescription": "Sicilia Touch 60 — línea DRIJA.",
+    "description": "Sicilia Touch 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-dual",
+    "sku": "SICILIA-TOUCH-60",
+    "images": [
+      {
+        "src": "/images/products/estufas/sicilia-touch-60.jpg",
+        "alt": "Sicilia Touch 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sicilia Touch 60",
+        "shortDescription": "Sicilia Touch 60 — DRIJA line.",
+        "description": "Sicilia Touch 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/sicilia-touch-60.jpg",
+            "alt": "DRIJA Sicilia Touch 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-sicilia-30",
+    "slug": "estufas-sicilia-30",
+    "name": "Sicilia 30",
+    "shortDescription": "Sicilia 30 — línea DRIJA.",
+    "description": "Sicilia 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-dual",
+    "sku": "SICILIA-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/sicilia-30.jpg",
+        "alt": "Sicilia 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Sicilia 30",
+        "shortDescription": "Sicilia 30 — DRIJA line.",
+        "description": "Sicilia 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/sicilia-30.jpg",
+            "alt": "DRIJA Sicilia 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-90-a",
+    "slug": "estufas-bari-90-a",
+    "name": "Bari 90-A",
+    "shortDescription": "Bari 90-A — línea DRIJA.",
+    "description": "Bari 90-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-90-A",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-90-a.jpg",
+        "alt": "Bari 90-A DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 90-A",
+        "shortDescription": "Bari 90-A — DRIJA line.",
+        "description": "Bari 90-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-90-a.jpg",
+            "alt": "DRIJA Bari 90-A"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-60-a",
+    "slug": "estufas-bari-60-a",
+    "name": "Bari 60-A",
+    "shortDescription": "Bari 60-A — línea DRIJA.",
+    "description": "Bari 60-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-60-A",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-60-a.jpg",
+        "alt": "Bari 60-A DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 60-A",
+        "shortDescription": "Bari 60-A — DRIJA line.",
+        "description": "Bari 60-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-60-a.jpg",
+            "alt": "DRIJA Bari 60-A"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-30-a",
+    "slug": "estufas-bari-30-a",
+    "name": "Bari 30-A",
+    "shortDescription": "Bari 30-A — línea DRIJA.",
+    "description": "Bari 30-A forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-30-A",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-30-a.jpg",
+        "alt": "Bari 30-A DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 30-A",
+        "shortDescription": "Bari 30-A — DRIJA line.",
+        "description": "Bari 30-A is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-30-a.jpg",
+            "alt": "DRIJA Bari 30-A"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-90",
+    "slug": "estufas-bari-90",
+    "name": "Bari 90",
+    "shortDescription": "Bari 90 — línea DRIJA.",
+    "description": "Bari 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-90.jpg",
+        "alt": "Bari 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 90",
+        "shortDescription": "Bari 90 — DRIJA line.",
+        "description": "Bari 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-90.jpg",
+            "alt": "DRIJA Bari 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-76",
+    "slug": "estufas-bari-76",
+    "name": "Bari 76",
+    "shortDescription": "Bari 76 — línea DRIJA.",
+    "description": "Bari 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-76.jpg",
+        "alt": "Bari 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 76",
+        "shortDescription": "Bari 76 — DRIJA line.",
+        "description": "Bari 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-76.jpg",
+            "alt": "DRIJA Bari 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-berlin-90",
+    "slug": "estufas-berlin-90",
+    "name": "Berlín 90",
+    "shortDescription": "Berlín 90 — línea DRIJA.",
+    "description": "Berlín 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BERLÍN-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/berlin-90.jpg",
+        "alt": "Berlín 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Berlín 90",
+        "shortDescription": "Berlín 90 — DRIJA line.",
+        "description": "Berlín 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/berlin-90.jpg",
+            "alt": "DRIJA Berlín 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-berlin-76",
+    "slug": "estufas-berlin-76",
+    "name": "Berlin 76",
+    "shortDescription": "Berlin 76 — línea DRIJA.",
+    "description": "Berlin 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BERLIN-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/berlin-76.jpg",
+        "alt": "Berlin 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Berlin 76",
+        "shortDescription": "Berlin 76 — DRIJA line.",
+        "description": "Berlin 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/berlin-76.jpg",
+            "alt": "DRIJA Berlin 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-60",
+    "slug": "estufas-bari-60",
+    "name": "Bari 60",
+    "shortDescription": "Bari 60 — línea DRIJA.",
+    "description": "Bari 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-60",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-60.jpg",
+        "alt": "Bari 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 60",
+        "shortDescription": "Bari 60 — DRIJA line.",
+        "description": "Bari 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-60.jpg",
+            "alt": "DRIJA Bari 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-berlin-60",
+    "slug": "estufas-berlin-60",
+    "name": "Berlín 60",
+    "shortDescription": "Berlín 60 — línea DRIJA.",
+    "description": "Berlín 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BERLÍN-60",
+    "images": [
+      {
+        "src": "/images/products/estufas/berlin-60.jpg",
+        "alt": "Berlín 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Berlín 60",
+        "shortDescription": "Berlín 60 — DRIJA line.",
+        "description": "Berlín 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/berlin-60.jpg",
+            "alt": "DRIJA Berlín 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-berlin-30",
+    "slug": "estufas-berlin-30",
+    "name": "Berlín 30",
+    "shortDescription": "Berlín 30 — línea DRIJA.",
+    "description": "Berlín 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BERLÍN-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/berlin-30.jpg",
+        "alt": "Berlín 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Berlín 30",
+        "shortDescription": "Berlín 30 — DRIJA line.",
+        "description": "Berlín 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/berlin-30.jpg",
+            "alt": "DRIJA Berlín 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-bari-30",
+    "slug": "estufas-bari-30",
+    "name": "Bari 30",
+    "shortDescription": "Bari 30 — línea DRIJA.",
+    "description": "Bari 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-electrico",
+    "sku": "BARI-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/bari-30.jpg",
+        "alt": "Bari 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bari 30",
+        "shortDescription": "Bari 30 — DRIJA line.",
+        "description": "Bari 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/bari-30.jpg",
+            "alt": "DRIJA Bari 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-munich-90",
+    "slug": "estufas-munich-90",
+    "name": "Múnich 90",
+    "shortDescription": "Múnich 90 — línea DRIJA.",
+    "description": "Múnich 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-induccion",
+    "sku": "MÚNICH-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/munich-90.jpg",
+        "alt": "Múnich 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Múnich 90",
+        "shortDescription": "Múnich 90 — DRIJA line.",
+        "description": "Múnich 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/munich-90.jpg",
+            "alt": "DRIJA Múnich 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-munich-76",
+    "slug": "estufas-munich-76",
+    "name": "Munich 76",
+    "shortDescription": "Munich 76 — línea DRIJA.",
+    "description": "Munich 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-induccion",
+    "sku": "MUNICH-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/munich-76.jpg",
+        "alt": "Munich 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Munich 76",
+        "shortDescription": "Munich 76 — DRIJA line.",
+        "description": "Munich 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/munich-76.jpg",
+            "alt": "DRIJA Munich 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-munich-60",
+    "slug": "estufas-munich-60",
+    "name": "Múnich 60",
+    "shortDescription": "Múnich 60 — línea DRIJA.",
+    "description": "Múnich 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-induccion",
+    "sku": "MÚNICH-60",
+    "images": [
+      {
+        "src": "/images/products/estufas/munich-60.jpg",
+        "alt": "Múnich 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Múnich 60",
+        "shortDescription": "Múnich 60 — DRIJA line.",
+        "description": "Múnich 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/munich-60.jpg",
+            "alt": "DRIJA Múnich 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-munich-30",
+    "slug": "estufas-munich-30",
+    "name": "Múnich 30",
+    "shortDescription": "Múnich 30 — línea DRIJA.",
+    "description": "Múnich 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-induccion",
+    "sku": "MÚNICH-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/munich-30.jpg",
+        "alt": "Múnich 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Múnich 30",
+        "shortDescription": "Múnich 30 — DRIJA line.",
+        "description": "Múnich 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/munich-30.jpg",
+            "alt": "DRIJA Múnich 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-italia-90",
+    "slug": "estufas-italia-90",
+    "name": "Italia 90",
+    "shortDescription": "Italia 90 — línea DRIJA.",
+    "description": "Italia 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "ITALIA-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/italia-90.jpg",
+        "alt": "Italia 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Italia 90",
+        "shortDescription": "Italia 90 — DRIJA line.",
+        "description": "Italia 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/italia-90.jpg",
+            "alt": "DRIJA Italia 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-italia-76",
+    "slug": "estufas-italia-76",
+    "name": "Italia 76",
+    "shortDescription": "Italia 76 — línea DRIJA.",
+    "description": "Italia 76 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "ITALIA-76",
+    "images": [
+      {
+        "src": "/images/products/estufas/italia-76.jpg",
+        "alt": "Italia 76 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Italia 76",
+        "shortDescription": "Italia 76 — DRIJA line.",
+        "description": "Italia 76 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/italia-76.jpg",
+            "alt": "DRIJA Italia 76"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-lazio-90",
+    "slug": "estufas-lazio-90",
+    "name": "Lazio 90",
+    "shortDescription": "Lazio 90 — línea DRIJA.",
+    "description": "Lazio 90 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "LAZIO-90",
+    "images": [
+      {
+        "src": "/images/products/estufas/lazio-90.jpg",
+        "alt": "Lazio 90 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Lazio 90",
+        "shortDescription": "Lazio 90 — DRIJA line.",
+        "description": "Lazio 90 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/lazio-90.jpg",
+            "alt": "DRIJA Lazio 90"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-milan-60-pro",
+    "slug": "estufas-milan-60-pro",
+    "name": "Milán 60 Pro",
+    "shortDescription": "Milán 60 Pro — línea DRIJA.",
+    "description": "Milán 60 Pro forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "MILÁN-60-PRO",
+    "images": [
+      {
+        "src": "/images/products/estufas/milan-60-pro.jpg",
+        "alt": "Milán 60 Pro DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Milán 60 Pro",
+        "shortDescription": "Milán 60 Pro — DRIJA line.",
+        "description": "Milán 60 Pro is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/milan-60-pro.jpg",
+            "alt": "DRIJA Milán 60 Pro"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-ferrara-60-pro",
+    "slug": "estufas-ferrara-60-pro",
+    "name": "Ferrara 60 Pro",
+    "shortDescription": "Ferrara 60 Pro — línea DRIJA.",
+    "description": "Ferrara 60 Pro forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "FERRARA-60-PRO",
+    "images": [
+      {
+        "src": "/images/products/estufas/ferrara-60-pro.jpg",
+        "alt": "Ferrara 60 Pro DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Ferrara 60 Pro",
+        "shortDescription": "Ferrara 60 Pro — DRIJA line.",
+        "description": "Ferrara 60 Pro is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/ferrara-60-pro.jpg",
+            "alt": "DRIJA Ferrara 60 Pro"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-toscana-91",
+    "slug": "estufas-toscana-91",
+    "name": "Toscana 91",
+    "shortDescription": "Toscana 91 — línea DRIJA.",
+    "description": "Toscana 91 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "TOSCANA-91",
+    "images": [
+      {
+        "src": "/images/products/estufas/toscana-91.jpg",
+        "alt": "Toscana 91 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Toscana 91",
+        "shortDescription": "Toscana 91 — DRIJA line.",
+        "description": "Toscana 91 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/toscana-91.jpg",
+            "alt": "DRIJA Toscana 91"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-toscana-60-pro",
+    "slug": "estufas-toscana-60-pro",
+    "name": "Toscana 60 Pro",
+    "shortDescription": "Toscana 60 Pro — línea DRIJA.",
+    "description": "Toscana 60 Pro forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "TOSCANA-60-PRO",
+    "images": [
+      {
+        "src": "/images/products/estufas/toscana-60-pro.jpg",
+        "alt": "Toscana 60 Pro DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Toscana 60 Pro",
+        "shortDescription": "Toscana 60 Pro — DRIJA line.",
+        "description": "Toscana 60 Pro is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/toscana-60-pro.jpg",
+            "alt": "DRIJA Toscana 60 Pro"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-toscana-30",
+    "slug": "estufas-toscana-30",
+    "name": "Toscana 30",
+    "shortDescription": "Toscana 30 — línea DRIJA.",
+    "description": "Toscana 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "TOSCANA-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/toscana-30.jpg",
+        "alt": "Toscana 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Toscana 30",
+        "shortDescription": "Toscana 30 — DRIJA line.",
+        "description": "Toscana 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/toscana-30.jpg",
+            "alt": "DRIJA Toscana 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-milan-91",
+    "slug": "estufas-milan-91",
+    "name": "Milán 91",
+    "shortDescription": "Milán 91 — línea DRIJA.",
+    "description": "Milán 91 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "MILÁN-91",
+    "images": [
+      {
+        "src": "/images/products/estufas/milan-91.jpg",
+        "alt": "Milán 91 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Milán 91",
+        "shortDescription": "Milán 91 — DRIJA line.",
+        "description": "Milán 91 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/milan-91.jpg",
+            "alt": "DRIJA Milán 91"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-milan-30",
+    "slug": "estufas-milan-30",
+    "name": "Milán 30",
+    "shortDescription": "Milán 30 — línea DRIJA.",
+    "description": "Milán 30 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "MILÁN-30",
+    "images": [
+      {
+        "src": "/images/products/estufas/milan-30.jpg",
+        "alt": "Milán 30 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Milán 30",
+        "shortDescription": "Milán 30 — DRIJA line.",
+        "description": "Milán 30 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/milan-30.jpg",
+            "alt": "DRIJA Milán 30"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-estufas-turin-60",
+    "slug": "estufas-turin-60",
+    "name": "Turín 60",
+    "shortDescription": "Turín 60 — línea DRIJA.",
+    "description": "Turín 60 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "estufas",
+    "subcategorySlug": "tope-gas",
+    "sku": "TURÍN-60",
+    "images": [
+      {
+        "src": "/images/products/estufas/turin-60.jpg",
+        "alt": "Turín 60 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Turín 60",
+        "shortDescription": "Turín 60 — DRIJA line.",
+        "description": "Turín 60 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/estufas/turin-60.jpg",
+            "alt": "DRIJA Turín 60"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-lambrusco-160",
+    "slug": "vineras-lambrusco-160",
+    "name": "Lambrusco 160",
+    "shortDescription": "Lambrusco 160 — línea DRIJA.",
+    "description": "Lambrusco 160 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "LAMBRUSCO-160",
+    "images": [
+      {
+        "src": "/images/products/vineras/lambrusco-160.jpg",
+        "alt": "Lambrusco 160 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Lambrusco 160",
+        "shortDescription": "Lambrusco 160 — DRIJA line.",
+        "description": "Lambrusco 160 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/lambrusco-160.jpg",
+            "alt": "DRIJA Lambrusco 160"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-chianti-154",
+    "slug": "vineras-chianti-154",
+    "name": "Chianti 154",
+    "shortDescription": "Chianti 154 — línea DRIJA.",
+    "description": "Chianti 154 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "CHIANTI-154",
+    "images": [
+      {
+        "src": "/images/products/vineras/chianti-154.jpg",
+        "alt": "Chianti 154 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Chianti 154",
+        "shortDescription": "Chianti 154 — DRIJA line.",
+        "description": "Chianti 154 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/chianti-154.jpg",
+            "alt": "DRIJA Chianti 154"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-dolce-110",
+    "slug": "vineras-dolce-110",
+    "name": "Dolce 110",
+    "shortDescription": "Dolce 110 — línea DRIJA.",
+    "description": "Dolce 110 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "DOLCE-110",
+    "images": [
+      {
+        "src": "/images/products/vineras/dolce-110.jpg",
+        "alt": "Dolce 110 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Dolce 110",
+        "shortDescription": "Dolce 110 — DRIJA line.",
+        "description": "Dolce 110 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/dolce-110.jpg",
+            "alt": "DRIJA Dolce 110"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-ciro-46",
+    "slug": "vineras-ciro-46",
+    "name": "Ciro 46",
+    "shortDescription": "Ciro 46 — línea DRIJA.",
+    "description": "Ciro 46 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "CIRO-46",
+    "images": [
+      {
+        "src": "/images/products/vineras/ciro-46.jpg",
+        "alt": "Ciro 46 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Ciro 46",
+        "shortDescription": "Ciro 46 — DRIJA line.",
+        "description": "Ciro 46 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/ciro-46.jpg",
+            "alt": "DRIJA Ciro 46"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-bere-20",
+    "slug": "vineras-bere-20",
+    "name": "Bere 20",
+    "shortDescription": "Bere 20 — línea DRIJA.",
+    "description": "Bere 20 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "BERE-20",
+    "images": [
+      {
+        "src": "/images/products/vineras/bere-20.jpg",
+        "alt": "Bere 20 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Bere 20",
+        "shortDescription": "Bere 20 — DRIJA line.",
+        "description": "Bere 20 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/bere-20.jpg",
+            "alt": "DRIJA Bere 20"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-chiaretto-31",
+    "slug": "vineras-chiaretto-31",
+    "name": "Chiaretto 31",
+    "shortDescription": "Chiaretto 31 — línea DRIJA.",
+    "description": "Chiaretto 31 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "CHIARETTO-31",
+    "images": [
+      {
+        "src": "/images/products/vineras/chiaretto-31.jpg",
+        "alt": "Chiaretto 31 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Chiaretto 31",
+        "shortDescription": "Chiaretto 31 — DRIJA line.",
+        "description": "Chiaretto 31 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/chiaretto-31.jpg",
+            "alt": "DRIJA Chiaretto 31"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-syrah-20",
+    "slug": "vineras-syrah-20",
+    "name": "Syrah 20",
+    "shortDescription": "Syrah 20 — línea DRIJA.",
+    "description": "Syrah 20 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "SYRAH-20",
+    "images": [
+      {
+        "src": "/images/products/vineras/syrah-20.jpg",
+        "alt": "Syrah 20 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Syrah 20",
+        "shortDescription": "Syrah 20 — DRIJA line.",
+        "description": "Syrah 20 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/syrah-20.jpg",
+            "alt": "DRIJA Syrah 20"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-malbec-7",
+    "slug": "vineras-malbec-7",
+    "name": "Malbec 7",
+    "shortDescription": "Malbec 7 — línea DRIJA.",
+    "description": "Malbec 7 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "empotrables",
+    "sku": "MALBEC-7",
+    "images": [
+      {
+        "src": "/images/products/vineras/malbec-7.jpg",
+        "alt": "Malbec 7 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Malbec 7",
+        "shortDescription": "Malbec 7 — DRIJA line.",
+        "description": "Malbec 7 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/malbec-7.jpg",
+            "alt": "DRIJA Malbec 7"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-rosso-8",
+    "slug": "vineras-rosso-8",
+    "name": "Rosso 8",
+    "shortDescription": "Rosso 8 — línea DRIJA.",
+    "description": "Rosso 8 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "no-empotrables",
+    "sku": "ROSSO-8",
+    "images": [
+      {
+        "src": "/images/products/vineras/rosso-8.jpg",
+        "alt": "Rosso 8 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Rosso 8",
+        "shortDescription": "Rosso 8 — DRIJA line.",
+        "description": "Rosso 8 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/rosso-8.jpg",
+            "alt": "DRIJA Rosso 8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-merlot-29",
+    "slug": "vineras-merlot-29",
+    "name": "Merlot 29",
+    "shortDescription": "Merlot 29 — línea DRIJA.",
+    "description": "Merlot 29 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "no-empotrables",
+    "sku": "MERLOT-29",
+    "images": [
+      {
+        "src": "/images/products/vineras/merlot-29.jpg",
+        "alt": "Merlot 29 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Merlot 29",
+        "shortDescription": "Merlot 29 — DRIJA line.",
+        "description": "Merlot 29 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/merlot-29.jpg",
+            "alt": "DRIJA Merlot 29"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "prod-vineras-tempranillo-8",
+    "slug": "vineras-tempranillo-8",
+    "name": "Tempranillo 8",
+    "shortDescription": "Tempranillo 8 — línea DRIJA.",
+    "description": "Tempranillo 8 forma parte de la línea DRIJA. Consulte especificaciones técnicas y disponibilidad en su país.",
+    "categorySlug": "vineras",
+    "subcategorySlug": "no-empotrables",
+    "sku": "TEMPRANILLO-8",
+    "images": [
+      {
+        "src": "/images/products/vineras/tempranillo-8.jpg",
+        "alt": "Tempranillo 8 DRIJA"
+      }
+    ],
+    "translations": {
+      "en": {
+        "name": "Tempranillo 8",
+        "shortDescription": "Tempranillo 8 — DRIJA line.",
+        "description": "Tempranillo 8 is part of the DRIJA product line. Check technical specifications and availability in your country.",
+        "images": [
+          {
+            "src": "/images/products/vineras/tempranillo-8.jpg",
+            "alt": "DRIJA Tempranillo 8"
+          }
         ]
       }
     }
