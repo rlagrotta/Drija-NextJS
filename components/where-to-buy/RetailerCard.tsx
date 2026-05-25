@@ -37,7 +37,7 @@ export function RetailerCard({ retailer, visitWebsiteLabel }: RetailerCardProps)
           alt={retailer.name}
           fill
           sizes="(max-width: 640px) 50vw, 25vw"
-          className="object-contain p-4"
+          className="object-contain p-4 "
         />
       </div>
       <div className="flex items-center justify-center gap-1.5 border-t border-neutral-200 bg-white px-2 py-2.5 text-[10px] font-semibold uppercase tracking-wide text-neutral-800 transition group-hover:text-drija-green sm:text-xs">

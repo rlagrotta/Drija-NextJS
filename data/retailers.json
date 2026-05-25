@@ -18,13 +18,13 @@
       { "id": "pa-photura", "name": "Photura", "url": "https://www.photura.com", "logo": "/images/retailers/pa-photura.png" },
       { "id": "pa-pricesmart", "name": "PriceSmart", "url": "https://www.pricesmart.com", "logo": "/images/retailers/pa-pricesmart.png" },
       { "id": "pa-raenco", "name": "Raenco", "url": "https://www.raenco.com", "logo": "/images/retailers/pa-raenco.png" },
-      { "id": "pa-redelag", "name": "Redelag", "url": "https://www.redelag.com", "logo": "/images/retailers/pa-redelag.png" },
+      { "id": "pa-redelag", "name": "Redelag", "url": "https://www.rodelag.com", "logo": "/images/retailers/pa-rodelag.png" },
       { "id": "pa-selecto", "name": "Selecto", "url": "https://www.superselectos.com", "logo": "/images/retailers/pa-selecto.png" },
-      { "id": "pa-siena", "name": "Siena", "url": "https://www.sienapac.com", "logo": "/images/retailers/pa-siena.png" },
+      { "id": "pa-siena", "name": "Siena", "url": "https://www.sirenahomestore.com", "logo": "/images/retailers/pa-sirena.png" },
       { "id": "pa-spiegel", "name": "Spiegel", "url": "https://www.spiegel.com.pa", "logo": "/images/retailers/pa-spiegel.png" },
       { "id": "pa-tech-house", "name": "Tech House", "url": "https://www.techhouse.com.pa", "logo": "/images/retailers/pa-tech-house.png" },
       { "id": "pa-tecnobyte", "name": "Tecnobyte", "url": "https://www.tecnobyte.com.pa", "logo": "/images/retailers/pa-tecnobyte.png" },
-      { "id": "pa-tandur", "name": "Tandur", "url": "https://www.tandur.com.pa", "logo": "/images/retailers/pa-tandur.png" }
+      { "id": "pa-tandur", "name": "Tandur", "url": "https://www.komexpma.com", "logo": "/images/retailers/pa-tandor.png" }
     ],
     "translations": { "en": { "country": "Panama" } }
   },

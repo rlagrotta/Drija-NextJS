@@ -49,7 +49,7 @@ export function OptimizedImage({
         src={src}
         alt={alt}
         fill
-        className={cn("object-cover", className)}
+        className={cn("object-contain", className)}
         sizes={sizes}
         priority={priority}
         onError={() => setError(true)}

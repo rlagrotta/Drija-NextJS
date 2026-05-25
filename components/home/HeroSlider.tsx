@@ -61,7 +61,7 @@ export function HeroSlider({ slides }: HeroSliderProps) {
             fill
             priority={index === 0}
             sizes="100vw"
-            className="object-contain object-center"
+            className="object-cover object-center"
           />
         </div>
       ))}
