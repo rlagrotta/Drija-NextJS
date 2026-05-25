@@ -16,6 +16,8 @@
 
 .formColumn {
   padding: 3rem 1rem;
+  background-color: white;
+  z-index: 60;
 }
 
 @media (min-width: 640px) {
@@ -41,6 +43,8 @@
   position: relative;
   display: none;
   min-height: 28rem;
+  z-index: 1;
+  width: 100vw;
 }
 
 @media (min-width: 1024px) {
@@ -57,6 +61,12 @@
   width: 35%;
   background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0.85) 35%, transparent 100%);
   pointer-events: none;
+  z-index: 99;
+}
+
+.imageFade image {
+  left: -310px!important;
+  object-fit: contain;
 }
 
 .image {
