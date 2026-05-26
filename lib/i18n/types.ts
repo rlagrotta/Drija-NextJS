@@ -125,6 +125,11 @@ export type Dictionary = {
     notFoundDescription: string;
     backHome: string;
   };
+  catalogDownload: {
+    line1: string;
+    line2: string;
+    ariaLabel: string;
+  };
 };
 
 export type I18nContextValue = {

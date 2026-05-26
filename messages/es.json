@@ -122,5 +122,10 @@
     "notFoundTitle": "404",
     "notFoundDescription": "La página que buscas no existe.",
     "backHome": "Volver al inicio"
+  },
+  "catalogDownload": {
+    "line1": "Descarga",
+    "line2": "tu catálogo",
+    "ariaLabel": "Descargar catálogo DRIJA"
   }
 }

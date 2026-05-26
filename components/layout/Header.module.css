@@ -1,5 +1,6 @@
 .hero {
     background-color: black;
+    z-index: 99;
 }
 
 .nav ul li a {

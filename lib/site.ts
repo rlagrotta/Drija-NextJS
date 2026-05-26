@@ -14,4 +14,5 @@ export const siteConfig = {
   legal: {
     termsUrl: "/avisos-legales",
   },
+  catalogDownloadUrl: "/catalogo/drija.pdf",
 } as const;
