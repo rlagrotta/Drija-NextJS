@@ -19,10 +19,14 @@
   margin-top: 3.5rem;
 }
 
+.section {
+  scroll-margin-top: 5rem;
+}
+
 .sectionTitle {
   margin: 0;
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1.6875rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -38,6 +42,45 @@
   background-color: var(--drija-green);
 }
 
+.mobileLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-top: 1.5rem;
+}
+
+.mobileGroup {
+  display: flex;
+  flex-direction: column;
+  scroll-margin-top: 5rem;
+}
+
+.mobilePill {
+  width: 100%;
+}
+
+.listMobile {
+  margin: 0.625rem 0 0;
+}
+
+.animatedPanel {
+  overflow: hidden;
+}
+
+.desktopLayout {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .mobileLayout {
+    display: none;
+  }
+
+  .desktopLayout {
+    display: block;
+  }
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -50,8 +93,8 @@
   border: none;
   border-radius: 9999px;
   background-color: #f0f0f0;
-  padding: 0.5rem 1rem;
-  font-size: 0.75rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #525252;
@@ -59,7 +102,7 @@
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.filterButton:hover {
+.filterButton:hover:not(.filterButtonActive) {
   color: #171717;
 }
 
@@ -91,25 +134,29 @@
   cursor: pointer;
 }
 
-.chevron {
-  width: 0.5rem;
-  height: 0.5rem;
+.toggleIcon {
+  display: inline-flex;
+  width: 1.875rem;
   flex-shrink: 0;
-  border-right: 2px solid #171717;
-  border-bottom: 2px solid #171717;
-  transform: rotate(-45deg);
-  transition: transform 0.2s ease;
-}
-
-.chevronOpen {
-  transform: rotate(45deg);
+  justify-content: center;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #171717;
+  transition: color 0.2s ease;
 }
 
 .itemName {
   flex: 1;
-  font-size: 0.9375rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 500;
   color: #171717;
+  transition: color 0.2s ease;
+}
+
+.triggerOpen .toggleIcon,
+.triggerOpen .itemName {
+  color: var(--drija-green);
 }
 
 .panel {
@@ -132,6 +179,6 @@
 .empty {
   margin: 1.5rem 0 0;
   text-align: center;
-  font-size: 0.9375rem;
+  font-size: 1.40625rem;
   color: #737373;
 }

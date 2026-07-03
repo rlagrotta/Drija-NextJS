@@ -121,6 +121,31 @@
     "emptySection": "No manuals available in this category.",
     "downloadManual": "Download manual for {product}"
   },
+  "technicalServicePage": {
+    "pageTitle": "Technical service",
+    "pageDescription": "Contact DRIJA technical service on WhatsApp for your country.",
+    "introLine1": "We offer after-sales warranty on all our appliances for up to 24 months.",
+    "introLine2": "Choose the country where you are located and have your purchase invoice ready.",
+    "introLine3": "Calls are not answered — chat only!",
+    "whatsappTitle": "Whatsapp",
+    "contactAriaLabel": "Contact technical service in {region} via WhatsApp"
+  },
+  "supportCatalogs": {
+    "pageTitle": "Catalogs",
+    "pageDescription": "Browse and download DRIJA product catalogs.",
+    "comingSoon": "Content coming soon.",
+    "heading": "OFFICIAL DRIJA CATALOG / ENGLISH",
+    "openCatalog": "Click the cover to open the interactive catalog",
+    "flipbookLoading": "Loading catalog viewer…",
+    "downloadEs": "Download (Spanish)",
+    "downloadEn": "Download (English)",
+    "dearFlipAttribution": "Interactive viewer powered by <a href=\"https://github.com/dearhive/dearflip-js-flipbook\" target=\"_blank\" rel=\"noopener noreferrer\">DearFlip</a> (CC BY-NC-ND 4.0)."
+  },
+  "supportWarranties": {
+    "pageTitle": "Warranties",
+    "pageDescription": "After-sales warranty information for DRIJA products.",
+    "comingSoon": "Content coming soon."
+  },
   "contact": {
     "pageTitle": "Contact us",
     "pageDescription": "Write to us for inquiries, support and business opportunities.",

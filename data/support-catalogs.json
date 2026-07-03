@@ -1,0 +1,25 @@
+{
+  "es": {
+    "pdf": "/catalogo/drija-es.pdf",
+    "downloadFilename": "DRIJA-catalogo-es.pdf",
+    "cover": {
+      "src": "/images/catalogs/cover-es.png",
+      "alt": "Portada del catálogo DRIJA en español"
+    }
+  },
+  "en": {
+    "pdf": "/catalogo/drija-en.pdf",
+    "downloadFilename": "DRIJA-catalog-en.pdf",
+    "cover": {
+      "src": "/images/catalogs/cover-en.png",
+      "alt": "DRIJA catalog cover in English"
+    },
+    "translations": {
+      "en": {
+        "cover": {
+          "alt": "DRIJA catalog cover in English"
+        }
+      }
+    }
+  }
+}

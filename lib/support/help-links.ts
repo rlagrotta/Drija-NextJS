@@ -1,5 +1,6 @@
 import type { Dictionary } from "@/lib/i18n/types";
 import type { SupportHelpItem } from "@/components/support/SupportHelpSection";
+import { SUPPORT_ROUTES } from "@/lib/support/routes";
 
 const SUPPORT_ICONS = {
   manuals: "/images/support/Icono_Manuales_DRIJA.png",
@@ -21,19 +22,19 @@ export function buildSupportHelpItems(
     },
     {
       label: dict.support.technicalService,
-      href: href("/donde-comprar"),
+      href: href(SUPPORT_ROUTES.technicalService),
       iconSrc: SUPPORT_ICONS.technicalService,
       iconAlt: dict.support.technicalService,
     },
     {
       label: dict.support.catalogs,
-      href: href("/productos"),
+      href: href(SUPPORT_ROUTES.catalogs),
       iconSrc: SUPPORT_ICONS.catalogs,
       iconAlt: dict.support.catalogs,
     },
     {
       label: dict.support.warranties,
-      href: href("/soporte"),
+      href: href(SUPPORT_ROUTES.warranties),
       iconSrc: SUPPORT_ICONS.warranties,
       iconAlt: dict.support.warranties,
     },

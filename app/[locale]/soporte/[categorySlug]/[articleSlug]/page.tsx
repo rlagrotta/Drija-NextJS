@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCms } from "@/lib/cms";
 import { getPageI18n } from "@/lib/i18n/server";
+import { SUPPORT_ROUTES } from "@/lib/support/routes";
 
 import styles from "@/components/support/SupportFaqAccordion.module.css";
 
@@ -56,7 +57,7 @@ export default async function SupportArticlePage({ params }: PageProps) {
 
   return (
     <article className={styles.articlePage}>
-      <Link href={href("/soporte")} className={styles.backLink}>
+      <Link href={href(SUPPORT_ROUTES.faq)} className={styles.backLink}>
         {dict.support.backToSupport}
       </Link>
 

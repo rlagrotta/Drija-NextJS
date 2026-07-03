@@ -1,0 +1,133 @@
+.page {
+  background-color: #fff;
+  padding: 2.5rem 1rem 0;
+}
+
+.inner {
+  margin-inline: auto;
+  max-width: 52rem;
+  width: 100%;
+}
+
+.heading {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #171717;
+}
+
+.coverSection {
+  margin-top: 1.75rem;
+}
+
+.coverLoading {
+  display: block;
+  width: 100%;
+  max-width: 42rem;
+  margin-inline: auto;
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: wait;
+}
+
+.coverImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 14%);
+}
+
+.flipbookHost {
+  display: flex;
+  justify-content: center;
+}
+
+.flipbookHost :global(._df_thumb) {
+  display: inline-block;
+  max-width: 42rem;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.flipbookHost :global(._df_thumb img),
+.flipbookHost :global(._df_thumb .df-thumb-image),
+.flipbookHost :global(._df_thumb-image) {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 14%);
+}
+
+.openHint {
+  margin: 0.75rem 0 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #737373;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  margin-top: 2rem;
+}
+
+.downloadButton {
+  display: inline-flex;
+  min-width: min(100%, 18rem);
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: var(--drija-green);
+  padding: 0.875rem 2rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.downloadButton:hover {
+  background-color: #6fa038;
+}
+
+.attribution {
+  margin: 2rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #a3a3a3;
+}
+
+.attribution a {
+  color: #737373;
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .page {
+    padding: 3rem 1.5rem 0;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+  }
+
+  .downloads {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .downloadButton {
+    min-width: 14rem;
+  }
+}

@@ -123,6 +123,31 @@ export type Dictionary = {
     emptySection: string;
     downloadManual: string;
   };
+  technicalServicePage: {
+    pageTitle: string;
+    pageDescription: string;
+    introLine1: string;
+    introLine2: string;
+    introLine3: string;
+    whatsappTitle: string;
+    contactAriaLabel: string;
+  };
+  supportCatalogs: {
+    pageTitle: string;
+    pageDescription: string;
+    comingSoon: string;
+    heading: string;
+    openCatalog: string;
+    flipbookLoading: string;
+    downloadEs: string;
+    downloadEn: string;
+    dearFlipAttribution: string;
+  };
+  supportWarranties: {
+    pageTitle: string;
+    pageDescription: string;
+    comingSoon: string;
+  };
   contact: {
     pageTitle: string;
     pageDescription: string;

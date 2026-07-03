@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { getPageI18n } from "@/lib/i18n/server";
+import { SUPPORT_ROUTES } from "@/lib/support/routes";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -30,7 +31,7 @@ export default async function ContactoPage({ params }: PageProps) {
           <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
             <li>
               <Link
-                href={href("/soporte")}
+                href={href(SUPPORT_ROUTES.faq)}
                 className="font-semibold text-drija-green hover:underline"
               >
                 {dict.contact.faq}
@@ -38,7 +39,7 @@ export default async function ContactoPage({ params }: PageProps) {
             </li>
             <li>
               <Link
-                href={href("/donde-comprar")}
+                href={href(SUPPORT_ROUTES.technicalService)}
                 className="font-semibold text-drija-green hover:underline"
               >
                 {dict.contact.technicalService}
@@ -46,7 +47,7 @@ export default async function ContactoPage({ params }: PageProps) {
             </li>
             <li>
               <Link
-                href={href("/productos")}
+                href={href(SUPPORT_ROUTES.catalogs)}
                 className="font-semibold text-drija-green hover:underline"
               >
                 {dict.contact.catalogs}

@@ -1,0 +1,186 @@
+{
+  "regions": [
+    {
+      "id": "caribe",
+      "order": 1,
+      "name": "Caribe",
+      "buttonLabel": "CARIBE",
+      "phoneLabel": "+507 61456613",
+      "whatsappUrl": "https://wa.link/cr0pqq",
+      "flag": {
+        "src": "/images/technical-service/caribe.png",
+        "alt": "Caribe"
+      },
+      "translations": {
+        "en": {
+          "name": "Caribbean",
+          "buttonLabel": "CARIBBEAN",
+          "flag": { "alt": "Caribbean" }
+        }
+      }
+    },
+    {
+      "id": "costa-rica",
+      "order": 2,
+      "name": "Costa Rica",
+      "buttonLabel": "COSTA RICA",
+      "phoneLabel": "+506 71868946",
+      "whatsappUrl": "https://rb.gy/nttlyi",
+      "flag": {
+        "src": "/images/technical-service/costa-rica.png",
+        "alt": "Costa Rica"
+      },
+      "translations": {
+        "en": {
+          "name": "Costa Rica",
+          "buttonLabel": "COSTA RICA"
+        }
+      }
+    },
+    {
+      "id": "el-salvador",
+      "order": 3,
+      "name": "El Salvador",
+      "buttonLabel": "EL SALVADOR",
+      "phoneLabel": "+503 6855 9533",
+      "whatsappUrl": "https://wa.link/k33r1u",
+      "flag": {
+        "src": "/images/technical-service/el-salvador.png",
+        "alt": "El Salvador"
+      },
+      "translations": {
+        "en": {
+          "name": "El Salvador",
+          "buttonLabel": "EL SALVADOR"
+        }
+      }
+    },
+    {
+      "id": "guatemala",
+      "order": 4,
+      "name": "Guatemala",
+      "buttonLabel": "GUATEMALA",
+      "phoneLabel": "+502 5844 8694",
+      "whatsappUrl": "https://wa.link/amfhdp",
+      "flag": {
+        "src": "/images/technical-service/guatemala.png",
+        "alt": "Guatemala"
+      },
+      "translations": {
+        "en": {
+          "name": "Guatemala",
+          "buttonLabel": "GUATEMALA"
+        }
+      }
+    },
+    {
+      "id": "honduras",
+      "order": 5,
+      "name": "Honduras",
+      "buttonLabel": "HONDURAS",
+      "phoneLabel": "+507 62015956",
+      "whatsappUrl": "https://wa.link/b191ah",
+      "flag": {
+        "src": "/images/technical-service/honduras.png",
+        "alt": "Honduras"
+      },
+      "translations": {
+        "en": {
+          "name": "Honduras",
+          "buttonLabel": "HONDURAS"
+        }
+      }
+    },
+    {
+      "id": "nicaragua",
+      "order": 6,
+      "name": "Nicaragua",
+      "buttonLabel": "NICARAGUA",
+      "phoneLabel": "+507 62015956",
+      "whatsappUrl": "https://wa.link/b191ah",
+      "flag": {
+        "src": "/images/technical-service/nicaragua.png",
+        "alt": "Nicaragua"
+      },
+      "translations": {
+        "en": {
+          "name": "Nicaragua",
+          "buttonLabel": "NICARAGUA"
+        }
+      }
+    },
+    {
+      "id": "panama",
+      "order": 7,
+      "name": "Panamá",
+      "buttonLabel": "PANAMÁ",
+      "phoneLabel": "+507 62015956",
+      "whatsappUrl": "https://wa.link/b191ah",
+      "flag": {
+        "src": "/images/technical-service/panama.png",
+        "alt": "Panamá"
+      },
+      "translations": {
+        "en": {
+          "name": "Panama",
+          "buttonLabel": "PANAMA"
+        }
+      }
+    },
+    {
+      "id": "republica-dominicana",
+      "order": 8,
+      "name": "República Dominicana",
+      "buttonLabel": "REP. DOM.",
+      "phoneLabel": "+1 8098278441",
+      "whatsappUrl": "https://wa.link/5m9wdt",
+      "flag": {
+        "src": "/images/technical-service/republica-dominicana.png",
+        "alt": "República Dominicana"
+      },
+      "translations": {
+        "en": {
+          "name": "Dominican Republic",
+          "buttonLabel": "DOM. REP.",
+          "flag": { "alt": "Dominican Republic" }
+        }
+      }
+    },
+    {
+      "id": "venezuela",
+      "order": 9,
+      "name": "Venezuela",
+      "buttonLabel": "VENEZUELA",
+      "phoneLabel": "+58 4243697867",
+      "whatsappUrl": "https://wa.link/z0pgl4",
+      "flag": {
+        "src": "/images/technical-service/venezuela.png",
+        "alt": "Venezuela"
+      },
+      "translations": {
+        "en": {
+          "name": "Venezuela",
+          "buttonLabel": "VENEZUELA"
+        }
+      }
+    },
+    {
+      "id": "mexico",
+      "order": 10,
+      "name": "México",
+      "buttonLabel": "MÉXICO",
+      "phoneLabel": "+52 55 4071 8268",
+      "whatsappUrl": "https://wa.link/zrcbxc",
+      "flag": {
+        "src": "/images/technical-service/mexico.png",
+        "alt": "México"
+      },
+      "translations": {
+        "en": {
+          "name": "Mexico",
+          "buttonLabel": "MEXICO"
+        }
+      }
+    }
+  ]
+}

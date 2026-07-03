@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useMemo } from "react";
 import { buildFooterCategories } from "@/lib/footer/build-footer-categories";
 import { useI18n } from "@/lib/i18n/context";
+import { SUPPORT_ROUTES } from "@/lib/support/routes";
 import { siteConfig } from "@/lib/site";
 
 import styles from "./Footer.module.css";
@@ -18,7 +19,7 @@ export function Footer() {
   );
 
   const infoLinks = [
-    { href: href("/soporte"), label: dict.footer.faq, external: false },
+    { href: href(SUPPORT_ROUTES.faq), label: dict.footer.faq, external: false },
     { href: href("/productos"), label: dict.footer.catalogs, external: false },
     { href: href("/contacto"), label: dict.footer.workWithUs, external: false },
     {

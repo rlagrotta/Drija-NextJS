@@ -121,6 +121,31 @@
     "emptySection": "No hay manuales disponibles en esta categoría.",
     "downloadManual": "Descargar manual de {product}"
   },
+  "technicalServicePage": {
+    "pageTitle": "Servicio técnico",
+    "pageDescription": "Contacta servicio técnico DRIJA por WhatsApp según tu país.",
+    "introLine1": "Te ofrecemos garantía Post Venta en todos nuestros Electrodomésticos hasta 24 meses.",
+    "introLine2": "Escoge el país donde te encuentras y ten a mano la factura de compra.",
+    "introLine3": "¡No se atienden llamadas, sólo chat!",
+    "whatsappTitle": "Whatsapp",
+    "contactAriaLabel": "Contactar servicio técnico en {region} por WhatsApp"
+  },
+  "supportCatalogs": {
+    "pageTitle": "Catálogos",
+    "pageDescription": "Consulta y descarga los catálogos de productos DRIJA.",
+    "comingSoon": "Contenido próximamente.",
+    "heading": "CATÁLOGO DRIJA OFICIAL / ESPAÑOL",
+    "openCatalog": "Haz clic en la portada para ver el catálogo interactivo",
+    "flipbookLoading": "Cargando visor del catálogo…",
+    "downloadEs": "Descargar (Español)",
+    "downloadEn": "Download (English)",
+    "dearFlipAttribution": "Visor interactivo con <a href=\"https://github.com/dearhive/dearflip-js-flipbook\" target=\"_blank\" rel=\"noopener noreferrer\">DearFlip</a> (CC BY-NC-ND 4.0)."
+  },
+  "supportWarranties": {
+    "pageTitle": "Garantías",
+    "pageDescription": "Información sobre garantía post venta de productos DRIJA.",
+    "comingSoon": "Contenido próximamente."
+  },
   "contact": {
     "pageTitle": "Contáctanos",
     "pageDescription": "Escríbenos para consultas, soporte y oportunidades comerciales.",
