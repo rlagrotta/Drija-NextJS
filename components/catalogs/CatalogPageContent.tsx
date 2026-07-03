@@ -46,6 +46,8 @@ export function CatalogPageContent({
             pdfUrl={activeCatalog.pdf}
             coverSrc={activeCatalog.cover.src}
             coverAlt={activeCatalog.cover.alt}
+            coverWidth={activeCatalog.cover.width}
+            coverHeight={activeCatalog.cover.height}
             openLabel={openLabel}
             loadingLabel={loadingLabel}
           />

@@ -4,7 +4,9 @@
     "downloadFilename": "DRIJA-catalogo-es.pdf",
     "cover": {
       "src": "/images/catalogs/cover-es.png",
-      "alt": "Portada del catálogo DRIJA en español"
+      "alt": "Portada del catálogo DRIJA en español",
+      "width": 1306,
+      "height": 735
     }
   },
   "en": {
@@ -12,7 +14,9 @@
     "downloadFilename": "DRIJA-catalog-en.pdf",
     "cover": {
       "src": "/images/catalogs/cover-en.png",
-      "alt": "DRIJA catalog cover in English"
+      "alt": "DRIJA catalog cover in English",
+      "width": 1306,
+      "height": 735
     },
     "translations": {
       "en": {

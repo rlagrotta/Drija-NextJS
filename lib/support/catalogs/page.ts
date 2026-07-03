@@ -15,6 +15,8 @@ export function getSupportCatalogForLocale(locale: Locale): SupportCatalogAsset 
     cover: {
       src: enCatalog.cover.src,
       alt: translations?.en?.cover?.alt ?? enCatalog.cover.alt,
+      width: enCatalog.cover.width,
+      height: enCatalog.cover.height,
     },
   };
 }

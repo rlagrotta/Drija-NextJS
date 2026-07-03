@@ -19,10 +19,11 @@
 }
 
 .coverSection {
+  position: relative;
   margin-top: 1.75rem;
 }
 
-.coverLoading {
+.coverButton {
   display: block;
   width: 100%;
   max-width: 42rem;
@@ -30,38 +31,41 @@
   border: none;
   padding: 0;
   background: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.coverButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.coverButton:disabled {
   cursor: wait;
+  opacity: 0.92;
+}
+
+.coverFrame {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 14%);
 }
 
 .coverImage {
   display: block;
   width: 100%;
-  height: auto;
-  box-shadow: 0 12px 32px rgb(0 0 0 / 14%);
+  height: 100%;
+  object-fit: cover;
 }
 
-.flipbookHost {
-  display: flex;
-  justify-content: center;
-}
-
-.flipbookHost :global(._df_thumb) {
-  display: inline-block;
-  max-width: 42rem;
-  width: 100%;
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  padding: 0;
-}
-
-.flipbookHost :global(._df_thumb img),
-.flipbookHost :global(._df_thumb .df-thumb-image),
-.flipbookHost :global(._df_thumb-image) {
-  display: block;
-  width: 100% !important;
-  height: auto !important;
-  box-shadow: 0 12px 32px rgb(0 0 0 / 14%);
+.hiddenTrigger {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .openHint {
@@ -104,11 +108,11 @@
   text-align: center;
   font-size: 0.75rem;
   line-height: 1.5;
-  color: #a3a3a3;
+  color: #fff;
 }
 
 .attribution a {
-  color: #737373;
+  color: #fff;
   text-decoration: underline;
 }
 

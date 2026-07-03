@@ -1,12 +1,16 @@
 import type { ContentTranslations } from "@/types/content-i18n";
 
+export type SupportCatalogCover = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
 export type SupportCatalogAsset = {
   pdf: string;
   downloadFilename: string;
-  cover: {
-    src: string;
-    alt: string;
-  };
+  cover: SupportCatalogCover;
 };
 
 export type SupportCatalogAssetTranslations = {
