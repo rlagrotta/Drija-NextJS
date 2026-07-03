@@ -174,6 +174,17 @@
     "intro": "Este sitio es operado por DRIJA International. El uso del sitio implica la aceptación de nuestras políticas de privacidad y términos de servicio.",
     "privacy": "Para consultas sobre tratamiento de datos personales enviados a través del formulario de contacto, escríbenos a contacto@drijainternational.com."
   },
+  "workWithUsPage": {
+    "pageTitle": "Trabaja con nosotros",
+    "pageDescription": "Únete al equipo DRIJA y sé parte de nuestro crecimiento en Latinoamérica y el mundo.",
+    "heroTitle": "¿Quieres ser parte de nuestro equipo?",
+    "subtitle": "¡Es tu oportunidad!",
+    "paragraph1": "Buscamos crecer cada día más, y queremos que TÚ seas parte de ello. Junto a tu conocimiento y experiencia laboral podemos crecer mutuamente.",
+    "paragraph2": "Nos encontramos en diferentes países de Latinoamérica, buscando siempre extendernos y crecer a nivel mundial. Tu apoyo es el que necesitamos para llegar a todos los hogares del mundo; por ello queremos brindarte la oportunidad de ser parte de nuestro equipo y llevar lujo e innovación a todos los rincones del planeta.",
+    "contactLabel": "Contáctanos:",
+    "whatsappLabel": "WhatsApp",
+    "whatsappAriaLabel": "Contactar por WhatsApp para oportunidades comerciales con DRIJA"
+  },
   "footer": {
     "categories": "Categorías",
     "catalogs": "Catálogos",

@@ -21,7 +21,7 @@ export function Footer() {
   const infoLinks = [
     { href: href(SUPPORT_ROUTES.faq), label: dict.footer.faq, external: false },
     { href: href("/productos"), label: dict.footer.catalogs, external: false },
-    { href: href("/contacto"), label: dict.footer.workWithUs, external: false },
+    { href: href("/trabaja-con-nosotros"), label: dict.footer.workWithUs, external: false },
     {
       href: siteConfig.social.instagram,
       label: dict.footer.socialNetworks,

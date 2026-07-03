@@ -1,0 +1,15 @@
+{
+  "mascot": {
+    "src": "/images/work-with-us/mascot.png",
+    "alt": "Mascota DRIJA",
+    "width": 540,
+    "height": 540
+  },
+  "contact": {
+    "email": "GerenciaComercial@drijacompany.com",
+    "whatsappUrl": {
+      "es": "https://api.whatsapp.com/send?phone=50763227860&text=Hola%2C%20quiero%20ser%20Socio%20Comercial",
+      "en": "https://api.whatsapp.com/send?phone=50763227860&text=Hello%2C%20I%20want%20to%20be%20a%20Commercial%20Partner"
+    }
+  }
+}

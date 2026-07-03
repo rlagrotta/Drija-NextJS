@@ -174,6 +174,17 @@
     "intro": "This site is operated by DRIJA International. Use of the site implies acceptance of our privacy policies and terms of service.",
     "privacy": "For inquiries about personal data submitted through the contact form, email us at contacto@drijainternational.com."
   },
+  "workWithUsPage": {
+    "pageTitle": "Work with us",
+    "pageDescription": "Join the DRIJA team and be part of our growth across Latin America and worldwide.",
+    "heroTitle": "Would you like to be part of our team?",
+    "subtitle": "This is your opportunity!",
+    "paragraph1": "We are growing every day, and we want YOU to be part of it. Together with your knowledge and professional experience, we can grow mutually.",
+    "paragraph2": "We are present in several countries across Latin America, always looking to expand and grow worldwide. Your support is what we need to reach households around the globe; that is why we want to give you the opportunity to join our team and bring luxury and innovation to every corner of the world.",
+    "contactLabel": "Contact us:",
+    "whatsappLabel": "WhatsApp",
+    "whatsappAriaLabel": "Contact us on WhatsApp about commercial opportunities with DRIJA"
+  },
   "footer": {
     "categories": "Categories",
     "catalogs": "Catalogs",

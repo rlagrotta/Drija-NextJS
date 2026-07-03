@@ -176,6 +176,17 @@ export type Dictionary = {
     intro: string;
     privacy: string;
   };
+  workWithUsPage: {
+    pageTitle: string;
+    pageDescription: string;
+    heroTitle: string;
+    subtitle: string;
+    paragraph1: string;
+    paragraph2: string;
+    contactLabel: string;
+    whatsappLabel: string;
+    whatsappAriaLabel: string;
+  };
   footer: {
     categories: string;
     catalogs: string;
