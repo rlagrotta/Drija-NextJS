@@ -144,7 +144,15 @@
   "supportWarranties": {
     "pageTitle": "Warranties",
     "pageDescription": "After-sales warranty information for DRIJA products.",
-    "comingSoon": "Content coming soon."
+    "termsTitle": "Terms",
+    "periodsTitle": "Warranty Periods",
+    "laborLabel": "Labor",
+    "partsLabel": "Parts and Components",
+    "yearLabel": "year",
+    "yearsLabel": "years",
+    "supportTitle": "Support",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email"
   },
   "contact": {
     "pageTitle": "Contact us",

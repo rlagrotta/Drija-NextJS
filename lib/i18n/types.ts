@@ -146,7 +146,15 @@ export type Dictionary = {
   supportWarranties: {
     pageTitle: string;
     pageDescription: string;
-    comingSoon: string;
+    termsTitle: string;
+    periodsTitle: string;
+    laborLabel: string;
+    partsLabel: string;
+    yearLabel: string;
+    yearsLabel: string;
+    supportTitle: string;
+    whatsappLabel: string;
+    emailLabel: string;
   };
   contact: {
     pageTitle: string;

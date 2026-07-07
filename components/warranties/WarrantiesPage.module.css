@@ -1,0 +1,210 @@
+.page {
+  background-color: #fff;
+  padding: 2.5rem 1rem 0;
+}
+
+.inner {
+  margin-inline: auto;
+  max-width: 72rem;
+  width: 100%;
+}
+
+.heroTitle {
+  margin: 0;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #171717;
+}
+
+.heroTitle::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin: 0.875rem auto 0;
+  background-color: var(--drija-green);
+}
+
+.grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.legalSection + .legalSection {
+  margin-top: 1.75rem;
+}
+
+.legalTitle {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #171717;
+}
+
+.legalParagraph {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #404040;
+  margin-bottom: 4rem;
+}
+
+.legalList {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #404040;
+}
+
+.legalList li + li {
+  margin-top: 0.625rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.periodsTitle {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #171717;
+}
+
+.periodsList {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.periodItem {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.periodTrigger {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  background: transparent;
+  padding: 0.875rem 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.toggleIcon {
+  display: inline-flex;
+  width: 1.25rem;
+  flex-shrink: 0;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #171717;
+  transition: color 0.2s ease;
+}
+
+.periodName {
+  flex: 1;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--drija-green);
+  transition: color 0.2s ease;
+}
+
+.periodTriggerOpen .toggleIcon,
+.periodTriggerOpen .periodName {
+  color: var(--drija-green);
+}
+
+.periodPanel {
+  overflow: hidden;
+}
+
+.periodGroups {
+  margin: 0;
+  padding: 0 0 1rem 1.875rem;
+  list-style: none;
+}
+
+.periodGroup + .periodGroup {
+  margin-top: 0.875rem;
+}
+
+.groupName {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #171717;
+}
+
+.groupDetail {
+  margin: 0.375rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #525252;
+}
+
+.supportBox {
+  /*text-align: center;*/
+}
+
+.supportTitle {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #171717;
+}
+
+.supportLinks {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.supportLinkItem + .supportLinkItem {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.supportLink {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--drija-green);
+  text-decoration: none;
+}
+
+.supportLink:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .page {
+    padding: 3rem 1.5rem 0;
+  }
+
+  .heroTitle {
+    font-size: 2.125rem;
+  }
+
+  .legalTitle,
+  .periodsTitle,
+  .supportTitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 3rem;
+    align-items: start;
+  }
+}

@@ -30,8 +30,8 @@ export function SupportHelpSection({ title, items }: SupportHelpSectionProps) {
                 <Image
                   src={item.iconSrc}
                   alt={item.iconAlt}
-                  width={52}
-                  height={52}
+                  width={40}
+                  height={40}
                   className={styles.icon}
                 />
               </span>

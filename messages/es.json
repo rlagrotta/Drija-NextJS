@@ -144,7 +144,15 @@
   "supportWarranties": {
     "pageTitle": "Garantías",
     "pageDescription": "Información sobre garantía post venta de productos DRIJA.",
-    "comingSoon": "Contenido próximamente."
+    "termsTitle": "Términos",
+    "periodsTitle": "Períodos de Garantías",
+    "laborLabel": "Mano de Obra",
+    "partsLabel": "Piezas y Partes",
+    "yearLabel": "año",
+    "yearsLabel": "años",
+    "supportTitle": "Soporte",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Correo electrónico"
   },
   "contact": {
     "pageTitle": "Contáctanos",

@@ -3,6 +3,8 @@ import type { SupportHelpItem } from "@/components/support/SupportHelpSection";
 import { SUPPORT_ROUTES } from "@/lib/support/routes";
 
 const SUPPORT_ICONS = {
+  // TODO: replace with dedicated FAQ icon when available
+  faq: "/images/support/Icono_Garantias_DRIJA.png",
   manuals: "/images/support/Icono_Manuales_DRIJA.png",
   technicalService: "/images/support/Icono_Servicio_Tecnico_DRIJA.png",
   catalogs: "/images/support/Icono_Catalogo_DRIJA.png",
@@ -14,6 +16,12 @@ export function buildSupportHelpItems(
   href: (path: string) => string,
 ): SupportHelpItem[] {
   return [
+    {
+      label: dict.support.faq,
+      href: href(SUPPORT_ROUTES.faq),
+      iconSrc: SUPPORT_ICONS.faq,
+      iconAlt: dict.support.faq,
+    },
     {
       label: dict.support.manuals,
       href: href("/manuales"),

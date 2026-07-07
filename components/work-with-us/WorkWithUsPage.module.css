@@ -3,10 +3,17 @@
   padding: 2.5rem 1rem 4rem;
 }
 
+.pageAligner {
+    display: flex!important;
+    align-items: center!important;
+}
+
+
 .inner {
   margin-inline: auto;
   max-width: 72rem;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .heroTitle {
@@ -121,6 +128,10 @@
 @media (min-width: 640px) {
   .page {
     padding: 3rem 1.5rem 5rem;
+  }
+
+    .inner {
+    margin-bottom: 2rem;
   }
 
   .heroTitle {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { TechnicalServicePageContent } from "@/components/technical-service/TechnicalServicePageContent";
 import { getPageI18n } from "@/lib/i18n/server";
+import { buildSupportHelpItems } from "@/lib/support/help-links";
 import { getTechnicalServiceRegions } from "@/lib/technical-service/page";
 
 type PageProps = { params: Promise<{ locale: string }> };
@@ -16,8 +17,9 @@ export async function generateMetadata({
 }
 
 export default async function SoporteServicioTecnicoPage({ params }: PageProps) {
-  const { locale, dict } = await getPageI18n(params);
+  const { locale, dict, href } = await getPageI18n(params);
   const regions = getTechnicalServiceRegions(locale);
+  const helpItems = buildSupportHelpItems(dict, href);
   const copy = dict.technicalServicePage;
 
   return (
@@ -28,6 +30,8 @@ export default async function SoporteServicioTecnicoPage({ params }: PageProps) 
       introLine3={copy.introLine3}
       whatsappTitle={copy.whatsappTitle}
       contactAriaLabel={copy.contactAriaLabel}
+      helpTitle={dict.support.needHelp}
+      helpItems={helpItems}
     />
   );
 }

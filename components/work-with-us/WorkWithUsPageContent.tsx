@@ -59,7 +59,7 @@ export function WorkWithUsPageContent({
               <p className={styles.contactLabel}>{contactLabel}</p>
               <a href={`mailto:${email}`} className={styles.emailLink}>
                 {email}
-              </a>
+              </a><br/>
 
               <WorkWithUsWhatsAppButton
                 href={whatsappUrl}

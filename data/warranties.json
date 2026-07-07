@@ -1,0 +1,261 @@
+{
+  "contact": {
+    "email": "serviciotecnico@drijacompany.com",
+    "whatsappUrl": "https://api.whatsapp.com/send/?phone=50763705818&text&type=phone_number&app_absent=0"
+  },
+  "termsIntro": "DRIJA COMPANY, S.A. garantiza sus productos contra cualquier defecto de fabricación tanto por piezas y partes como mano de obra durante el período de garantía establecido según cada producto en condiciones normales de acuerdo con el manual de usuario.",
+  "conditions": {
+    "title": "Condiciones de la Garantía y Tipo de Servicio",
+    "items": [
+      "El servicio de garantía podrá ser efectuado por Técnicos y/o Centros de Servicio Autorizado (CSA) DRIJA, siempre que los productos hayan sido comercializados por DRIJA COMPANY, S.A. como también por sus distribuidores autorizados en los países en los cuales se comercialice el producto.",
+      "El producto debe ser adquirido como un equipo nuevo, no aplican equipos adquiridos como remate, segunda mano y/o liquidación.",
+      "Para hacer efectiva la garantía, el consumidor deberá presentar además del producto, la factura de compra (prueba de compra) debidamente llenada, y el certificado de garantía correspondiente.",
+      "Los costos de instalación, mantenimiento y explicación sobre la operación del producto son total responsabilidad del consumidor.",
+      "Todas las reparaciones deben ser efectuadas en la residencia del consumidor a menos que se especifique caso contrario.",
+      "DRIJA COMPANY, S.A. no se compromete a prestar servicio a domicilio en áreas o zonas donde se pueda poner en riesgo la seguridad física del personal técnico.",
+      "Para servicios foráneos (distancia mayor de 75 Km) desde el CSA mas cercano, el cliente deberá trasladar el producto hacia el mismo y/o correr con los gastos relacionados a la visita del CSA."
+    ],
+    "translations": {
+      "en": {
+        "title": "Warranty Conditions and Type of Service",
+        "items": [
+          "Warranty service may be provided by DRIJA Authorized Technicians and/or Authorized Service Centers (CSA), provided the products were sold by DRIJA COMPANY, S.A. or its authorized distributors in the countries where the product is marketed.",
+          "The product must be purchased as new equipment. Items acquired as clearance, second-hand and/or liquidation sales are not covered.",
+          "To validate the warranty, the consumer must present the product along with the purchase invoice (proof of purchase) properly completed, and the corresponding warranty certificate.",
+          "Installation, maintenance and product operation instruction costs are entirely the consumer's responsibility.",
+          "All repairs must be performed at the consumer's residence unless otherwise specified.",
+          "DRIJA COMPANY, S.A. does not commit to providing on-site service in areas or zones where the physical safety of technical personnel may be at risk.",
+          "For out-of-area service (more than 75 km from the nearest CSA), the customer must transport the product to the CSA and/or cover the costs related to the CSA visit."
+        ]
+      }
+    }
+  },
+  "voidSituations": {
+    "title": "Situaciones que anulan la Garantía",
+    "items": [
+      "La falta de factura de compra (prueba de compra) o certificado de garantía.",
+      "El equipo presenta daños causados por instalaciones, operaciones o usos inadecuados por parte del usuario, negligencia, falta de uso u otro diferente a las especificaciones para la cual fue diseñado como el uso comercial o industrial.",
+      "Instalaciones inadecuadas o insuficientes, negligencia, incompetencia del usuario o falta de mantenimiento.",
+      "Alteración del suministro regular de energía eléctrica, o por no operarlo de acuerdo con el manual o de usuario elaborado por el fabricante.",
+      "El equipo presenta daños causados por fuentes externas tales como golpes, rayado, fisura, pintura, productos de limpieza abrasivos, derrames de comida o líquidos; en especial si son corrosivos, acción del salitre, de insectos o roedores, baterías derramadas, maltratos, abusos, caídas y daños en general.",
+      "El equipo presenta daños ocasionados por causa mayor: incendios, inundaciones, terremotos, tormentas eléctricas, casos fortuitos, exposición a condiciones climatológicas adversas.",
+      "El equipo haya sufrido modificaciones de tensión o frecuencia, que haya sido desarmado, alterado e intervenido de cualquier forma por cualquier persona o centro de servicio no autorizado por el fabricante.",
+      "El equipo presente el número de serie alterado, modificado y removido o el mismo sea ilegible.",
+      "Ausencia o rotura de los sellos o precinto de garantía, cuando estos existan en los equipos."
+    ],
+    "translations": {
+      "en": {
+        "title": "Situations that void the Warranty",
+        "items": [
+          "Missing purchase invoice (proof of purchase) or warranty certificate.",
+          "Damage caused by improper installation, operation or use by the user, negligence, lack of use or use other than specified, such as commercial or industrial use.",
+          "Inadequate or insufficient installation, negligence, user incompetence or lack of maintenance.",
+          "Alteration of regular electrical power supply, or failure to operate the product according to the manufacturer's user manual.",
+          "Damage caused by external sources such as impacts, scratches, cracks, paint, abrasive cleaning products, food or liquid spills (especially corrosive ones), salt air, insects or rodents, spilled batteries, misuse, abuse, falls and general damage.",
+          "Damage caused by force majeure: fires, floods, earthquakes, electrical storms, fortuitous events, exposure to adverse weather conditions.",
+          "The equipment has undergone voltage or frequency modifications, has been disassembled, altered or serviced in any way by any person or service center not authorized by the manufacturer.",
+          "The serial number has been altered, modified, removed or is illegible.",
+          "Absence or breakage of warranty seals or tamper labels, when present on the equipment."
+        ]
+      }
+    }
+  },
+  "contactSection": {
+    "title": "Contáctenos",
+    "paragraph": "Al momento de realizar algún reclamo, deberá comunicarse con DRIJA COMPANY, S.A. a través de sus canales de atención al cliente tales como correo electrónico serviciotecnico@drijacompany.com, o vía WhatsApp en horario de lunes a viernes de 8:00 am a 5:00 pm.",
+    "translations": {
+      "en": {
+        "title": "Contact us",
+        "paragraph": "When filing a claim, please contact DRIJA COMPANY, S.A. through its customer service channels such as email at serviciotecnico@drijacompany.com, or via WhatsApp Monday through Friday from 8:00 am to 5:00 pm."
+      }
+    }
+  },
+  "periodCategories": [
+    {
+      "id": "extractores-grasa",
+      "slug": "extractores-de-grasa",
+      "name": "Extractores de Grasa",
+      "order": 1,
+      "groups": [
+        {
+          "id": "campanas-slim-touch",
+          "name": "Campanas / Slim Touch",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Range hoods / Slim Touch" } }
+        }
+      ],
+      "translations": { "en": { "name": "Grease extractors" } }
+    },
+    {
+      "id": "estufas",
+      "slug": "estufas",
+      "name": "Estufas",
+      "order": 2,
+      "groups": [
+        {
+          "id": "empotrables-gas",
+          "name": "Empotrables a Gas",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Built-in gas" } }
+        },
+        {
+          "id": "empotrables-electricas",
+          "name": "Empotrables Eléctricas",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Built-in electric" } }
+        },
+        {
+          "id": "empotrables-dobles",
+          "name": "Empotrables Dobles",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Double built-in" } }
+        }
+      ],
+      "translations": { "en": { "name": "Stoves" } }
+    },
+    {
+      "id": "microondas",
+      "slug": "microondas",
+      "name": "Microondas",
+      "order": 3,
+      "groups": [
+        {
+          "id": "microondas-empotrables",
+          "name": "Microondas Empotrables",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Built-in microwaves" } }
+        }
+      ],
+      "translations": { "en": { "name": "Microwaves" } }
+    },
+    {
+      "id": "hornos",
+      "slug": "hornos",
+      "name": "Hornos",
+      "order": 4,
+      "groups": [
+        {
+          "id": "empotrables-electricos",
+          "name": "Empotrables Eléctricos",
+          "laborYears": 2,
+          "partsYears": 2,
+          "translations": { "en": { "name": "Built-in electric ovens" } }
+        },
+        {
+          "id": "empotrables-gas-grill",
+          "name": "Empotrables a Gas / Gas Grill",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Built-in gas / gas grill" } }
+        }
+      ],
+      "translations": { "en": { "name": "Ovens" } }
+    },
+    {
+      "id": "vineras",
+      "slug": "vineras",
+      "name": "Vineras",
+      "order": 5,
+      "groups": [
+        {
+          "id": "vineras-todos",
+          "name": "Todos los modelos",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "All models" } }
+        }
+      ],
+      "translations": { "en": { "name": "Wine coolers" } }
+    },
+    {
+      "id": "refrigeradoras",
+      "slug": "refrigeradoras",
+      "name": "Refrigeradoras",
+      "order": 6,
+      "groups": [
+        {
+          "id": "refrigeradoras-todos",
+          "name": "Todos los modelos",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "All models" } }
+        }
+      ],
+      "translations": { "en": { "name": "Refrigerators" } }
+    },
+    {
+      "id": "fabricador-hielo",
+      "slug": "fabricador-de-hielo",
+      "name": "Fabricador de Hielo",
+      "order": 7,
+      "groups": [
+        {
+          "id": "fabricador-hielo-todos",
+          "name": "Todos los modelos",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "All models" } }
+        }
+      ],
+      "translations": { "en": { "name": "Ice makers" } }
+    },
+    {
+      "id": "freidoras",
+      "slug": "freidoras",
+      "name": "Freidoras",
+      "order": 8,
+      "groups": [
+        {
+          "id": "freidoras-todos",
+          "name": "Todos los modelos",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "All models" } }
+        }
+      ],
+      "translations": { "en": { "name": "Air fryers" } }
+    },
+    {
+      "id": "calentadores",
+      "slug": "calentadores",
+      "name": "Calentadores",
+      "order": 9,
+      "groups": [
+        {
+          "id": "calentadores-todos",
+          "name": "Todos los modelos",
+          "laborYears": 2,
+          "partsYears": 2,
+          "translations": { "en": { "name": "All models" } }
+        }
+      ],
+      "translations": { "en": { "name": "Water heaters" } }
+    },
+    {
+      "id": "fregaderos",
+      "slug": "fregaderos",
+      "name": "Fregaderos",
+      "order": 10,
+      "groups": [
+        {
+          "id": "kit-fregador-grifo",
+          "name": "Kit Fregador y Grifo",
+          "laborYears": 1,
+          "partsYears": 1,
+          "translations": { "en": { "name": "Sink and faucet kit" } }
+        }
+      ],
+      "translations": { "en": { "name": "Sinks" } }
+    }
+  ],
+  "translations": {
+    "en": {
+      "termsIntro": "DRIJA COMPANY, S.A. warrants its products against any manufacturing defect in both parts and labor during the warranty period established for each product under normal conditions according to the user manual."
+    }
+  }
+}
