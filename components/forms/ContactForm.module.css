@@ -123,6 +123,7 @@
   font-weight: 600;
   color: #171717;
   transition: background-color 0.15s ease, color 0.15s ease;
+  border-radius: 4px;
 }
 
 .submit:hover:not(:disabled) {
