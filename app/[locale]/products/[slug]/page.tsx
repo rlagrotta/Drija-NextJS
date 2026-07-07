@@ -54,10 +54,10 @@ export default async function ProductDetailPage({ params }: PageProps) {
             <ol className="flex flex-wrap items-center gap-2">
               <li>
                 <Link
-                  href={href("/productos")}
+                  href={href("/")}
                   className="hover:text-drija-green"
                 >
-                  {pd.breadcrumbProducts}
+                  {dict.nav.home}
                 </Link>
               </li>
               {category && (

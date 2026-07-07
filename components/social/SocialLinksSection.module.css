@@ -1,0 +1,126 @@
+.section {
+  background-color: #f7f7f7;
+}
+
+.inner {
+  margin-inline: auto;
+  max-width: 56rem;
+  padding: 3.5rem 1rem 4rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .inner {
+    padding: 4rem 1.5rem 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inner {
+    max-width: 90rem;
+    padding: 5rem 2rem 6rem;
+  }
+}
+
+.handle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #171717;
+}
+
+@media (min-width: 640px) {
+  .handle {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .handle {
+    font-size: 2.125rem;
+  }
+}
+
+.subtitle {
+  margin: 0.75rem 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #171717;
+}
+
+@media (min-width: 640px) {
+  .subtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+  }
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 640px) {
+  .links {
+    gap: 1.75rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .links {
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+    margin-top: 3.5rem;
+  }
+
+  .links li {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .link {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.link {
+  display: inline-flex;
+  transition: transform 0.2s ease;
+}
+
+.link:hover,
+.link:focus-visible {
+  transform: scale(1.05);
+  outline: none;
+}
+
+.icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .icon {
+    width: 5.25rem;
+    height: 5.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+}

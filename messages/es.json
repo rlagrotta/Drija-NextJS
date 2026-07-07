@@ -20,7 +20,8 @@
     "blog": "Blog",
     "whereToBuy": "Dónde comprar",
     "support": "Soporte",
-    "contact": "Contáctenos"
+    "contact": "Contáctenos",
+    "mobileMenu": "Menú de navegación"
   },
   "search": {
     "openLabel": "Buscar productos",
@@ -282,6 +283,18 @@
     "whatsappLabel": "WhatsApp",
     "whatsappAriaLabel": "Contactar por WhatsApp para oportunidades comerciales con DRIJA"
   },
+  "socialPage": {
+    "pageTitle": "DRIJA Social",
+    "pageDescription": "Síguenos en nuestras redes sociales y descubre diseño, funcionalidad e innovación DRIJA.",
+    "heroLine1": "DRIJA",
+    "heroLine2": "#Social",
+    "subtitle": "La Combinación Perfecta en Diseño y Funcionalidad. ✨",
+    "visitFacebook": "Visitar Facebook de DRIJA",
+    "visitInstagram": "Visitar Instagram de DRIJA",
+    "visitTiktok": "Visitar TikTok de DRIJA",
+    "visitYoutube": "Visitar YouTube de DRIJA",
+    "visitLinkedin": "Visitar LinkedIn de DRIJA"
+  },
   "footer": {
     "categories": "Categorías",
     "catalogs": "Catálogos",
@@ -293,6 +306,7 @@
   },
   "common": {
     "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
     "homeLabel": "DRIJA inicio",
     "notFoundTitle": "404",
     "notFoundDescription": "La página que buscas no existe.",

@@ -44,12 +44,6 @@ export default async function HomePage({ params }: PageProps) {
               {dict.home.categoriesTitle}
             </h2>
           </div>
-          <Link
-            href={href("/productos")}
-            className="hidden text-sm font-semibold text-drija-green hover:underline sm:inline"
-          >
-            {dict.home.viewAll}
-          </Link>
         </div>
         <HomeCategoryGrid
           categories={homeCategories}

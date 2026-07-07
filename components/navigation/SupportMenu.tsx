@@ -20,6 +20,7 @@ import { cn } from "@/lib/utils";
 
 import menuStyles from "./SupportMenu.module.css";
 import navStyles from "./Navigation.module.css";
+import mobileMenuStyles from "./MobileMenu.module.css";
 
 const panelVariants = {
   hidden: { opacity: 0, y: -10, scale: 0.98 },
@@ -32,6 +33,7 @@ type SupportMenuContextValue = {
   close: () => void;
   triggerRef: React.RefObject<HTMLButtonElement | null>;
   panelRef: React.RefObject<HTMLDivElement | null>;
+  mobileRef: React.RefObject<HTMLLIElement | null>;
 };
 
 const SupportMenuContext = createContext<SupportMenuContextValue | null>(null);
@@ -69,6 +71,7 @@ export function SupportMenuRoot({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
+  const mobileRef = useRef<HTMLLIElement>(null);
 
   const close = useCallback(() => {
     setOpen(false);
@@ -85,7 +88,8 @@ export function SupportMenuRoot({ children }: { children: ReactNode }) {
       const target = event.target as Node;
       if (
         triggerRef.current?.contains(target) ||
-        panelRef.current?.contains(target)
+        panelRef.current?.contains(target) ||
+        mobileRef.current?.contains(target)
       ) {
         return;
       }
@@ -115,7 +119,7 @@ export function SupportMenuRoot({ children }: { children: ReactNode }) {
 
   return (
     <SupportMenuContext.Provider
-      value={{ open, toggle, close, triggerRef, panelRef }}
+      value={{ open, toggle, close, triggerRef, panelRef, mobileRef }}
     >
       {children}
     </SupportMenuContext.Provider>
@@ -231,7 +235,7 @@ export function SupportMobileAccordion({
 }) {
   const pathname = usePathname();
   const { dict } = useI18n();
-  const { open, toggle, close } = useSupportMenuContext();
+  const { open, toggle, close, mobileRef } = useSupportMenuContext();
   const routeActive = isSupportNavPath(pathname);
 
   const handleToggle = () => {
@@ -245,7 +249,7 @@ export function SupportMobileAccordion({
   };
 
   return (
-    <li className="border-b border-neutral-100 last:border-b-0">
+    <li ref={mobileRef} className={mobileMenuStyles.listItem}>
       <button
         type="button"
         className={cn(

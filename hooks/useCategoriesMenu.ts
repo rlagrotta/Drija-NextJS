@@ -12,8 +12,8 @@ export function useCategoriesMenu() {
   const hasHydrated = useMarketStore((state) => state.hasHydrated);
 
   const menu = useMemo(
-    () => buildCategoriesMenu(locale, href, dict.nav.viewAllCategories),
-    [dict.nav.viewAllCategories, href, locale],
+    () => buildCategoriesMenu(locale, href),
+    [href, locale],
   );
 
   const columns = useMemo(() => {

@@ -23,6 +23,7 @@ export type Dictionary = {
     whereToBuy: string;
     support: string;
     contact: string;
+    mobileMenu: string;
   };
   search: {
     openLabel: string;
@@ -242,6 +243,18 @@ export type Dictionary = {
     whatsappLabel: string;
     whatsappAriaLabel: string;
   };
+  socialPage: {
+    pageTitle: string;
+    pageDescription: string;
+    heroLine1: string;
+    heroLine2: string;
+    subtitle: string;
+    visitFacebook: string;
+    visitInstagram: string;
+    visitTiktok: string;
+    visitYoutube: string;
+    visitLinkedin: string;
+  };
   footer: {
     categories: string;
     catalogs: string;
@@ -253,6 +266,7 @@ export type Dictionary = {
   };
   common: {
     openMenu: string;
+    closeMenu: string;
     homeLabel: string;
     notFoundTitle: string;
     notFoundDescription: string;

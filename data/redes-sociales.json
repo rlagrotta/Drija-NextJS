@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "es": {
+      "src": "/images/redes-sociales/hero.png",
+      "alt": "DRIJA Social"
+    },
+    "en": {
+      "src": "/images/redes-sociales/hero.png",
+      "alt": "DRIJA Social"
+    }
+  },
+  "handle": "@DrijaInternational",
+  "socialLinks": [
+    {
+      "id": "facebook",
+      "icon": "/images/redes-sociales/facebook.png",
+      "urlKey": "facebook"
+    },
+    {
+      "id": "instagram",
+      "icon": "/images/redes-sociales/instagram.png",
+      "urlKey": "instagram"
+    },
+    {
+      "id": "tiktok",
+      "icon": "/images/redes-sociales/tiktok.png",
+      "urlKey": "tiktok"
+    },
+    {
+      "id": "youtube",
+      "icon": "/images/redes-sociales/youtube.png",
+      "urlKey": "youtube"
+    },
+    {
+      "id": "linkedin",
+      "icon": "/images/redes-sociales/linkedin.png",
+      "urlKey": "linkedin"
+    }
+  ]
+}

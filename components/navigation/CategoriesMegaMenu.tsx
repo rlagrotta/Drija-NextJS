@@ -19,6 +19,7 @@ import { stripLocalePrefix } from "@/lib/i18n/paths";
 import { cn } from "@/lib/utils";
 
 import navStyles from "./Navigation.module.css";
+import mobileMenuStyles from "./MobileMenu.module.css";
 
 const megaMenuVariants = {
   hidden: { opacity: 0, y: -10, scale: 0.98 },
@@ -31,6 +32,7 @@ type CategoriesMenuContextValue = {
   close: () => void;
   triggerRef: React.RefObject<HTMLButtonElement | null>;
   panelRef: React.RefObject<HTMLDivElement | null>;
+  mobileRef: React.RefObject<HTMLLIElement | null>;
 };
 
 const CategoriesMenuContext = createContext<CategoriesMenuContextValue | null>(
@@ -57,11 +59,7 @@ export function useOptionalCategoriesMenuControl() {
 
 function isCategoriesSectionActive(pathname: string): boolean {
   const path = stripLocalePrefix(pathname);
-  return (
-    path === "/productos" ||
-    path === "/categorias" ||
-    path.startsWith("/categories")
-  );
+  return path.startsWith("/categories");
 }
 
 function NavChevron({
@@ -99,6 +97,7 @@ export function CategoriesMenuRoot({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
+  const mobileRef = useRef<HTMLLIElement>(null);
 
   const toggle = useCallback(() => {
     setOpen((value) => !value);
@@ -115,7 +114,8 @@ export function CategoriesMenuRoot({ children }: { children: ReactNode }) {
       const target = event.target as Node;
       if (
         triggerRef.current?.contains(target) ||
-        panelRef.current?.contains(target)
+        panelRef.current?.contains(target) ||
+        mobileRef.current?.contains(target)
       ) {
         return;
       }
@@ -145,7 +145,7 @@ export function CategoriesMenuRoot({ children }: { children: ReactNode }) {
 
   return (
     <CategoriesMenuContext.Provider
-      value={{ open, toggle, close, triggerRef, panelRef }}
+      value={{ open, toggle, close, triggerRef, panelRef, mobileRef }}
     >
       {children}
     </CategoriesMenuContext.Provider>
@@ -195,7 +195,7 @@ export function CategoriesMenuTrigger() {
 }
 
 function MegaMenuContent({ onNavigate }: { onNavigate: () => void }) {
-  const { columns, viewAllHref, viewAllLabel } = useCategoriesMenu();
+  const { columns } = useCategoriesMenu();
 
   return (
     <div className="rounded-3xl bg-white p-8 shadow-[0_24px_60px_rgba(0,0,0,0.12)] lg:p-10">
@@ -226,16 +226,6 @@ function MegaMenuContent({ onNavigate }: { onNavigate: () => void }) {
             ) : null}
           </div>
         ))}
-      </div>
-
-      <div className="mt-8 border-t border-neutral-200 pt-6">
-        <Link
-          href={viewAllHref}
-          onClick={onNavigate}
-          className="inline-flex text-sm font-bold uppercase tracking-wide text-drija-green transition hover:underline"
-        >
-          {viewAllLabel}
-        </Link>
       </div>
     </div>
   );
@@ -276,8 +266,8 @@ export function CategoriesMobileAccordion({
 }) {
   const pathname = usePathname();
   const { dict } = useI18n();
-  const { open, toggle, close } = useCategoriesMenuContext();
-  const { columns, viewAllHref, viewAllLabel } = useCategoriesMenu();
+  const { open, toggle, close, mobileRef } = useCategoriesMenuContext();
+  const { columns } = useCategoriesMenu();
   const routeActive = isCategoriesSectionActive(pathname);
 
   const handleToggle = () => {
@@ -291,7 +281,7 @@ export function CategoriesMobileAccordion({
   };
 
   return (
-    <li className="border-b border-neutral-100 last:border-b-0">
+    <li ref={mobileRef} className={mobileMenuStyles.listItem}>
       <button
         type="button"
         className={cn(
@@ -342,13 +332,6 @@ export function CategoriesMobileAccordion({
                 </div>
               ))}
 
-              <Link
-                href={viewAllHref}
-                onClick={handleNavigate}
-                className="inline-flex pt-2 text-sm font-bold uppercase tracking-wide text-drija-green"
-              >
-                {viewAllLabel}
-              </Link>
             </div>
           </motion.div>
         ) : null}

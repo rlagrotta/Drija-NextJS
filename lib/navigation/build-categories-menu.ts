@@ -33,12 +33,9 @@ export type NavFeaturedCard = {
 export type CategoriesMenuData = {
   columns: NavCategoryColumn[];
   featured: NavFeaturedCard;
-  viewAllHref: string;
-  viewAllLabel: string;
 };
 
 type NavMegaMenuConfig = {
-  viewAllPath: string;
   featuredCard: {
     categorySlug: string;
     href?: string;
@@ -55,7 +52,6 @@ const megaMenuConfig = navMegaMenuData as NavMegaMenuConfig;
 export function buildCategoriesMenu(
   locale: Locale,
   href: (path: string) => string,
-  viewAllLabel: string,
 ): CategoriesMenuData {
   const categories = (categoriesData as Category[])
     .slice()
@@ -105,7 +101,5 @@ export function buildCategoriesMenu(
       href: featuredHref,
       image: featuredCategory.image,
     },
-    viewAllHref: href(megaMenuConfig.viewAllPath),
-    viewAllLabel,
   };
 }

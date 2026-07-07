@@ -23,9 +23,9 @@ export function Footer() {
     { href: href(SUPPORT_ROUTES.catalogs), label: dict.footer.catalogs, external: false },
     { href: href("/trabaja-con-nosotros"), label: dict.footer.workWithUs, external: false },
     {
-      href: siteConfig.social.instagram,
+      href: href("/redes-sociales"),
       label: dict.footer.socialNetworks,
-      external: true,
+      external: false,
     },
   ];
 

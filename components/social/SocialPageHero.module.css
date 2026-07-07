@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heroMedia {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  min-height: 220px;
+}
+
+@media (min-width: 640px) {
+  .heroMedia {
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroMedia {
+    aspect-ratio: auto;
+    height: 40vh;
+    min-height: unset;
+    max-height: none;
+  }
+}
+
+.heroImage {
+  object-fit: cover;
+  object-position: center right;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 35%);
+}
+
+.titleWrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.titleBlock {
+  padding-inline: 1.5rem;
+  color: #fff;
+}
+
+@media (min-width: 640px) {
+  .titleBlock {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .titleBlock {
+    padding-inline: 4rem;
+  }
+}
+
+.titleLine {
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.05;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.titleHash {
+  margin: 0.15rem 0 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@media (min-width: 640px) {
+  .titleLine {
+    font-size: 2.25rem;
+  }
+
+  .titleHash {
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .titleLine {
+    font-size: 3rem;
+  }
+
+  .titleHash {
+    margin-top: 0.25rem;
+    font-size: 3.75rem;
+  }
+}

@@ -3,19 +3,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Navigation } from "@/components/navigation/Navigation";
+import { MobileMenu } from "@/components/navigation/MobileMenu";
 import { LocaleSwitcher } from "@/components/navigation/LocaleSwitcher";
 import { MarketSelector } from "@/components/navigation/MarketSelector";
 import { MarketBar } from "@/components/navigation/MarketBar";
 import {
   CategoriesMegaMenuPanel,
   CategoriesMenuRoot,
-  CategoriesMobileAccordion,
 } from "@/components/navigation/CategoriesMegaMenu";
 import {
   SupportMenuRoot,
-  SupportMobileAccordion,
 } from "@/components/navigation/SupportMenu";
 import {
   GlobalSearchPanel,
@@ -23,7 +22,6 @@ import {
   GlobalSearchTrigger,
 } from "@/components/search/GlobalSearch";
 import { useI18n } from "@/lib/i18n/context";
-import { isActivePath } from "@/lib/i18n/paths";
 import { cn } from "@/lib/utils";
 
 import styles from './Header.module.css';
@@ -31,6 +29,7 @@ import styles from './Header.module.css';
 export function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
   const { dict, href } = useI18n();
   const pathname = usePathname();
 
@@ -41,18 +40,18 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const mobileLinks = [
-    { href: href("/"), label: dict.nav.home },
-    { href: href("/blog"), label: dict.nav.blog },
-    { href: href("/donde-comprar"), label: dict.nav.whereToBuy },
-    { href: href("/contacto"), label: dict.nav.contact },
-  ];
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
+  const closeMobileMenu = () => setOpen(false);
 
   return (
     <CategoriesMenuRoot>
       <SupportMenuRoot>
       <GlobalSearchRoot>
         <header
+        ref={headerRef}
         className={cn(
           styles.hero,
           scrolled && styles.heroScrolled,
@@ -90,12 +89,14 @@ export function Header() {
 
           <button
             type="button"
-            className={`${styles["navigation-menu-items"]} inline-flex items-center justify-center rounded-md border border-neutral-300 p-2 lg:hidden`}
+            className={styles.menuToggle}
             aria-expanded={open}
             aria-controls="mobile-menu"
             onClick={() => setOpen((v) => !v)}
           >
-            <span className="sr-only">{dict.common.openMenu}</span>
+            <span className="sr-only">
+              {open ? dict.common.closeMenu : dict.common.openMenu}
+            </span>
             <svg
               className="h-5 w-5"
               viewBox="0 0 24 24"
@@ -114,35 +115,11 @@ export function Header() {
 
         <GlobalSearchPanel />
         <CategoriesMegaMenuPanel />
-
-        <div
-          id="mobile-menu"
-          className={cn(
-            "border-t border-neutral-200 bg-white lg:hidden",
-            open ? "block" : "hidden",
-          )}
-        >
-          <ul className="flex flex-col px-4 py-3">
-            <CategoriesMobileAccordion onNavigate={() => setOpen(false)} />
-            <SupportMobileAccordion onNavigate={() => setOpen(false)} />
-            {mobileLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className={cn(
-                    "block py-2 text-sm font-semibold uppercase",
-                    isActivePath(pathname, link.href)
-                      ? "text-drija-green"
-                      : "text-neutral-700",
-                  )}
-                  onClick={() => setOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <MobileMenu
+          open={open}
+          onClose={closeMobileMenu}
+          headerRef={headerRef}
+        />
       </header>
       </GlobalSearchRoot>
       </SupportMenuRoot>
