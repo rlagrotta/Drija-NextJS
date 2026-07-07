@@ -8,6 +8,7 @@ import { RelatedProducts } from "@/components/products/RelatedProducts";
 import { getCms } from "@/lib/cms";
 import { getPageI18n } from "@/lib/i18n/server";
 import { getProductHeroImage, getRelatedProducts } from "@/lib/product-page";
+import { siteConfig } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ locale: string; slug: string }>;
@@ -80,8 +81,13 @@ export default async function ProductDetailPage({ params }: PageProps) {
 
           <ProductMainCard
             product={product}
-            buyHref={href("/donde-comprar")}
-            buyLabel={pd.buy}
+            whereToBuyHref={href("/donde-comprar")}
+            learnMoreLabel={pd.learnMore}
+            whereToBuyLabel={pd.whereToBuy}
+            closeModalLabel={pd.closeDatasheet}
+            downloadDatasheetLabel={pd.downloadDatasheet}
+            downloadCatalogLabel={pd.downloadCatalog}
+            catalogDownloadHref={siteConfig.catalogDownloadUrl}
             specsTitle={pd.technicalSpecs}
             prevImageLabel={pd.prevImage}
             nextImageLabel={pd.nextImage}
@@ -97,7 +103,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         products={relatedProducts}
         locale={locale}
         title={pd.relatedProducts}
-        viewProductLabel={pd.buy}
+        viewProductLabel={pd.viewProduct}
       />
     </>
   );

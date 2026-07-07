@@ -1,6 +1,6 @@
 {
   "contact": {
-    "email": "serviciotecnico@drijacompany.com",
+    "email": "soporte@drijacompany.com",
     "whatsappUrl": "https://api.whatsapp.com/send/?phone=50763705818&text&type=phone_number&app_absent=0"
   },
   "termsIntro": "DRIJA COMPANY, S.A. garantiza sus productos contra cualquier defecto de fabricación tanto por piezas y partes como mano de obra durante el período de garantía establecido según cada producto en condiciones normales de acuerdo con el manual de usuario.",
@@ -62,11 +62,11 @@
   },
   "contactSection": {
     "title": "Contáctenos",
-    "paragraph": "Al momento de realizar algún reclamo, deberá comunicarse con DRIJA COMPANY, S.A. a través de sus canales de atención al cliente tales como correo electrónico serviciotecnico@drijacompany.com, o vía WhatsApp en horario de lunes a viernes de 8:00 am a 5:00 pm.",
+    "paragraph": "Al momento de realizar algún reclamo, deberá comunicarse con DRIJA COMPANY, S.A. a través de sus canales de atención al cliente tales como correo electrónico soporte@drijacompany.com, o vía WhatsApp en horario de lunes a viernes de 8:00 am a 5:00 pm.",
     "translations": {
       "en": {
         "title": "Contact us",
-        "paragraph": "When filing a claim, please contact DRIJA COMPANY, S.A. through its customer service channels such as email at serviciotecnico@drijacompany.com, or via WhatsApp Monday through Friday from 8:00 am to 5:00 pm."
+        "paragraph": "When filing a claim, please contact DRIJA COMPANY, S.A. through its customer service channels such as email at soporte@drijacompany.com, or via WhatsApp Monday through Friday from 8:00 am to 5:00 pm."
       }
     }
   },

@@ -1,27 +1,8 @@
-import type { ContentTranslations } from "@/types/content-i18n";
-
-export type TechnicalServiceFlag = {
-  src: string;
-  alt: string;
-};
-
-export type TechnicalServiceRegionTranslations = {
-  name?: string;
-  buttonLabel?: string;
-  flag?: Partial<TechnicalServiceFlag>;
-};
-
-export type TechnicalServiceRegion = {
-  id: string;
-  order: number;
-  name: string;
-  buttonLabel: string;
-  phoneLabel: string;
+export type TechnicalServiceContact = {
   whatsappUrl: string;
-  flag: TechnicalServiceFlag;
-  translations?: ContentTranslations<TechnicalServiceRegionTranslations>;
+  email: string;
 };
 
 export type TechnicalServicePageConfig = {
-  regions: TechnicalServiceRegion[];
+  contact: TechnicalServiceContact;
 };

@@ -55,11 +55,12 @@
   gap: 0.75rem;
 }
 
-.buy {
+.learnMore {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
+  border: 0;
   background-color: var(--drija-green);
   padding: 0.75rem 2rem;
   font-size: 0.875rem;
@@ -67,9 +68,34 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #fff;
+  cursor: pointer;
   transition: background-color 0.15s ease;
 }
 
-.buy:hover {
+.learnMore:hover {
   background-color: var(--drija-green-dark, #6a9a34);
+}
+
+.whereToBuy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #171717;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.whereToBuy:hover {
+  border-color: var(--drija-green);
+  color: var(--drija-green);
 }

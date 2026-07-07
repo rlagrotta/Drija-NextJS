@@ -18,6 +18,13 @@ export type ProductFeatureBlock = {
   image: ProductImage;
 };
 
+export type ProductDatasheet = {
+  image: ProductImage;
+  downloadUrl?: string;
+  /** Oculta cabecera embebida en imágenes exportadas desde el mockup del modal */
+  cropHeader?: boolean;
+};
+
 export type ProductTranslations = {
   name?: string;
   shortDescription?: string;
@@ -43,6 +50,8 @@ export type Product = {
   featured?: boolean;
   images: ProductImage[];
   specs?: ProductSpec[];
+  /** Ficha técnica para modal «Conoce más» */
+  datasheet?: ProductDatasheet;
   /** Bloques alternados imagen + texto debajo del card principal */
   features?: ProductFeatureBlock[];
   /** HTML opcional para tabla de especificaciones (tiene prioridad sobre specs[]) */

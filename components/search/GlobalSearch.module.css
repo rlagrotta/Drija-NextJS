@@ -40,6 +40,12 @@
   transform: translateY(-1px) rotate(-135deg);
 }
 
+@media (min-width: 1024px) {
+  .chevron {
+    display: none;
+  }
+}
+
 .inputWrap {
   position: relative;
 }

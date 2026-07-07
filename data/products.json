@@ -123,6 +123,14 @@
       "extractores-compatto-90-black",
       "extractores-retractil-touch-60"
     ],
+    "datasheet": {
+      "image": {
+        "src": "/images/datasheets/extractores-sottile-90-b.png",
+        "alt": "Ficha técnica Sottile 90-B DRIJA"
+      },
+      "downloadUrl": "/images/datasheets/extractores-sottile-90-b.png",
+      "cropHeader": true
+    },
     "translations": {
       "en": {
         "name": "Sottile 90-B",
@@ -317,6 +325,13 @@
     "categorySlug": "extractores",
     "subcategorySlug": "compactas",
     "sku": "RETRÁCTIL-TOUCH-60",
+    "datasheet": {
+      "image": {
+        "src": "/images/datasheets/extractores-retractil-touch-60-black.png",
+        "alt": "Ficha técnica Retráctil Touch 60 Black DRIJA"
+      },
+      "downloadUrl": "/images/datasheets/extractores-retractil-touch-60-black.png"
+    },
     "images": [
       {
         "src": "/images/products/extractores/retractil-touch-60.jpg",

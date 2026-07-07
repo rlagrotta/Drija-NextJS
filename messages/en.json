@@ -74,7 +74,11 @@
     "sku": "SKU",
     "specs": "Specifications",
     "whereToBuy": "Where to buy",
-    "buy": "Buy",
+    "learnMore": "Learn more",
+    "viewProduct": "View product",
+    "downloadDatasheet": "Download datasheet",
+    "downloadCatalog": "Download catalog",
+    "closeDatasheet": "Close datasheet",
     "inquire": "Inquire",
     "breadcrumbProducts": "Products",
     "relatedProducts": "Related products",
@@ -122,12 +126,12 @@
   },
   "technicalServicePage": {
     "pageTitle": "Technical service",
-    "pageDescription": "Contact DRIJA technical service on WhatsApp for your country.",
-    "introLine1": "We offer after-sales warranty on all our appliances for up to 24 months.",
-    "introLine2": "Choose the country where you are located and have your purchase invoice ready.",
-    "introLine3": "Calls are not answered — chat only!",
-    "whatsappTitle": "Whatsapp",
-    "contactAriaLabel": "Contact technical service in {region} via WhatsApp"
+    "pageDescription": "Contact DRIJA technical service via WhatsApp or email.",
+    "introLine1": "For after-sales support, have your purchase invoice ready and contact us via WhatsApp or email.",
+    "introLine2": "Our team will be happy to assist you through either of these channels.",
+    "whatsappButton": "Contact us on WhatsApp",
+    "whatsappAriaLabel": "Contact DRIJA technical service via WhatsApp",
+    "emailLabel": "Email:"
   },
   "supportCatalogs": {
     "pageTitle": "Catalogs",

@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { ProductImageSlider } from "@/components/products/ProductImageSlider";
+import { ProductMainCardActions } from "@/components/products/ProductMainCardActions";
 import { ProductSpecsTable } from "@/components/products/ProductSpecsTable";
 import type { Product } from "@/types/product";
 
@@ -7,8 +7,13 @@ import styles from "./ProductMainCard.module.css";
 
 type ProductMainCardProps = {
   product: Product;
-  buyHref: string;
-  buyLabel: string;
+  whereToBuyHref: string;
+  learnMoreLabel: string;
+  whereToBuyLabel: string;
+  closeModalLabel: string;
+  downloadDatasheetLabel: string;
+  downloadCatalogLabel: string;
+  catalogDownloadHref: string;
   specsTitle: string;
   prevImageLabel: string;
   nextImageLabel: string;
@@ -16,8 +21,13 @@ type ProductMainCardProps = {
 
 export function ProductMainCard({
   product,
-  buyHref,
-  buyLabel,
+  whereToBuyHref,
+  learnMoreLabel,
+  whereToBuyLabel,
+  closeModalLabel,
+  downloadDatasheetLabel,
+  downloadCatalogLabel,
+  catalogDownloadHref,
   specsTitle,
   prevImageLabel,
   nextImageLabel,
@@ -41,11 +51,17 @@ export function ProductMainCard({
             specsHtml={product.specsHtml}
           />
 
-          <div className={styles.actions}>
-            <Link href={buyHref} className={styles.buy}>
-              {buyLabel}
-            </Link>
-          </div>
+          <ProductMainCardActions
+            productName={product.name}
+            datasheet={product.datasheet}
+            whereToBuyHref={whereToBuyHref}
+            learnMoreLabel={learnMoreLabel}
+            whereToBuyLabel={whereToBuyLabel}
+            closeModalLabel={closeModalLabel}
+            downloadDatasheetLabel={downloadDatasheetLabel}
+            downloadCatalogLabel={downloadCatalogLabel}
+            catalogDownloadHref={catalogDownloadHref}
+          />
         </div>
       </div>
     </div>

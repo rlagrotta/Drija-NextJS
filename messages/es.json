@@ -74,7 +74,11 @@
     "sku": "SKU",
     "specs": "Especificaciones",
     "whereToBuy": "Dónde comprar",
-    "buy": "Comprar",
+    "learnMore": "Conoce más",
+    "viewProduct": "Ver producto",
+    "downloadDatasheet": "Descargar ficha",
+    "downloadCatalog": "Descargar catálogo",
+    "closeDatasheet": "Cerrar ficha técnica",
     "inquire": "Consultar",
     "breadcrumbProducts": "Productos",
     "relatedProducts": "Productos relacionados",
@@ -122,12 +126,12 @@
   },
   "technicalServicePage": {
     "pageTitle": "Servicio técnico",
-    "pageDescription": "Contacta servicio técnico DRIJA por WhatsApp según tu país.",
-    "introLine1": "Te ofrecemos garantía Post Venta en todos nuestros Electrodomésticos hasta 24 meses.",
-    "introLine2": "Escoge el país donde te encuentras y ten a mano la factura de compra.",
-    "introLine3": "¡No se atienden llamadas, sólo chat!",
-    "whatsappTitle": "Whatsapp",
-    "contactAriaLabel": "Contactar servicio técnico en {region} por WhatsApp"
+    "pageDescription": "Contacta servicio técnico DRIJA por WhatsApp o correo electrónico.",
+    "introLine1": "Para soporte Post Venta, ten a mano tu factura de compra y contáctanos por WhatsApp o correo.",
+    "introLine2": "Nuestro equipo estará encantado de atenderte por cualquiera de estos canales.",
+    "whatsappButton": "Contactar por WhatsApp",
+    "whatsappAriaLabel": "Contactar servicio técnico DRIJA por WhatsApp",
+    "emailLabel": "Correo:"
   },
   "supportCatalogs": {
     "pageTitle": "Catálogos",

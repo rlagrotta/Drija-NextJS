@@ -76,7 +76,11 @@ export type Dictionary = {
     sku: string;
     specs: string;
     whereToBuy: string;
-    buy: string;
+    learnMore: string;
+    viewProduct: string;
+    downloadDatasheet: string;
+    downloadCatalog: string;
+    closeDatasheet: string;
     inquire: string;
     breadcrumbProducts: string;
     relatedProducts: string;
@@ -127,9 +131,9 @@ export type Dictionary = {
     pageDescription: string;
     introLine1: string;
     introLine2: string;
-    introLine3: string;
-    whatsappTitle: string;
-    contactAriaLabel: string;
+    whatsappButton: string;
+    whatsappAriaLabel: string;
+    emailLabel: string;
   };
   supportCatalogs: {
     pageTitle: string;

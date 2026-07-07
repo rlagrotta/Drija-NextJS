@@ -232,7 +232,7 @@ export function GlobalSearchPanel() {
       {open ? (
         <motion.div
           ref={panelRef}
-          className="pointer-events-none absolute left-0 top-full z-[70] w-full px-4 pt-2 sm:px-6 lg:px-8"
+          className="pointer-events-none absolute left-0 top-full z-[70] w-full px-4 pt-2 sm:px-6 lg:px-8 lg:pt-3"
           initial="hidden"
           animate="visible"
           exit="hidden"
