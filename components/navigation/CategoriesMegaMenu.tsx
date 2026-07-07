@@ -13,6 +13,7 @@ import {
   type ReactNode,
 } from "react";
 import { useCategoriesMenu } from "@/hooks/useCategoriesMenu";
+import { navMenuRegistry } from "@/lib/navigation/menu-registry";
 import { useI18n } from "@/lib/i18n/context";
 import { stripLocalePrefix } from "@/lib/i18n/paths";
 import { cn } from "@/lib/utils";
@@ -48,6 +49,10 @@ function useCategoriesMenuContext() {
 
 export function useCategoriesMenuControl() {
   return useCategoriesMenuContext();
+}
+
+export function useOptionalCategoriesMenuControl() {
+  return useContext(CategoriesMenuContext);
 }
 
 function isCategoriesSectionActive(pathname: string): boolean {
@@ -131,6 +136,10 @@ export function CategoriesMenuRoot({ children }: { children: ReactNode }) {
   }, [close, open]);
 
   useEffect(() => {
+    return navMenuRegistry.registerCategoriesMenu(close);
+  }, [close]);
+
+  useEffect(() => {
     close();
   }, [close, pathname]);
 
@@ -149,6 +158,11 @@ export function CategoriesMenuTrigger() {
   const { open, toggle, triggerRef } = useCategoriesMenuContext();
   const routeActive = isCategoriesSectionActive(pathname);
 
+  const handleToggle = () => {
+    navMenuRegistry.closeSupportMenu();
+    toggle();
+  };
+
   return (
     <button
       ref={triggerRef}
@@ -157,7 +171,7 @@ export function CategoriesMenuTrigger() {
       aria-expanded={open}
       aria-haspopup="true"
       aria-label={dict.nav.products}
-      onClick={toggle}
+      onClick={handleToggle}
     >
       <span
         className={cn(
@@ -266,6 +280,11 @@ export function CategoriesMobileAccordion({
   const { columns, viewAllHref, viewAllLabel } = useCategoriesMenu();
   const routeActive = isCategoriesSectionActive(pathname);
 
+  const handleToggle = () => {
+    navMenuRegistry.closeSupportMenu();
+    toggle();
+  };
+
   const handleNavigate = () => {
     close();
     onNavigate?.();
@@ -280,7 +299,7 @@ export function CategoriesMobileAccordion({
           open || routeActive ? "text-drija-green" : "text-neutral-700",
         )}
         aria-expanded={open}
-        onClick={toggle}
+        onClick={handleToggle}
       >
         <span>{dict.nav.products}</span>
         <NavChevron open={open} />

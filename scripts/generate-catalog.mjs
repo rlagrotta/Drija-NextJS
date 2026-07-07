@@ -313,11 +313,6 @@ function makeCategoryPage(categorySlug, subcategoryMap) {
       src: hero,
       alt: `DRIJA ${categorySlug}`,
     },
-    catalog: {
-      onlineUrl: "/productos",
-      downloadUrl: `/catalogo/${categorySlug}.pdf`,
-      image: { src: hero, alt: `Catálogo ${categorySlug} DRIJA` },
-    },
     subcategories,
   };
 }

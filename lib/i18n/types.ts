@@ -60,10 +60,8 @@ export type Dictionary = {
   categoryPage: {
     viewProduct: string;
     catalogTitle: string;
-    viewOnline: string;
+    viewCatalog: string;
     downloadCatalog: string;
-    categoriesTab: string;
-    newArrivalsTab: string;
     otherProducts: string;
   };
   products: {

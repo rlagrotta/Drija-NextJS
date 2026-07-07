@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { RegistroPageContent } from "@/components/registro/RegistroPageContent";
 import { getPageI18n } from "@/lib/i18n/server";
-import { registroPageMetadata } from "@/lib/registro/metadata";
 import {
   getRecaptchaSiteKey,
   getRegistroPageContent,
@@ -14,7 +13,6 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { dict } = await getPageI18n(params);
   return {
-    ...registroPageMetadata,
     title: dict.registroPage.pageTitle,
     description: dict.registroPage.pageDescription,
   };

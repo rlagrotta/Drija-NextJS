@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CategoriesMenuTrigger, useCategoriesMenuControl } from "@/components/navigation/CategoriesMegaMenu";
+import { SupportMenuPanel, SupportMenuTrigger, useSupportMenuControl } from "@/components/navigation/SupportMenu";
 import { useI18n } from "@/lib/i18n/context";
 import { isActivePath, stripLocalePrefix } from "@/lib/i18n/paths";
 import { cn } from "@/lib/utils";
@@ -25,11 +26,16 @@ export function Navigation() {
   const pathname = usePathname();
   const { dict, href } = useI18n();
   const { close: closeCategoriesMenu } = useCategoriesMenuControl();
+  const { close: closeSupportMenu } = useSupportMenuControl();
+
+  const closeAllMenus = () => {
+    closeCategoriesMenu();
+    closeSupportMenu();
+  };
 
   const links = [
     { href: href("/blog"), label: dict.nav.blog },
     { href: href("/donde-comprar"), label: dict.nav.whereToBuy },
-    { href: href("/soporte"), label: dict.nav.support },
     { href: href("/contacto"), label: dict.nav.contact },
   ];
 
@@ -39,7 +45,7 @@ export function Navigation() {
         <li>
           <CategoriesMenuTrigger />
         </li>
-        {links.map((link) => {
+        {links.slice(0, 2).map((link) => {
           const active = isNavItemActive(pathname, link.href);
 
           return (
@@ -51,7 +57,30 @@ export function Navigation() {
                   active && styles.navLinkActive,
                 )}
                 aria-current={active ? "page" : undefined}
-                onClick={closeCategoriesMenu}
+                onClick={closeAllMenus}
+              >
+                {link.label}
+              </Link>
+            </li>
+          );
+        })}
+        <li className={styles.navMenuAnchor}>
+          <SupportMenuTrigger />
+          <SupportMenuPanel />
+        </li>
+        {links.slice(2).map((link) => {
+          const active = isNavItemActive(pathname, link.href);
+
+          return (
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                className={cn(
+                  styles.navLink,
+                  active && styles.navLinkActive,
+                )}
+                aria-current={active ? "page" : undefined}
+                onClick={closeAllMenus}
               >
                 {link.label}
               </Link>

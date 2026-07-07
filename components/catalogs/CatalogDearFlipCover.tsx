@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useRef } from "react";
-import { parseDearFlipElements, useDearFlipScripts } from "@/hooks/useDearFlipScripts";
+import { useCallback } from "react";
+import { useDearFlipTrigger } from "@/hooks/useDearFlipTrigger";
 
 import styles from "./CatalogPage.module.css";
 
@@ -25,31 +25,14 @@ export function CatalogDearFlipCover({
   openLabel,
   loadingLabel,
 }: CatalogDearFlipCoverProps) {
-  const scriptsReady = useDearFlipScripts();
-  const triggerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const trigger = triggerRef.current;
-    if (!scriptsReady || !trigger) {
-      return;
-    }
-
-    trigger.className = "_df_button";
-    trigger.setAttribute("source", pdfUrl);
-    trigger.textContent = openLabel;
-    trigger.removeAttribute("df-parsed");
-
-    parseDearFlipElements();
-  }, [scriptsReady, pdfUrl, openLabel]);
+  const { triggerRef, scriptsReady, openFlipbook } = useDearFlipTrigger(
+    pdfUrl,
+    openLabel,
+  );
 
   const handleCoverClick = useCallback(() => {
-    const trigger = triggerRef.current;
-    if (!trigger) {
-      return;
-    }
-
-    trigger.click();
-  }, []);
+    openFlipbook();
+  }, [openFlipbook]);
 
   return (
     <div className={styles.coverSection}>

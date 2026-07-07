@@ -5,14 +5,6 @@
       "src": "/images/categories/extractores.jpg",
       "alt": "DRIJA extractores"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/extractores.pdf",
-      "image": {
-        "src": "/images/categories/extractores.jpg",
-        "alt": "Catálogo extractores DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-extractores-canopio",
@@ -98,14 +90,6 @@
       "src": "/images/categories/hornos.jpg",
       "alt": "DRIJA hornos"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/hornos.pdf",
-      "image": {
-        "src": "/images/categories/hornos.jpg",
-        "alt": "Catálogo hornos DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-hornos-torre-horno-microondas",
@@ -171,14 +155,6 @@
     "heroImage": {
       "src": "/images/categories/refrigeradores-hero.jpg",
       "alt": "DRIJA refrigeradores"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/refrigeradores.pdf",
-      "image": {
-        "src": "/images/categories/refrigeradores-hero.jpg",
-        "alt": "Catálogo refrigeradores DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -284,14 +260,6 @@
       "src": "/images/categories/fabricador-de-hielo.jpg",
       "alt": "DRIJA fabricador-de-hielo"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/fabricador-de-hielo.pdf",
-      "image": {
-        "src": "/images/categories/fabricador-de-hielo.jpg",
-        "alt": "Catálogo fabricador-de-hielo DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-fabricador-de-hielo-empotrables",
@@ -338,14 +306,6 @@
     "heroImage": {
       "src": "/images/categories/microondas.jpg",
       "alt": "DRIJA microondas"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/microondas.pdf",
-      "image": {
-        "src": "/images/categories/microondas.jpg",
-        "alt": "Catálogo microondas DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -394,14 +354,6 @@
       "src": "/images/categories/dispensadores-de-agua.jpg",
       "alt": "DRIJA dispensadores-de-agua"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/dispensadores-de-agua.pdf",
-      "image": {
-        "src": "/images/categories/dispensadores-de-agua.jpg",
-        "alt": "Catálogo dispensadores-de-agua DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-dispensadores-de-agua-acqua",
@@ -449,14 +401,6 @@
       "src": "/images/categories/lavadoras.jpg",
       "alt": "DRIJA lavadoras"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/lavadoras.pdf",
-      "image": {
-        "src": "/images/categories/lavadoras.jpg",
-        "alt": "Catálogo lavadoras DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-lavadoras-lava-seca",
@@ -484,14 +428,6 @@
     "heroImage": {
       "src": "/images/categories/centros-de-bebidas.jpg",
       "alt": "DRIJA centros-de-bebidas"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/centros-de-bebidas.pdf",
-      "image": {
-        "src": "/images/categories/centros-de-bebidas.jpg",
-        "alt": "Catálogo centros-de-bebidas DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -539,14 +475,6 @@
     "heroImage": {
       "src": "/images/categories/pequenos-electrodomesticos.jpg",
       "alt": "DRIJA pequenos-electrodomesticos"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/pequenos-electrodomesticos.pdf",
-      "image": {
-        "src": "/images/categories/pequenos-electrodomesticos.jpg",
-        "alt": "Catálogo pequenos-electrodomesticos DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -671,14 +599,6 @@
       "src": "/images/categories/calentadores-de-agua.jpg",
       "alt": "DRIJA calentadores-de-agua"
     },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/calentadores-de-agua.pdf",
-      "image": {
-        "src": "/images/categories/calentadores-de-agua.jpg",
-        "alt": "Catálogo calentadores-de-agua DRIJA"
-      }
-    },
     "subcategories": [
       {
         "id": "sub-calentadores-de-agua-gas",
@@ -706,14 +626,6 @@
     "heroImage": {
       "src": "/images/categories/fregaderos.jpg",
       "alt": "DRIJA fregaderos"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/fregaderos.pdf",
-      "image": {
-        "src": "/images/categories/fregaderos.jpg",
-        "alt": "Catálogo fregaderos DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -780,14 +692,6 @@
     "heroImage": {
       "src": "/images/categories/estufas.jpg",
       "alt": "DRIJA estufas"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/estufas.pdf",
-      "image": {
-        "src": "/images/categories/estufas.jpg",
-        "alt": "Catálogo estufas DRIJA"
-      }
     },
     "subcategories": [
       {
@@ -892,14 +796,6 @@
     "heroImage": {
       "src": "/images/categories/vineras.jpg",
       "alt": "DRIJA vineras"
-    },
-    "catalog": {
-      "onlineUrl": "/productos",
-      "downloadUrl": "/catalogo/vineras.pdf",
-      "image": {
-        "src": "/images/categories/vineras.jpg",
-        "alt": "Catálogo vineras DRIJA"
-      }
     },
     "subcategories": [
       {

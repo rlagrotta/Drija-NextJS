@@ -58,10 +58,8 @@
   "categoryPage": {
     "viewProduct": "Ver producto",
     "catalogTitle": "Catálogo",
-    "viewOnline": "Ver en línea",
-    "downloadCatalog": "Descargar catálogo",
-    "categoriesTab": "Categoría",
-    "newArrivalsTab": "Lo nuevo",
+    "viewCatalog": "Ver Catálogo",
+    "downloadCatalog": "Descargar Catálogo",
     "otherProducts": "Otros productos"
   },
   "products": {

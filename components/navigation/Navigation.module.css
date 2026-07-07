@@ -55,6 +55,10 @@
   background-color: #82b841;
 }
 
+.navMenuAnchor {
+  position: relative;
+}
+
 .navCategoriesTrigger {
   position: relative;
   display: inline-block;

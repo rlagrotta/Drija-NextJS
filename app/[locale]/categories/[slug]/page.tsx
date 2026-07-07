@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CategoryCatalogBlock } from "@/components/categories/CategoryCatalogBlock";
 import { CategoryHero } from "@/components/categories/CategoryHero";
-import { RelatedCategoriesStrip } from "@/components/categories/RelatedCategoriesStrip";
+import { CategoryPageFooter } from "@/components/categories/CategoryPageFooter";
 import { SubcategoryQuickNav } from "@/components/categories/SubcategoryQuickNav";
 import { SubcategorySection } from "@/components/categories/SubcategorySection";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { ProductCard } from "@/components/products/ProductCard";
-import { getCms } from "@/lib/cms";
 import { getCategoryPageData } from "@/lib/category-page";
+import { getFeaturedSlidesData } from "@/lib/featured-slides";
 import { getPageI18n } from "@/lib/i18n/server";
+import { getSupportCatalogForLocale } from "@/lib/support/catalogs/page";
+
 type PageProps = {
   params: Promise<{ locale: string; slug: string }>;
 };
@@ -38,6 +39,16 @@ export default async function CategoryPage({ params }: PageProps) {
     pageData;
   const hasSubcategories = config.subcategories.length > 0;
   const cp = dict.categoryPage;
+  const catalog = getSupportCatalogForLocale(locale);
+  const featuredSlides = getFeaturedSlidesData(locale);
+  const footer = (
+    <CategoryPageFooter
+      dict={dict}
+      catalog={catalog}
+      categoriasSlides={featuredSlides.categorias}
+      nuevoSlides={featuredSlides.nuevo}
+    />
+  );
 
   if (!hasSubcategories) {
     const products = [...ungroupedProducts, ...Object.values(productsBySubcategory).flat()];
@@ -56,11 +67,10 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
           )}
         </section>
+        {footer}
       </>
     );
   }
-
-  const allCategories = await getCms().getCategories(locale);
 
   return (
     <>
@@ -94,28 +104,7 @@ export default async function CategoryPage({ params }: PageProps) {
         )}
       </div>
 
-      {config.catalog && (
-        <CategoryCatalogBlock
-          catalog={config.catalog}
-          title={cp.catalogTitle}
-          viewOnlineLabel={cp.viewOnline}
-          downloadLabel={cp.downloadCatalog}
-          onlineHref={href("/productos")}
-          downloadHref={
-            config.catalog.downloadUrl
-              ? config.catalog.downloadUrl
-              : undefined
-          }
-        />
-      )}
-
-      <RelatedCategoriesStrip
-        categories={allCategories}
-        locale={locale}
-        currentSlug={slug}
-        categoriesTabLabel={cp.categoriesTab}
-        newArrivalsTabLabel={cp.newArrivalsTab}
-      />
+      {footer}
     </>
   );
 }

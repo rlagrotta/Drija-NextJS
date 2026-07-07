@@ -14,6 +14,10 @@ import {
   CategoriesMobileAccordion,
 } from "@/components/navigation/CategoriesMegaMenu";
 import {
+  SupportMenuRoot,
+  SupportMobileAccordion,
+} from "@/components/navigation/SupportMenu";
+import {
   GlobalSearchPanel,
   GlobalSearchRoot,
   GlobalSearchTrigger,
@@ -41,12 +45,12 @@ export function Header() {
     { href: href("/"), label: dict.nav.home },
     { href: href("/blog"), label: dict.nav.blog },
     { href: href("/donde-comprar"), label: dict.nav.whereToBuy },
-    { href: href("/soporte"), label: dict.nav.support },
     { href: href("/contacto"), label: dict.nav.contact },
   ];
 
   return (
     <CategoriesMenuRoot>
+      <SupportMenuRoot>
       <GlobalSearchRoot>
         <header
         className={cn(
@@ -120,6 +124,7 @@ export function Header() {
         >
           <ul className="flex flex-col px-4 py-3">
             <CategoriesMobileAccordion onNavigate={() => setOpen(false)} />
+            <SupportMobileAccordion onNavigate={() => setOpen(false)} />
             {mobileLinks.map((link) => (
               <li key={link.href}>
                 <Link
@@ -140,6 +145,7 @@ export function Header() {
         </div>
       </header>
       </GlobalSearchRoot>
+      </SupportMenuRoot>
     </CategoriesMenuRoot>
   );
 }
