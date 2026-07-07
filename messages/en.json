@@ -182,6 +182,97 @@
     "intro": "This site is operated by DRIJA International. Use of the site implies acceptance of our privacy policies and terms of service.",
     "privacy": "For inquiries about personal data submitted through the contact form, email us at contacto@drijainternational.com."
   },
+  "registroPage": {
+    "pageTitle": "DRIJA CLUB Registration",
+    "pageDescription": "Register your DRIJA product and access DRIJA CLUB benefits.",
+    "heroTitle": "DRIJA CLUB"
+  },
+  "registroForm": {
+    "fullName": "Full name",
+    "email": "Email",
+    "country": "Country",
+    "phone": "Phone",
+    "productModel": "Which model did you purchase?",
+    "city": "City",
+    "store": "Store",
+    "invoiceType": "Invoice type",
+    "invoiceNumber": "Invoice number",
+    "invoiceDate": "Date",
+    "referralSource": "How did you hear about us?",
+    "gender": "Gender",
+    "ownedProducts": "Which other brand products do you own?",
+    "serviceRating": "How would you rate customer service?",
+    "suggestions": "Do you have any complaints or suggestions?",
+    "promotionalOptIn": "Would you like to receive promotional information?",
+    "uploadInvoice": "Upload Invoice Photo",
+    "uploadSerial": "Upload Product Serial Photo",
+    "uploadWarranty": "Upload Warranty Certificate Photo",
+    "uploadId": "Upload ID Photo",
+    "noFileSelected": "No file selected",
+    "termsAccept": "I have read and accept the",
+    "termsLink": "terms and conditions",
+    "termsFooter": "Terms",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you! Your registration was submitted successfully.",
+    "error": "We could not submit your registration. Please try again.",
+    "missingFiles": "You must attach all four required files.",
+    "fileTooLarge": "Each file must be smaller than 4 MB.",
+    "loadingProducts": "Loading product catalog…",
+    "options": {
+      "countries": {
+        "panama": "Panama",
+        "costa-rica": "Costa Rica",
+        "dominican-republic": "Dominican Republic",
+        "venezuela": "Venezuela"
+      },
+      "cities": {
+        "caracas": "Caracas",
+        "interior": "Interior"
+      },
+      "stores": {
+        "avanti": "Avanti",
+        "damasco": "Damasco"
+      },
+      "invoiceTypes": {
+        "digital": "Digital",
+        "physical": "Physical"
+      },
+      "referralSources": {
+        "social-media": "Social media",
+        "recommendations": "Recommendations",
+        "ads-agencies": "Ads / Agencies"
+      },
+      "genders": {
+        "woman": "Woman",
+        "man": "Man",
+        "non-binary": "Non-binary",
+        "fluid": "Fluid",
+        "agender": "Agender",
+        "other": "Other"
+      },
+      "ownedProducts": {
+        "campana": "Range hood",
+        "cocina": "Stove",
+        "horno": "Oven",
+        "microondas": "Microwave",
+        "lavadora": "Washer",
+        "secadora": "Dryer",
+        "refrigeradora": "Refrigerator"
+      },
+      "serviceRatings": {
+        "very-dissatisfied": "Very dissatisfied",
+        "dissatisfied": "Dissatisfied",
+        "neutral": "Neutral",
+        "satisfied": "Satisfied",
+        "very-satisfied": "Very satisfied"
+      },
+      "promotionalOptIn": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    }
+  },
   "workWithUsPage": {
     "pageTitle": "Work with us",
     "pageDescription": "Join the DRIJA team and be part of our growth across Latin America and worldwide.",

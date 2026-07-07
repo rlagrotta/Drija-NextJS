@@ -1,0 +1,79 @@
+{
+  "destinationEmail": "info@drijainternational.com",
+  "intro": [
+    "Gracias por ingresar a nuestra plataforma. Al completar este formulario serás parte de nuestro grupo de clientes VIP en DRIJA CLUB, lo que te hará acreedor de mejores beneficios y un servicio al cliente mucho más personalizado de lo que te imaginas.",
+    "Recuerda tener la factura de compra a mano para ingresarla al momento del registro."
+  ],
+  "conditions": {
+    "title": "CONDICIONES",
+    "paragraphs": [
+      "Es requisito indispensable para optar por los beneficios de DRIJA CLUB poseer el producto, estar en el país y haber realizado el registro antes de los 30 días de haberlo comprado.",
+      "La planilla de registro incluye todos los datos que usted ve en el producto o en su caja de fábrica. Todos los datos deben ser verídicos y corresponder a su documento de identidad, nombres y apellidos, fecha de compra y número de factura."
+    ],
+    "items": [
+      "El producto debe encontrarse en su empaque original y en perfectas condiciones al momento del registro.",
+      "Los datos ingresados deben coincidir con la información impresa en el producto, certificado de garantía y factura de compra.",
+      "El registro debe completarse dentro del plazo establecido por país para hacer válidos los beneficios del club."
+    ]
+  },
+  "warranty": {
+    "title": "GARANTÍA",
+    "paragraphs": [
+      "La garantía de su producto debe estar vigente para optar a todos los beneficios de DRIJA CLUB. Los beneficios son válidos únicamente para el producto registrado.",
+      "La garantía solo será válida si el registro se realiza dentro de los primeros 30 días después de su compra. El registro se debe realizar por cada producto comprado por el usuario.",
+      "El beneficio de la garantía es personal e intransferible. DRIJA se reserva el derecho de realizar cualquier cambio en los términos y condiciones sin previo aviso. Los beneficios pueden variar según cada país."
+    ]
+  },
+  "venezuela": {
+    "title": "VENEZUELA",
+    "paragraphs": [
+      "Vigencia del DRIJA CLUB 2024. Países participantes: Panamá, Costa Rica, República Dominicana, Venezuela y demás mercados autorizados.",
+      "Beneficios: descuentos en repuestos, servicio técnico de mantenimiento preventivo, atención prioritaria, invitaciones a eventos, cursos de cocina, rifas, obsequios y mucho más."
+    ],
+    "items": [
+      "Promoción GANA UN JUEGO DE PLATOS para facturas con fecha entre noviembre 2023 y diciembre 2024.",
+      "Reciba el certificado de su regalo por correo electrónico al completar su registro.",
+      "Registre su producto hoy mismo y participe en nuestras promociones de fin de año."
+    ]
+  },
+  "translations": {
+    "en": {
+      "intro": [
+        "Thank you for visiting our platform. By completing this form you will become part of our VIP customer group in DRIJA CLUB, giving you access to better benefits and a much more personalized customer service experience than you might expect.",
+        "Please have your purchase invoice ready to enter it during registration."
+      ],
+      "conditions": {
+        "title": "CONDITIONS",
+        "paragraphs": [
+          "To qualify for DRIJA CLUB benefits, you must own the product, be located in the country, and complete registration within 30 days of purchase.",
+          "The registration form includes all data shown on your product or factory box. All information must be truthful and match your ID, full name, purchase date and invoice number."
+        ],
+        "items": [
+          "The product must be in its original packaging and in perfect condition at the time of registration.",
+          "The information entered must match what is printed on the product, warranty certificate and purchase invoice.",
+          "Registration must be completed within the timeframe established per country for club benefits to be valid."
+        ]
+      },
+      "warranty": {
+        "title": "WARRANTY",
+        "paragraphs": [
+          "Your product warranty must be active to qualify for all DRIJA CLUB benefits. Benefits apply only to the registered product.",
+          "The warranty is valid only if registration is completed within the first 30 days after purchase. Registration must be completed for each product purchased by the user.",
+          "The warranty benefit is personal and non-transferable. DRIJA reserves the right to change terms and conditions without prior notice. Benefits may vary by country."
+        ]
+      },
+      "venezuela": {
+        "title": "VENEZUELA",
+        "paragraphs": [
+          "DRIJA CLUB validity 2024. Participating countries: Panama, Costa Rica, Dominican Republic, Venezuela and other authorized markets.",
+          "Benefits include: spare parts discounts, preventive maintenance technical service, priority support, event invitations, cooking classes, raffles, gifts and much more."
+        ],
+        "items": [
+          "WIN A DINNERWARE SET promotion for invoices dated between November 2023 and December 2024.",
+          "Receive your gift certificate by email upon completing registration.",
+          "Register your product today and participate in our year-end promotions."
+        ]
+      }
+    }
+  }
+}

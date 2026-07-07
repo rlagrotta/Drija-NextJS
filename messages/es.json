@@ -182,6 +182,97 @@
     "intro": "Este sitio es operado por DRIJA International. El uso del sitio implica la aceptación de nuestras políticas de privacidad y términos de servicio.",
     "privacy": "Para consultas sobre tratamiento de datos personales enviados a través del formulario de contacto, escríbenos a contacto@drijainternational.com."
   },
+  "registroPage": {
+    "pageTitle": "Registro DRIJA CLUB",
+    "pageDescription": "Registra tu producto DRIJA y accede a los beneficios del DRIJA CLUB.",
+    "heroTitle": "DRIJA CLUB"
+  },
+  "registroForm": {
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "country": "País",
+    "phone": "Teléfono",
+    "productModel": "¿Qué modelo adquirió?",
+    "city": "Ciudad",
+    "store": "Tienda",
+    "invoiceType": "Tipo de factura",
+    "invoiceNumber": "Número de factura",
+    "invoiceDate": "Fecha",
+    "referralSource": "¿Cómo se enteró de nosotros?",
+    "gender": "Género",
+    "ownedProducts": "¿Qué otros productos posee de la marca?",
+    "serviceRating": "¿Cómo califica el servicio al cliente?",
+    "suggestions": "¿Tiene alguna queja o sugerencia?",
+    "promotionalOptIn": "¿Le gustaría recibir información promocional?",
+    "uploadInvoice": "Subir Foto de Factura",
+    "uploadSerial": "Subir Foto de Serial del Producto",
+    "uploadWarranty": "Subir Foto de Certificado de Garantía",
+    "uploadId": "Subir Foto de ID",
+    "noFileSelected": "Ningún archivo seleccionado",
+    "termsAccept": "He leído y acepto los",
+    "termsLink": "términos y condiciones",
+    "termsFooter": "Términos",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "success": "¡Gracias! Tu registro fue enviado correctamente.",
+    "error": "No pudimos enviar tu registro. Intenta de nuevo.",
+    "missingFiles": "Debes adjuntar los cuatro archivos requeridos.",
+    "fileTooLarge": "Cada archivo debe pesar menos de 4 MB.",
+    "loadingProducts": "Cargando catálogo de productos…",
+    "options": {
+      "countries": {
+        "panama": "Panamá",
+        "costa-rica": "Costa Rica",
+        "dominican-republic": "República Dominicana",
+        "venezuela": "Venezuela"
+      },
+      "cities": {
+        "caracas": "Caracas",
+        "interior": "Interior"
+      },
+      "stores": {
+        "avanti": "Avanti",
+        "damasco": "Damasco"
+      },
+      "invoiceTypes": {
+        "digital": "Digital",
+        "physical": "Física"
+      },
+      "referralSources": {
+        "social-media": "Redes Sociales",
+        "recommendations": "Recomendaciones",
+        "ads-agencies": "Anuncios / Agencias"
+      },
+      "genders": {
+        "woman": "Mujer",
+        "man": "Hombre",
+        "non-binary": "No binario",
+        "fluid": "Fluido",
+        "agender": "Agénero",
+        "other": "Otro"
+      },
+      "ownedProducts": {
+        "campana": "Campana",
+        "cocina": "Cocina",
+        "horno": "Horno",
+        "microondas": "Microondas",
+        "lavadora": "Lavadora",
+        "secadora": "Secadora",
+        "refrigeradora": "Refrigeradora"
+      },
+      "serviceRatings": {
+        "very-dissatisfied": "Muy insatisfecho",
+        "dissatisfied": "Insatisfecho",
+        "neutral": "Neutral",
+        "satisfied": "Satisfecho",
+        "very-satisfied": "Muy satisfecho"
+      },
+      "promotionalOptIn": {
+        "yes": "Sí",
+        "no": "No"
+      }
+    }
+  },
   "workWithUsPage": {
     "pageTitle": "Trabaja con nosotros",
     "pageDescription": "Únete al equipo DRIJA y sé parte de nuestro crecimiento en Latinoamérica y el mundo.",

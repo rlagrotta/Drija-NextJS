@@ -184,6 +184,55 @@ export type Dictionary = {
     intro: string;
     privacy: string;
   };
+  registroPage: {
+    pageTitle: string;
+    pageDescription: string;
+    heroTitle: string;
+  };
+  registroForm: {
+    fullName: string;
+    email: string;
+    country: string;
+    phone: string;
+    productModel: string;
+    city: string;
+    store: string;
+    invoiceType: string;
+    invoiceNumber: string;
+    invoiceDate: string;
+    referralSource: string;
+    gender: string;
+    ownedProducts: string;
+    serviceRating: string;
+    suggestions: string;
+    promotionalOptIn: string;
+    uploadInvoice: string;
+    uploadSerial: string;
+    uploadWarranty: string;
+    uploadId: string;
+    noFileSelected: string;
+    termsAccept: string;
+    termsLink: string;
+    termsFooter: string;
+    submit: string;
+    sending: string;
+    success: string;
+    error: string;
+    missingFiles: string;
+    fileTooLarge: string;
+    loadingProducts: string;
+    options: {
+      countries: Record<string, string>;
+      cities: Record<string, string>;
+      stores: Record<string, string>;
+      invoiceTypes: Record<string, string>;
+      referralSources: Record<string, string>;
+      genders: Record<string, string>;
+      ownedProducts: Record<string, string>;
+      serviceRatings: Record<string, string>;
+      promotionalOptIn: Record<string, string>;
+    };
+  };
   workWithUsPage: {
     pageTitle: string;
     pageDescription: string;
